@@ -25,8 +25,6 @@ export default async function HomePage({ params }: Props) {
 
   const mappedDestinations = mapDestinations(destinations, tDest, locale);
 
-  console.log(mappedDestinations)
-  console.log("locale:", locale)
 
   const events = [
     {
@@ -37,7 +35,6 @@ export default async function HomePage({ params }: Props) {
       imageUrl: 'https://images.unsplash.com/photo-1764670085286-55cd79507a72?...',
       link: `/${locale}/eventos/festival-cultural`,
     },
-    // Repete para os outros dois eventos da mesma forma
     {
       name: tEvents('feiraTurismo.name'),
       date: tEvents('feiraTurismo.date'),
@@ -80,7 +77,7 @@ export default async function HomePage({ params }: Props) {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1762571471526-e96c60cebe12?..."
+            src="https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Benguela Coast"
             fill
             className="object-cover"
@@ -102,13 +99,13 @@ export default async function HomePage({ params }: Props) {
               href={`/${locale}/zonas-turisticas`}
               className="bg-[#D4A343] text-white px-8 py-4 rounded-full hover:bg-[#c89338] transition-colors text-lg"
             >
-              Explorar Destinos
+              {t('hero.btn-destinations')}
             </Link>
             <Link
               href={`/${locale}/investir`}
               className="border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-[#0B3B5B] transition-all text-lg"
             >
-              Investir em Benguela
+              {t('hero.btn-investiment')}
             </Link>
           </div>
         </div>
@@ -118,7 +115,7 @@ export default async function HomePage({ params }: Props) {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+            <h2 className="text-4xl mb-4 text-black-600" style={{ fontFamily: 'Montserrat, sans-serif' }}>
               {t('destinations.title')}
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -139,7 +136,7 @@ export default async function HomePage({ params }: Props) {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+            <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif', color: '#000' }}>
               {t('events.title')}
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -168,7 +165,7 @@ export default async function HomePage({ params }: Props) {
       <section className="py-20 bg-[#F5F5F5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+            <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif', color: '#000' }}>
               {t('why.title')}
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -184,7 +181,7 @@ export default async function HomePage({ params }: Props) {
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0B3B5B] rounded-full mb-6">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-2xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                  <h3 className="text-2xl mb-4" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600">{pillar.description}</p>
@@ -198,13 +195,13 @@ export default async function HomePage({ params }: Props) {
       {/* Partners Section */}
       <section className="py-16 bg-[#F5F5F5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-2xl text-center mb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h3 className="text-2xl text-center mb-8" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
             {t('partners.title')}
           </h3>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <div key={i} className="w-32 h-16 bg-white rounded-lg flex items-center justify-center shadow-sm">
-                <span className="text-gray-400 text-xs">Parceiro {i}</span>
+                <span className="text-gray-400 text-xs">{t('partners.word')} {i}</span>
               </div>
             ))}
           </div>

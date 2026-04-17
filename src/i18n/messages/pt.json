@@ -14,7 +14,9 @@
   "home": {
     "hero": {
       "title": "Ombaka Go",
-      "subtitle": "Descubra Benguela – O Coração do Corredor do Lobito"
+      "subtitle": "Descubra Benguela – O Coração do Corredor do Lobito",
+      "btn-destinations": "Explorar Destinos",
+      "btn-investiment": "Investir em Benguela"
     },
     "destinations": {
       "title": "Destaques de Destinos",
@@ -30,7 +32,8 @@
       "subtitle": "Três pilares que nos tornam únicos na promoção de Benguela"
     },
     "partners": {
-      "title": "Parceiros em Evidência"
+      "word": "Parceiros",
+      "title": "Parceiros"
     },
     "newsletter": {
       "title": "Receba as Novidades de Benguela",

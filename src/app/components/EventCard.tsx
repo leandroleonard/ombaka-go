@@ -32,7 +32,7 @@ export function EventCard({ name, date, location, category, imageUrl, link }: Ev
             <span>{date}</span>
           </div>
           
-          <h3 className="text-xl mb-2 group-hover:text-[#0B3B5B] transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h3 className="text-xl mb-2 group-hover:text-[#0B3B5B] transition-colors text-gray-600" style={{ fontFamily: 'Poppins, sans-serif' }}>
             {name}
           </h3>
           
