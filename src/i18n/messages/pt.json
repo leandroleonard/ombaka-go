@@ -1,4 +1,16 @@
 {
+  "header": {
+    "nav": {
+      "home": "Início",
+      "about": "Sobre Benguela",
+      "municipios": "Municípios",
+      "touristicZones": "Zonas Turísticas",
+      "events": "Eventos",
+      "partners": "Parceiros",
+      "invest": "Investir",
+      "contact": "Contacto"
+    }
+  },
   "home": {
     "hero": {
       "title": "Ombaka Go",

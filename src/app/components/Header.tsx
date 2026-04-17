@@ -13,9 +13,8 @@ export function Header() {
 
   const pathname = usePathname();
   const currentLocale = useLocale();
-  const t = useTranslations('header'); // Vamos criar este namespace
+  const t = useTranslations('header'); 
 
-  // Scroll effect
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -36,7 +35,6 @@ export function Header() {
     { name: t('nav.contact'), path: `/${currentLocale}/contacto` },
   ];
 
-  // Função para mudar idioma
   const changeLocale = (newLocale: Locale) => {
     const currentPath = pathname || '/';
     const newPath = currentPath.replace(/^\/(pt|en|fr)/, `/${newLocale}`);

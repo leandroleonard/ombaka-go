@@ -1,8 +1,93 @@
 {
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About Benguela",
+      "municipios": "Municípios",
+      "touristicZones": "Zonas Turísticas",
+      "events": "Eventos",
+      "partners": "Parceiros",
+      "invest": "Investir",
+      "contact": "Contacto"
+    }
+  },
   "home": {
     "hero": {
       "title": "Ombaka Go",
       "subtitle": "Descubra Benguela – O Coração do Corredor do Lobito"
+    },
+    "destinations": {
+      "title": "Destaques de Destinos",
+      "subtitle": "Explore os municípios mais encantadores de Benguela e descubra paisagens únicas"
+    },
+    "events": {
+      "title": "Próximos Eventos",
+      "subtitle": "Não perca os eventos culturais e empresariais que acontecem em Benguela",
+      "seeAll": "Ver todos os eventos"
+    },
+    "why": {
+      "title": "Porquê Ombaka Go?",
+      "subtitle": "Três pilares que nos tornam únicos na promoção de Benguela"
+    },
+    "partners": {
+      "title": "Parceiros em Evidência"
+    },
+    "newsletter": {
+      "title": "Receba as Novidades de Benguela",
+      "subtitle": "Fique atualizado sobre eventos, novos destinos e oportunidades de investimento",
+      "placeholder": "Seu melhor e-mail",
+      "button": "Inscrever-se"
+    }
+  },
+  "destinationsData": {
+    "lobito": {
+      "title": "Lobito",
+      "location": "Município do Lobito",
+      "description": "A Pérola do Atlântico, famosa por suas praias deslumbrantes e porto histórico."
+    },
+    "baia-farta": {
+      "title": "Baía Farta",
+      "location": "Município da Baía Farta",
+      "description": "Paisagens naturais de tirar o fôlego, praias virgens e aventuras inesquecíveis."
+    },
+    "ganda": {
+      "title": "Ganda",
+      "location": "Município do Ganda",
+      "description": "Cultura autêntica e tradições preservadas no coração de Benguela."
+    }
+  },
+  "eventsData": {
+    "festivalCultural": {
+      "name": "Festival Cultural de Benguela",
+      "date": "15 de Maio, 2026",
+      "location": "Benguela Centro",
+      "category": "Cultural"
+    },
+    "feiraTurismo": {
+      "name": "Feira de Turismo e Negócios",
+      "date": "22 de Junho, 2026",
+      "location": "Lobito",
+      "category": "Empresarial"
+    },
+    "festivalGastronomico": {
+      "name": "Festival Gastronômico",
+      "date": "10 de Julho, 2026",
+      "location": "Baía Farta",
+      "category": "Gastronomia"
+    }
+  },
+  "pillars": {
+    "sustainable": {
+      "title": "Turismo Sustentável",
+      "description": "Comprometidos com práticas que preservam o meio ambiente e beneficiam as comunidades locais."
+    },
+    "culture": {
+      "title": "Cultura e Tradição",
+      "description": "Valorizamos e promovemos a rica herança cultural e tradições de Benguela."
+    },
+    "investment": {
+      "title": "Investimento Estratégico",
+      "description": "Oportunidades únicas no corredor do Lobito, conectando África ao mundo."
     }
   }
 }
