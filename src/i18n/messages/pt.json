@@ -60,19 +60,19 @@
     }
   },
   "eventsData": {
-    "festivalCultural": {
+    "festival-cultural": {
       "name": "Festival Cultural de Benguela",
       "date": "15 de Maio, 2026",
       "location": "Benguela Centro",
       "category": "Cultural"
     },
-    "feiraTurismo": {
+    "feira-turismo": {
       "name": "Feira de Turismo e Negócios",
       "date": "22 de Junho, 2026",
       "location": "Lobito",
       "category": "Empresarial"
     },
-    "festivalGastronomico": {
+    "festival-gastronomico": {
       "name": "Festival Gastronômico",
       "date": "10 de Julho, 2026",
       "location": "Baía Farta",

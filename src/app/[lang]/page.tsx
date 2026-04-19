@@ -10,6 +10,9 @@ import { routing } from '@/i18n/routing';
 import { destinations } from "@/data/destinations"
 import { mapDestinations } from "@/lib/mappers/destination.mapper"
 
+import { events } from '@/data/events';
+import { mapEvents } from '@/lib/mappers/event.mapper';
+
 type Props = {
   params: Promise<{ lang: string }>;
 };
@@ -24,34 +27,7 @@ export default async function HomePage({ params }: Props) {
   const tPillars = await getTranslations({ locale, namespace: 'pillars' });
 
   const mappedDestinations = mapDestinations(destinations, tDest, locale);
-
-
-  const events = [
-    {
-      name: tEvents('festivalCultural.name'),
-      date: tEvents('festivalCultural.date'),
-      location: tEvents('festivalCultural.location'),
-      category: tEvents('festivalCultural.category'),
-      imageUrl: 'https://images.unsplash.com/photo-1764670085286-55cd79507a72?...',
-      link: `/${locale}/eventos/festival-cultural`,
-    },
-    {
-      name: tEvents('feiraTurismo.name'),
-      date: tEvents('feiraTurismo.date'),
-      location: tEvents('feiraTurismo.location'),
-      category: tEvents('feiraTurismo.category'),
-      imageUrl: 'https://images.unsplash.com/photo-1758518727820-28491c194bee?...',
-      link: `/${locale}/eventos/feira-turismo`,
-    },
-    {
-      name: tEvents('festivalGastronomico.name'),
-      date: tEvents('festivalGastronomico.date'),
-      location: tEvents('festivalGastronomico.location'),
-      category: tEvents('festivalGastronomico.category'),
-      imageUrl: 'https://images.unsplash.com/photo-1609792790758-0994786ad983?...',
-      link: `/${locale}/eventos/festival-gastronomico`,
-    },
-  ];
+  const mappedEvents = mapEvents(events, tEvents, locale)
 
   const pillars = [
     {
@@ -145,7 +121,7 @@ export default async function HomePage({ params }: Props) {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-            {events.map((event, index) => (
+            {mappedEvents.map((event, index) => (
               <EventCard key={index} {...event} />
             ))}
           </div>
