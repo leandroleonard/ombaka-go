@@ -92,5 +92,79 @@
       "title": "Investimento Estratégico",
       "description": "Oportunidades únicas no corredor do Lobito, conectando África ao mundo."
     }
+  },
+  "sobre": {
+    "breadcrumbs": {
+      "home": "Início",
+      "about": "Sobre"
+    },
+    "hero": {
+      "title": "Sobre Ombaka Go",
+      "subtitle": "Promovendo o turismo e desenvolvimento sustentável em Benguela"
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Posicionar Benguela como um destino turístico de referência em Angola e na região, através de uma plataforma digital integrada que conecta visitantes, comunidades locais e investidores, promovendo o desenvolvimento sustentável e a valorização do patrimônio natural e cultural da província."
+    },
+    "vision": {
+      "title": "Nossa Visão",
+      "description": "Ser reconhecida como a plataforma líder de promoção turística em Angola, contribuindo para que Benguela se torne um dos principais destinos turísticos da África Austral até 2030, com um setor turístico dinâmico, inclusivo e sustentável que beneficia toda a comunidade."
+    },
+    "about": {
+      "title": "O Que é Ombaka Go?",
+      "p1": "Ombaka Go  é a plataforma digital oficial de promoção turística da Província de Benguela, Angola. Desenvolvida com o objetivo de impulsionar o turismo sustentável e o desenvolvimento económico regional, a plataforma oferece uma experiência completa para visitantes, investidores e parceiros do setor.",
+      "p2": "Através da Ombaka Go, visitantes podem descobrir os 10 municípios de Benguela, explorar mais de 100 zonas turísticas, conhecer eventos culturais, encontrar oportunidades de investimento e conectar-se com operadores turísticos certificados.",
+      "p3": "A plataforma integra tecnologia moderna com a rica herança cultural de Benguela, oferecendo ferramentas de busca avançada, mapas interativos, calendário de eventos, e um sistema de parceiros que conecta visitantes com os melhores serviços da região.",
+      "p4": "\"Ombaka\" significa \"chuva\" em Umbundu, língua nativa da região, simbolizando abundância, renovação e prosperidade - valores fundamentais que guiam nossa missão de promover o crescimento sustentável do turismo em Benguela."
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "sustainability": {
+        "title": "Sustentabilidade",
+        "description": "Promover o turismo responsável que preserva o patrimônio natural e cultural de Benguela."
+      },
+      "inclusion": { 
+        "title": "Inclusão",
+        "description": "Envolver as comunidades locais no desenvolvimento turístico, gerando oportunidades para todos."
+      },
+      "excellence": { 
+        "title": "Excelência",
+        "description": "Oferecer experiências de qualidade que superem as expectativas dos visitantes."
+      },
+      "transparency": { 
+        "title": "Transparência",
+        "description": "Manter comunicação clara e honesta com todos os stakeholders do setor turístico."
+      }
+    },
+    "journey": {
+      "title": "Nossa Jornada"
+    },
+    "milestones": {
+      "2023": "Lançamento da Plataforma Ombaka Go",
+      "2024": "Parceria com 50+ Operadores Turísticos",
+      "2025": "Certificação de 20 Zonas Turísticas",
+      "2026": "Expansão Digital e Aplicação Móvel"
+    },
+    "team": {
+      "title": "Quem Está Por Trás",
+      "admin": {
+        "name": "Administração Provincial",
+        "role": "Governador de Benguela"
+      },
+      "tourism": {
+        "name": "Secretaria de Turismo",
+        "role": "Direção Provincial do Turismo"
+      },
+      "partners": {
+        "name": "Parceiros Privados",
+        "role": "Operadores e Investidores"
+      }
+    },
+    "cta": {
+      "title": "Junte-se a Nós",
+      "description": "Seja parte do crescimento do turismo em Benguela. Torne-se um parceiro ou investidor.",
+      "investButton": "Oportunidades de Investimento",
+      "contactButton": "Entre em Contacto"
+    }
   }
 }
