@@ -13,6 +13,8 @@ import { mapDestinations } from "@/lib/mappers/destination.mapper"
 import { events } from '@/data/events';
 import { mapEvents } from '@/lib/mappers/event.mapper';
 
+import { mapPillars } from '@/lib/mappers/pillar.mapper';
+
 type Props = {
   params: Promise<{ lang: string }>;
 };
@@ -28,24 +30,7 @@ export default async function HomePage({ params }: Props) {
 
   const mappedDestinations = mapDestinations(destinations, tDest, locale);
   const mappedEvents = mapEvents(events, tEvents, locale)
-
-  const pillars = [
-    {
-      icon: Leaf,
-      title: tPillars('sustainable.title'),
-      description: tPillars('sustainable.description'),
-    },
-    {
-      icon: Heart,
-      title: tPillars('culture.title'),
-      description: tPillars('culture.description'),
-    },
-    {
-      icon: TrendingUp,
-      title: tPillars('investment.title'),
-      description: tPillars('investment.description'),
-    },
-  ];
+  const pillars = mapPillars(tPillars)
 
   return (
     <div className="min-h-screen">
