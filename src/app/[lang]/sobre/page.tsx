@@ -12,7 +12,7 @@ export default async function About({ params }: Props) {
   const { lang } = await params;
   const locale = routing.locales.includes(lang as any) ? lang : 'pt';
 
-  const t = await getTranslations({ locale, namespace: 'sobre' });
+  const t = await getTranslations({ locale, namespace: 'about' });
 
   const team = [
     {

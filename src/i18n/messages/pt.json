@@ -93,7 +93,7 @@
       "description": "Oportunidades únicas no corredor do Lobito, conectando África ao mundo."
     }
   },
-  "sobre": {
+  "about": {
     "breadcrumbs": {
       "home": "Início",
       "about": "Sobre"
@@ -123,15 +123,15 @@
         "title": "Sustentabilidade",
         "description": "Promover o turismo responsável que preserva o patrimônio natural e cultural de Benguela."
       },
-      "inclusion": { 
+      "inclusion": {
         "title": "Inclusão",
         "description": "Envolver as comunidades locais no desenvolvimento turístico, gerando oportunidades para todos."
       },
-      "excellence": { 
+      "excellence": {
         "title": "Excelência",
         "description": "Oferecer experiências de qualidade que superem as expectativas dos visitantes."
       },
-      "transparency": { 
+      "transparency": {
         "title": "Transparência",
         "description": "Manter comunicação clara e honesta com todos os stakeholders do setor turístico."
       }
@@ -165,6 +165,122 @@
       "description": "Seja parte do crescimento do turismo em Benguela. Torne-se um parceiro ou investidor.",
       "investButton": "Oportunidades de Investimento",
       "contactButton": "Entre em Contacto"
+    }
+  },
+  "municipios": {
+    "breadcrumbs": {
+      "home": "Início",
+      "municipios": "Municípios"
+    },
+    "hero": {
+      "title": "Municípios de Benguela",
+      "subtitle": "Descubra a diversidade e riqueza cultural dos 10 municípios que compõem a Província de Benguela, cada um com sua identidade única e atrações especiais."
+    },
+    "map": {
+      "title": "Mapa da Província",
+      "placeholder": "Mapa interativo dos municípios"
+    },
+    "attractions": {
+      "title": "Atrações principais"
+    },
+    "exploreButton": "Explorar município",
+    "stats": {
+      "municipios": "Municípios",
+      "population": "População Total",
+      "area": "Área Total (km²)",
+      "zonas": "Zonas Turísticas"
+    },
+    "list": {
+      "benguela": {
+        "name": "Benguela",
+        "subtitle": "Capital da Província",
+        "attractions": [
+          "Praia Morena",
+          "Igreja da Nossa Senhora do Pópulo",
+          "Mercado São António"
+        ]
+      },
+      "lobito": {
+        "name": "Lobito",
+        "subtitle": "A Pérola do Atlântico",
+        "attractions": [
+          "Restinga do Lobito",
+          "Porto do Lobito",
+          "Praia Morena"
+        ]
+      },
+      "catumbela": {
+        "name": "Catumbela",
+        "subtitle": "Portal Aéreo de Benguela",
+        "attractions": [
+          "Aeroporto Internacional",
+          "Rio Catumbela",
+          "Praias Selvagens"
+        ]
+      },
+      "baia-farta": {
+        "name": "Baía Farta",
+        "subtitle": "Beleza Natural Intocada",
+        "attractions": [
+          "Praias Virgens",
+          "Pesca Artesanal",
+          "Deserto da Baía Farta"
+        ]
+      },
+      "cubal": {
+        "name": "Cubal",
+        "subtitle": "Tradição e Agricultura",
+        "attractions": [
+          "Zona Agrícola",
+          "Mercados Tradicionais",
+          "Cultura Local"
+        ]
+      },
+      "ganda": {
+        "name": "Ganda",
+        "subtitle": "Coração Verde",
+        "attractions": [
+          "Paisagens Naturais",
+          "Vida Rural",
+          "Artesanato Local"
+        ]
+      },
+      "balombo": {
+        "name": "Balombo",
+        "subtitle": "Natureza e Tranquilidade",
+        "attractions": [
+          "Sossego Rural",
+          "Comunidades Tradicionais",
+          "Ecoturismo"
+        ]
+      },
+      "chongoroi": {
+        "name": "Chongorói",
+        "subtitle": "Patrimônio Cultural",
+        "attractions": [
+          "História Local",
+          "Festas Tradicionais",
+          "Cultura Ancestral"
+        ]
+      },
+      "bocoio": {
+        "name": "Bocoio",
+        "subtitle": "Terra de Tradições",
+        "attractions": [
+          "Comunidade Local",
+          "Agricultura",
+          "Turismo Comunitário"
+        ]
+      },
+      "caimbambo": {
+        "name": "Caimbambo",
+        "subtitle": "Autenticidade Africana",
+        "attractions": [
+          "Vida Tradicional",
+          "Paisagens Rurais",
+          "Hospitalidade Local"
+        ]
+      }
     }
   }
 }
