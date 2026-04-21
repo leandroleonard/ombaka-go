@@ -282,5 +282,96 @@
         ]
       }
     }
+  },
+  "turistic-zones": {
+    "hero": {
+      "title": "Zonas Turísticas",
+      "subtitle": "Descubra os melhores destinos turísticos de Benguela"
+    },
+    "filters": {
+      "all": "Todas",
+      "beaches": "Praias",
+      "mountains": "Montanhas",
+      "naturalReserves": "Reservas Naturais",
+      "historical": "Turismo Histórico",
+      "cultural": "Cultural"
+    },
+    "map": {
+      "title": "Mapa Interativo",
+      "placeholder": "Mapa interativo das zonas turísticas",
+      "note": "(Em desenvolvimento)"
+    },
+    "noResults": "Nenhuma zona turística encontrada nesta categoria.",
+    "viewDetails": "Ver Detalhes",
+    "difficulty": {
+      "easy": "Fácil",
+      "medium": "Médio",
+      "hard": "Difícil"
+    },
+    "zones": {
+      "restingaLobito": {
+        "name": "Restinga do Lobito",
+        "category": "Praias",
+        "location": "Lobito",
+        "difficulty": "Fácil",
+        "description": "Uma das formações naturais mais impressionantes de Angola."
+      },
+      "praiaMorena": {
+        "name": "Praia Morena",
+        "category": "Praias",
+        "location": "Lobito",
+        "difficulty": "Fácil",
+        "description": "Praia de areias douradas perfeita para relaxamento."
+      },
+      "serraLeba": {
+        "name": "Serra da Leba",
+        "category": "Montanhas",
+        "location": "Ganda",
+        "difficulty": "Médio",
+        "description": "Paisagens montanhosas espetaculares com vistas panorâmicas."
+      },
+      "reservaBufalo": {
+        "name": "Reserva Natural do Búfalo",
+        "category": "Reservas Naturais",
+        "location": "Balombo",
+        "difficulty": "Difícil",
+        "description": "Área protegida com fauna e flora diversificadas."
+      },
+      "forteSaoPedro": {
+        "name": "Forte de São Pedro da Barra",
+        "category": "Turismo Histórico",
+        "location": "Benguela",
+        "difficulty": "Fácil",
+        "description": "Fortaleza histórica do período colonial português."
+      },
+      "mercadoCentral": {
+        "name": "Mercado Central de Benguela",
+        "category": "Cultural",
+        "location": "Benguela",
+        "difficulty": "Fácil",
+        "description": "Experiência autêntica da cultura local e gastronomia."
+      },
+      "baiaAzul": {
+        "name": "Baía Azul",
+        "category": "Praias",
+        "location": "Benguela",
+        "difficulty": "Fácil",
+        "description": "Uma das praias mais bonitas da região."
+      },
+      "cascataBiopio": {
+        "name": "Cascata de Biópio",
+        "category": "Montanhas",
+        "location": "Cubal",
+        "difficulty": "Médio",
+        "description": "Cascata natural em meio à vegetação exuberante."
+      },
+      "vilaCultural": {
+        "name": "Vila Cultural",
+        "category": "Cultural",
+        "location": "Catumbela",
+        "difficulty": "Fácil",
+        "description": "Centro de preservação das tradições locais."
+      }
+    }
   }
 }
