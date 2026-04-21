@@ -1,4 +1,3 @@
-// app/[lang]/municipios/page.tsx
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,9 +15,9 @@ export default async function MunicipiosPage({ params }: Props) {
     const t = await getTranslations({ locale, namespace: 'municipios' });
 
     const getAttractions = (municipioKey: string): string[] => [
+        t(`list.${municipioKey}.attractions.0`),
         t(`list.${municipioKey}.attractions.1`),
         t(`list.${municipioKey}.attractions.2`),
-        t(`list.${municipioKey}.attractions.3`),
     ];
 
     const municipios = [
@@ -48,11 +47,11 @@ export default async function MunicipiosPage({ params }: Props) {
         },
         {
             slug: 'baia-farta',
-            name: t('list.baiaFarta.name'),
-            subtitle: t('list.baiaFarta.subtitle'),
+            name: t('list.baia-farta.name'),
+            subtitle: t('list.baia-farta.subtitle'),
             population: '~50.000',
             image: 'https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080',
-            attractions: getAttractions('baiaFarta'),
+            attractions: getAttractions('baia-farta'),
         },
         {
             slug: 'cubal',
