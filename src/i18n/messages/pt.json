@@ -475,5 +475,134 @@
         "descricao": "Discussão sobre turismo sustentável e preservação ambiental."
       }
     }
+  },
+  "investir": {
+    "hero": {
+      "title": "Investir em Benguela",
+      "subtitle": "Oportunidades de Investimento no Sector Turístico",
+      "description": "Benguela é a porta de entrada para o Corredor do Lobito, conectando África ao mundo e oferecendo oportunidades únicas de investimento no sector turístico."
+    },
+    "why": {
+      "title": "Por Que Investir em Benguela?",
+      "subtitle": "Benguela oferece uma combinação única de localização estratégica, recursos naturais e incentivos governamentais",
+      "location": {
+        "title": "Localização Estratégica",
+        "description": "Corredor do Lobito liga o Atlântico ao interior de África, com conexões para RDC, Zâmbia e além"
+      },
+      "growth": {
+        "title": "Crescimento Económico",
+        "description": "Província em expansão com infraestrutura moderna e economia diversificada"
+      },
+      "fiscal": {
+        "title": "Incentivos Fiscais",
+        "description": "Programas de incentivo para investidores no sector turístico e hoteleiro"
+      }
+    },
+    "projectsSection": {
+      "title": "Projectos Prioritários",
+      "subtitle": "Oportunidades concretas de investimento com grande potencial de retorno",
+      "progress": "Progresso",
+      "investment": "Investimento Estimado",
+      "detailsButton": "Detalhes"
+    },
+    "projects": {
+      "baia-azul": {
+        "name": "Complexo Turístico da Baía Azul",
+        "location": "Benguela",
+        "investment": "€50M - €100M",
+        "sector": "Hotelaria e Turismo"
+      },
+      "eco-resort": {
+        "name": "Eco-Resort Restinga",
+        "location": "Lobito",
+        "investment": "€30M - €60M",
+        "sector": "Turismo Sustentável"
+      },
+      "centro-convencoes": {
+        "name": "Centro de Convenções Benguela",
+        "location": "Benguela",
+        "investment": "€25M - €40M",
+        "sector": "Infraestrutura"
+      },
+      "marina-lobito": {
+        "name": "Marina do Lobito",
+        "location": "Lobito",
+        "investment": "€40M - €80M",
+        "sector": "Turismo Náutico"
+      }
+    },
+    "incentivesSection": {
+      "title": "Incentivos Fiscais",
+      "subtitle": "Benefícios especiais para investidores no sector turístico"
+    },
+    "incentives": {
+      "isencao-fiscal": {
+        "title": "Isenção Fiscal",
+        "description": "Até 5 anos de isenção de impostos para projetos turísticos aprovados"
+      },
+      "apoio-importacao": {
+        "title": "Apoio à Importação",
+        "description": "Redução de tarifas para importação de equipamentos turísticos"
+      },
+      "formacao": {
+        "title": "Formação Profissional",
+        "description": "Programas de capacitação de mão-de-obra local sem custos"
+      },
+      "credito": {
+        "title": "Acesso a Crédito",
+        "description": "Linhas de crédito especiais com taxas reduzidas"
+      }
+    },
+    "zonesSection": {
+      "title": "Zonas Económicas Estratégicas",
+      "subtitle": "Áreas prioritárias para desenvolvimento turístico",
+      "mapPlaceholder": "Mapa das Zonas Económicas"
+    },
+    "zones": {
+      "zona-franca": {
+        "name": "Zona Franca do Lobito",
+        "area": "Porto e Corredor Logístico",
+        "description": "Vantagens fiscais e aduaneiras para operações comerciais e turísticas."
+      },
+      "zona-turistica": {
+        "name": "Zona Turística de Benguela",
+        "area": "Litoral e Praias",
+        "description": "Área prioritária para desenvolvimento de resorts e infraestrutura turística."
+      },
+      "parque-natural": {
+        "name": "Parque Natural da Serra",
+        "area": "Interior",
+        "description": "Oportunidades em ecoturismo e turismo de aventura."
+      }
+    },
+    "form": {
+      "title": "Solicitar Dossier de Investimento",
+      "subtitle": "Preencha o formulário e receba informações detalhadas sobre oportunidades de investimento",
+      "submit": "Enviar Solicitação",
+      "fields": {
+        "name": "Nome Completo",
+        "namePlaceholder": "Seu nome",
+        "email": "Email",
+        "emailPlaceholder": "seu@email.com",
+        "company": "Empresa",
+        "companyPlaceholder": "Nome da empresa",
+        "phone": "Telefone",
+        "phonePlaceholder": "+244 ...",
+        "sector": "Sector de Interesse",
+        "message": "Mensagem",
+        "messagePlaceholder": "Conte-nos mais sobre seu interesse...",
+        "sectors": {
+          "hotelaria": "Hotelaria e Turismo",
+          "sustentavel": "Turismo Sustentável",
+          "infraestrutura": "Infraestrutura",
+          "nautico": "Turismo Náutico",
+          "outro": "Outro"
+        }
+      }
+    },
+    "contact": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefone"
+    }
   }
 }
