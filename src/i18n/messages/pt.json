@@ -604,5 +604,104 @@
       "emailLabel": "Email",
       "phoneLabel": "Telefone"
     }
+  },
+  "contacto": {
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Contacto"
+    },
+    "hero": {
+      "title": "Entre em Contacto",
+      "subtitle": "Estamos aqui para ajudar. Fale connosco!"
+    },
+    "info": {
+      "address": {
+        "title": "Endereço",
+        "line1": "Rua Comandante Cowboy",
+        "line2": "Benguela, Angola"
+      },
+      "phone": {
+        "title": "Telefone",
+        "line1": "+244 272 232 XXX",
+        "line2": "+244 923 XXX XXX"
+      },
+      "email": {
+        "title": "Email",
+        "line1": "info@ombakago.ao",
+        "line2": "turismo@benguela.gov.ao"
+      },
+      "hours": {
+        "title": "Horário",
+        "line1": "Segunda a Sexta: 8h - 17h",
+        "line2": "Sábado: 8h - 12h"
+      }
+    },
+    "form": {
+      "title": "Envie-nos uma Mensagem",
+      "submit": "Enviar Mensagem",
+      "successAlert": "Mensagem enviada com sucesso! Entraremos em contacto em breve.",
+      "fields": {
+        "name": "Nome Completo",
+        "namePlaceholder": "Seu nome",
+        "email": "Email",
+        "emailPlaceholder": "seu@email.com",
+        "subject": "Assunto",
+        "subjectDefault": "Selecione um assunto",
+        "message": "Mensagem",
+        "messagePlaceholder": "Escreva sua mensagem aqui...",
+        "subjects": {
+          "tourism": "Informações Turísticas",
+          "partnerships": "Parcerias e Investimentos",
+          "support": "Suporte Técnico",
+          "press": "Imprensa",
+          "other": "Outro"
+        }
+      }
+    },
+    "departments": {
+      "title": "Departamentos",
+      "subtitle": "Entre em contacto direto com o departamento adequado para uma resposta mais rápida.",
+      "tourism": {
+        "name": "Informações Turísticas",
+        "email": "turismo@ombakago.ao",
+        "description": "Para questões sobre destinos, roteiros e atrações."
+      },
+      "partnerships": {
+        "name": "Parcerias e Investimentos",
+        "email": "investimentos@ombakago.ao",
+        "description": "Para propostas de parceria e oportunidades de investimento."
+      },
+      "support": {
+        "name": "Suporte Técnico",
+        "email": "suporte@ombakago.ao",
+        "description": "Para questões técnicas sobre a plataforma."
+      },
+      "press": {
+        "name": "Imprensa",
+        "email": "imprensa@ombakago.ao",
+        "description": "Para solicitações de mídia e comunicação."
+      }
+    },
+    "map": {
+      "title": "Nossa Localização",
+      "placeholder": "Mapa com localização do escritório",
+      "address": "Rua Comandante Cowboy, Benguela"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "response-time": {
+        "question": "Quanto tempo demora para receber uma resposta?",
+        "answer": "Normalmente respondemos em até 24-48 horas durante dias úteis."
+      },
+      "partner": {
+        "question": "Como posso tornar-me um parceiro?",
+        "answer": "Entre em contacto através do departamento de Parcerias e Investimentos ou visite a página",
+        "linkLabel": "Investir"
+      },
+      "visit": {
+        "question": "Posso visitar o escritório pessoalmente?",
+        "answer": "Sim! Estamos localizados na Rua Comandante Cowboy, Benguela. Recomendamos agendar uma visita através do nosso email ou telefone."
+      }
+    }
   }
 }

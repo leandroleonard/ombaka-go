@@ -84,9 +84,9 @@ export function Header() {
           {/* Right Side - Icons + Language Switcher */}
           <div className="hidden lg:flex items-center space-x-6">
             {/* Search Button */}
-            <button className="text-white hover:text-[#D4A343] transition-colors">
+            {/* <button className="text-white hover:text-[#D4A343] transition-colors">
               <Search className="w-5 h-5" />
-            </button>
+            </button> */}
 
             {/* Language Selector */}
             <div className="flex items-center space-x-2 text-white text-sm">
