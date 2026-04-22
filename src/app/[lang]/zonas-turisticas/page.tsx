@@ -2,7 +2,7 @@
 
 import { routing } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
-import TouristZonesClient from './TouristZonesClient';
+import TouristZonesClient from './_components/TouristZonesClient';
 
 type Props = {
     params: Promise<{ lang: string }>;
