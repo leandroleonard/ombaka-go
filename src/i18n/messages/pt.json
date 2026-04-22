@@ -373,5 +373,107 @@
         "description": "Centro de preservação das tradições locais."
       }
     }
+  },
+  "eventos": {
+    "hero": {
+      "title": "Eventos",
+      "subtitle": "Descubra os principais eventos culturais, empresariais e de lazer em Benguela"
+    },
+    "search": {
+      "placeholder": "Buscar eventos..."
+    },
+    "filters": {
+      "title": "Filtros",
+      "byMunicipio": "Por Município",
+      "byTipo": "Por Tipo",
+      "clear": "Limpar filtros",
+      "municipios": {
+        "lobito": "Lobito",
+        "benguela": "Benguela",
+        "baia-farta": "Baía Farta",
+        "catumbela": "Catumbela",
+        "ganda": "Ganda",
+        "cubal": "Cubal",
+        "balombo": "Balombo"
+      },
+      "tipos": {
+        "festas": "Festas",
+        "feiras": "Feiras",
+        "empresariais": "Empresariais",
+        "religiosos": "Religiosos",
+        "culturais": "Culturais",
+        "desportivos": "Desportivos"
+      }
+    },
+    "card": {
+      "saberMais": "Saber mais"
+    },
+    "emptyState": "Nenhum evento encontrado com os filtros selecionados.",
+    "list": {
+      "festival-cultural": {
+        "nome": "Festival Cultural de Benguela",
+        "data": "15 de Maio, 2026",
+        "local": "Benguela Centro",
+        "municipio": "Benguela",
+        "tipo": "Culturais",
+        "descricao": "Grande celebração da cultura e tradições de Benguela com música, dança e arte."
+      },
+      "feira-turismo": {
+        "nome": "Feira de Turismo e Negócios",
+        "data": "22 de Junho, 2026",
+        "local": "Centro de Convenções",
+        "municipio": "Lobito",
+        "tipo": "Empresariais",
+        "descricao": "Encontro de empresários, investidores e operadores turísticos."
+      },
+      "festival-gastronomico": {
+        "nome": "Festival Gastronômico",
+        "data": "10 de Julho, 2026",
+        "local": "Praia Morena",
+        "municipio": "Baía Farta",
+        "tipo": "Festas",
+        "descricao": "Celebração da gastronomia local com os melhores chefs e restaurantes."
+      },
+      "carnaval-lobito": {
+        "nome": "Carnaval do Lobito",
+        "data": "02 de Agosto, 2026",
+        "local": "Avenida Principal",
+        "municipio": "Lobito",
+        "tipo": "Festas",
+        "descricao": "O maior carnaval de Benguela com desfiles coloridos e muita música."
+      },
+      "feira-artesanato": {
+        "nome": "Feira de Artesanato",
+        "data": "20 de Agosto, 2026",
+        "local": "Mercado Central",
+        "municipio": "Benguela",
+        "tipo": "Culturais",
+        "descricao": "Exposição e venda de artesanato local feito por artistas da região."
+      },
+      "maratona-restinga": {
+        "nome": "Maratona da Restinga",
+        "data": "05 de Setembro, 2026",
+        "local": "Restinga do Lobito",
+        "municipio": "Lobito",
+        "tipo": "Desportivos",
+        "descricao": "Corrida de maratona ao longo da famosa Restinga do Lobito."
+      },
+      "festival-musica": {
+        "nome": "Festival de Música",
+        "data": "15 de Setembro, 2026",
+        "local": "Praça da Cultura",
+        "municipio": "Catumbela",
+        "tipo": "Festas",
+        "descricao": "Grandes nomes da música angolana e internacional."
+      },
+      "conferencia-sustentabilidade": {
+        "nome": "Conferência de Sustentabilidade",
+        "data": "30 de Setembro, 2026",
+        "local": "Hotel Terminus",
+        "municipio": "Lobito",
+        "tipo": "Empresariais",
+        "descricao": "Discussão sobre turismo sustentável e preservação ambiental."
+      }
+    }
   }
 }
