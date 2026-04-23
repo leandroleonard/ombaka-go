@@ -31,7 +31,6 @@ export function Header() {
     { name: t('nav.municipios'), path: `/${currentLocale}/municipios` },
     { name: t('nav.touristicZones'), path: `/${currentLocale}/zonas-turisticas` },
     { name: t('nav.events'), path: `/${currentLocale}/eventos` },
-    { name: t('nav.partners'), path: `/${currentLocale}/parceiros` },
     { name: t('nav.invest'), path: `/${currentLocale}/investir` },
     { name: t('nav.contact'), path: `/${currentLocale}/contacto` },
   ];

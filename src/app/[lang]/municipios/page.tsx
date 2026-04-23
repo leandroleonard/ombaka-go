@@ -134,7 +134,7 @@ export default async function MunicipiosPage({ params }: Props) {
             <section className="py-12 bg-[#F5F5F5]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-white rounded-2xl shadow-lg p-8">
-                        <h2 className="text-3xl mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                        <h2 className="text-3xl mb-6" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
                             {t('map.title')}
                         </h2>
                         <div className="bg-gray-200 rounded-xl h-96 flex items-center justify-center border border-gray-300">
@@ -149,7 +149,7 @@ export default async function MunicipiosPage({ params }: Props) {
             </section>
 
             {/* Municipalities Grid */}
-            <section className="py-16">
+            <section className="py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {municipios.map((municipio) => (

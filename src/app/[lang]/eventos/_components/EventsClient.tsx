@@ -75,7 +75,7 @@ export default function EventosClient({ eventos, municipios, tiposEvento, labels
                             placeholder={labels.searchPlaceholder}
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:border-[#D4A343]"
+                            className="w-full pl-12 pr-4 py-3 border text-black border-gray-300 rounded-full focus:outline-none focus:border-[#D4A343]"
                         />
                     </div>
                 </div>

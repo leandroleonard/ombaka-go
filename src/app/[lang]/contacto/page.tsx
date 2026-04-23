@@ -99,16 +99,12 @@ export default async function ContactoPage({ params }: Props) {
         formMessagePlaceholder: t('form.fields.messagePlaceholder'),
         formSubmit: t('form.submit'),
         formSuccessAlert: t('form.successAlert'),
-        // Departments
         departmentsTitle: t('departments.title'),
         departmentsSubtitle: t('departments.subtitle'),
-        // Map
         mapTitle: t('map.title'),
         mapPlaceholder: t('map.placeholder'),
         mapAddress: t('map.address'),
-        // FAQ
         faqTitle: t('faq.title'),
-        // Partner FAQ link label
         faqPartnerLinkLabel: t('faq.partner.linkLabel'),
         locale,
     };

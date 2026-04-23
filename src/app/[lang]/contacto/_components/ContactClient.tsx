@@ -134,7 +134,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                             return (
                                 <div key={index} className="bg-white p-6 rounded-2xl shadow-lg text-center">
                                     <Icon className="w-10 h-10 text-[#0B3B5B] mx-auto mb-4" />
-                                    <h3 className="text-lg mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                    <h3 className="text-lg mb-3 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                         {info.title}
                                     </h3>
                                     {info.details.map((detail, idx) => (
@@ -154,7 +154,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
 
                         {/* Contact Form */}
                         <div className="bg-white p-8 rounded-2xl shadow-lg">
-                            <h2 className="text-3xl mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                            <h2 className="text-3xl mb-6 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                 {labels.formTitle}
                             </h2>
                             <form onSubmit={handleSubmit} className="space-y-6">
@@ -243,12 +243,12 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                                 <h2 className="text-3xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {labels.departmentsTitle}
                                 </h2>
-                                <p className="text-gray-600 mb-6">{labels.departmentsSubtitle}</p>
+                                <p className="text-gray-200 mb-6">{labels.departmentsSubtitle}</p>
                             </div>
                             <div className="space-y-4">
                                 {departments.map((dept, index) => (
                                     <div key={index} className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                                        <h3 className="text-lg mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                        <h3 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                             {dept.name}
                                         </h3>
                                         <p className="text-sm text-gray-600 mb-3">{dept.description}</p>
@@ -271,7 +271,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
             <section className="py-16 bg-[#F5F5F5]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-white p-8 rounded-2xl shadow-lg">
-                        <h2 className="text-3xl mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                        <h2 className="text-3xl mb-6 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                             {labels.mapTitle}
                         </h2>
                         <div className="bg-gray-200 rounded-xl h-96 flex items-center justify-center">
@@ -294,7 +294,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                     <div className="space-y-4">
                         {faqs.map((faq, index) => (
                             <div key={index} className="bg-white p-6 rounded-xl shadow-md">
-                                <h3 className="text-lg mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                <h3 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {faq.question}
                                 </h3>
                                 <p className="text-gray-600">

@@ -122,7 +122,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <h2 className="text-4xl text-black mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             {labels.whyTitle}
                         </h2>
                         <p className="text-gray-600 max-w-3xl mx-auto">{labels.whySubtitle}</p>
@@ -138,7 +138,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                 <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0B3B5B] rounded-full mb-6">
                                     {item.icon}
                                 </div>
-                                <h3 className="text-xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                <h3 className="text-xl mb-4 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {item.title}
                                 </h3>
                                 <p className="text-gray-600">{item.desc}</p>
@@ -152,7 +152,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             <section className="py-20 bg-[#F5F5F5]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <h2 className="text-4xl text-black mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             {labels.projectsTitle}
                         </h2>
                         <p className="text-gray-600 max-w-3xl mx-auto">{labels.projectsSubtitle}</p>
@@ -163,7 +163,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                             <div key={index} className="bg-white p-8 rounded-2xl shadow-md">
                                 <div className="flex items-start justify-between mb-4">
                                     <div>
-                                        <h3 className="text-2xl mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                        <h3 className="text-2xl mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                             {project.name}
                                         </h3>
                                         <div className="flex items-center space-x-2 text-sm text-gray-600">
@@ -208,7 +208,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <h2 className="text-4xl mb-4 text-black" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             {labels.incentivesTitle}
                         </h2>
                         <p className="text-gray-600 max-w-3xl mx-auto">{labels.incentivesSubtitle}</p>
@@ -221,7 +221,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                 className="p-6 border border-gray-200 rounded-2xl hover:border-[#D4A343] transition-colors"
                             >
                                 <CheckCircle className="w-8 h-8 text-[#2E7D64] mb-4" />
-                                <h4 className="text-lg mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                <h4 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {incentive.title}
                                 </h4>
                                 <p className="text-sm text-gray-600">{incentive.description}</p>
@@ -235,7 +235,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             <section className="py-20 bg-[#F5F5F5]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <h2 className="text-4xl text-black mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             {labels.zonesTitle}
                         </h2>
                         <p className="text-gray-600 max-w-3xl mx-auto">{labels.zonesSubtitle}</p>
@@ -245,7 +245,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                         {zones.map((zone, index) => (
                             <div key={index} className="bg-white p-8 rounded-2xl shadow-md">
                                 <Building className="w-12 h-12 text-[#0B3B5B] mb-4" />
-                                <h3 className="text-2xl mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                                <h3 className="text-2xl mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {zone.name}
                                 </h3>
                                 <p className="text-sm text-[#D4A343] mb-4">{zone.area}</p>
@@ -267,7 +267,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             <section className="py-20 bg-white">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <h2 className="text-4xl mb-4 text-black" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             {labels.formTitle}
                         </h2>
                         <p className="text-gray-600">{labels.formSubtitle}</p>
@@ -276,7 +276,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label className="block text-sm mb-2">{labels.formName}</label>
+                                <label className="block text-sm mb-2 text-black">{labels.formName}</label>
                                 <input
                                     type="text"
                                     name="name"
@@ -287,7 +287,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm mb-2">{labels.formEmail}</label>
+                                <label className="block text-sm mb-2 text-black">{labels.formEmail}</label>
                                 <input
                                     type="email"
                                     name="email"
@@ -301,7 +301,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label className="block text-sm mb-2">{labels.formCompany}</label>
+                                <label className="block text-sm mb-2 text-black">{labels.formCompany}</label>
                                 <input
                                     type="text"
                                     name="company"
@@ -312,7 +312,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm mb-2">{labels.formPhone}</label>
+                                <label className="block text-sm mb-2 text-black">{labels.formPhone}</label>
                                 <input
                                     type="tel"
                                     name="phone"
@@ -325,7 +325,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                         </div>
 
                         <div>
-                            <label className="block text-sm mb-2">{labels.formSector}</label>
+                            <label className="block text-sm mb-2 text-black">{labels.formSector}</label>
                             <select
                                 name="sector"
                                 value={formData.sector}
@@ -339,7 +339,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                         </div>
 
                         <div>
-                            <label className="block text-sm mb-2">{labels.formMessage}</label>
+                            <label className="block text-sm mb-2 text-black">{labels.formMessage}</label>
                             <textarea
                                 name="message"
                                 rows={4}
@@ -365,12 +365,12 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                             <div>
                                 <Mail className="w-8 h-8 mx-auto mb-3 text-[#0B3B5B]" />
                                 <p className="text-sm text-gray-600">{labels.contactEmailLabel}</p>
-                                <p className="text-lg">investimentos@ombakago.ao</p>
+                                <p className="text-lg text-black">investimentos@ombakago.ao</p>
                             </div>
                             <div>
                                 <Phone className="w-8 h-8 mx-auto mb-3 text-[#0B3B5B]" />
                                 <p className="text-sm text-gray-600">{labels.contactPhoneLabel}</p>
-                                <p className="text-lg">+244 123 456 789</p>
+                                <p className="text-lg text-black">+244 123 456 789</p>
                             </div>
                         </div>
                     </div>

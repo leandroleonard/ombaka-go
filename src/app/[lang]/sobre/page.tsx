@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight, Target, Eye, Award, Users } from 'lucide-react';
+import { Target, Eye, Award, Users } from 'lucide-react';
 import { routing } from '@/i18n/routing';
 
 type Props = {
@@ -98,7 +98,7 @@ export default async function About({ params }: Props) {
       </section>
 
       {/* Mission and Vision */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-gradient-to-br from-[#0B3B5B] to-[#2E7D64] p-8 rounded-2xl text-white">
@@ -140,9 +140,9 @@ export default async function About({ params }: Props) {
       </section>
 
       {/* Values */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl mb-12 text-center" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h2 className="text-4xl mb-12 text-center" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
             {t('values.title')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -188,9 +188,9 @@ export default async function About({ params }: Props) {
       </section>
 
       {/* Team */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl mb-12 text-center" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h2 className="text-4xl mb-12 text-center" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
             {t('team.title')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

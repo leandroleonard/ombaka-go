@@ -38,7 +38,7 @@ export default function TouristZonesClient({
   zones,
   translations,
 }: Props) {
-  const [activeCategory, setActiveCategory] = useState(categories[0]); // 'Todas' traduzido
+  const [activeCategory, setActiveCategory] = useState(categories[0]); 
 
   const filteredZones = activeCategory === categories[0]
     ? zones
@@ -85,7 +85,7 @@ export default function TouristZonesClient({
       </section>
 
       {/* Zones Grid */}
-      <section className="py-12">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredZones.map((zone) => (
@@ -101,7 +101,7 @@ export default function TouristZonesClient({
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="absolute top-4 right-4 bg-white px-3 py-1 rounded-full text-xs font-medium shadow">
+                  <div className="absolute top-4 right-4 bg-white text-black px-3 py-1 rounded-full text-xs font-medium shadow">
                     {zone.category}
                   </div>
                   <div
@@ -115,7 +115,7 @@ export default function TouristZonesClient({
 
                 <div className="p-6">
                   <h3
-                    className="text-2xl mb-2 group-hover:text-[#0B3B5B] transition-colors"
+                    className="text-2xl mb-2 text-black group-hover:text-[#0B3B5B] transition-colors"
                     style={{ fontFamily: 'Poppins, sans-serif' }}
                   >
                     {zone.name}
