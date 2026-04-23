@@ -3,91 +3,705 @@
     "nav": {
       "home": "Home",
       "about": "About Benguela",
-      "municipios": "Municípios",
-      "touristicZones": "Zonas Turísticas",
-      "events": "Eventos",
-      "partners": "Parceiros",
-      "invest": "Investir",
-      "contact": "Contacto"
+      "municipios": "Municipalities",
+      "touristicZones": "Tourist Zones",
+      "events": "Events",
+      "partners": "Partners",
+      "invest": "Invest",
+      "contact": "Contact"
     }
   },
   "home": {
     "hero": {
       "title": "Ombaka Go",
-      "subtitle": "Descubra Benguela – O Coração do Corredor do Lobito"
+      "subtitle": "Discover Benguela – The Heart of the Lobito Corridor",
+      "btn-destinations": "Explore Destinations",
+      "btn-investiment": "Invest in Benguela"
     },
     "destinations": {
-      "title": "Destaques de Destinos",
-      "subtitle": "Explore os municípios mais encantadores de Benguela e descubra paisagens únicas"
+      "title": "Featured Destinations",
+      "subtitle": "Explore the most charming municipalities of Benguela and discover unique landscapes"
     },
     "events": {
-      "title": "Próximos Eventos",
-      "subtitle": "Não perca os eventos culturais e empresariais que acontecem em Benguela",
-      "seeAll": "Ver todos os eventos"
+      "title": "Upcoming Events",
+      "subtitle": "Don't miss the cultural and business events happening in Benguela",
+      "seeAll": "View all events"
     },
     "why": {
-      "title": "Porquê Ombaka Go?",
-      "subtitle": "Três pilares que nos tornam únicos na promoção de Benguela"
+      "title": "Why Ombaka Go?",
+      "subtitle": "Three pillars that make us unique in promoting Benguela"
     },
     "partners": {
-      "title": "Parceiros em Evidência"
+      "word": "Partners",
+      "title": "Partners"
     },
     "newsletter": {
-      "title": "Receba as Novidades de Benguela",
-      "subtitle": "Fique atualizado sobre eventos, novos destinos e oportunidades de investimento",
-      "placeholder": "Seu melhor e-mail",
-      "button": "Inscrever-se"
+      "title": "Get Benguela Updates",
+      "subtitle": "Stay informed about events, new destinations, and investment opportunities",
+      "placeholder": "Your best email",
+      "button": "Subscribe"
     }
   },
   "destinationsData": {
     "lobito": {
       "title": "Lobito",
-      "location": "Município do Lobito",
-      "description": "A Pérola do Atlântico, famosa por suas praias deslumbrantes e porto histórico."
+      "location": "Municipality of Lobito",
+      "description": "The Pearl of the Atlantic, famous for its stunning beaches and historic port."
     },
     "baia-farta": {
       "title": "Baía Farta",
-      "location": "Município da Baía Farta",
-      "description": "Paisagens naturais de tirar o fôlego, praias virgens e aventuras inesquecíveis."
+      "location": "Municipality of Baía Farta",
+      "description": "Breathtaking natural landscapes, untouched beaches, and unforgettable adventures."
     },
     "ganda": {
       "title": "Ganda",
-      "location": "Município do Ganda",
-      "description": "Cultura autêntica e tradições preservadas no coração de Benguela."
+      "location": "Municipality of Ganda",
+      "description": "Authentic culture and preserved traditions in the heart of Benguela."
     }
   },
   "eventsData": {
-    "festivalCultural": {
-      "name": "Festival Cultural de Benguela",
-      "date": "15 de Maio, 2026",
-      "location": "Benguela Centro",
+    "festival-cultural": {
+      "name": "Benguela Cultural Festival",
+      "date": "May 15, 2026",
+      "location": "Central Benguela",
       "category": "Cultural"
     },
-    "feiraTurismo": {
-      "name": "Feira de Turismo e Negócios",
-      "date": "22 de Junho, 2026",
+    "feira-turismo": {
+      "name": "Tourism and Business Fair",
+      "date": "June 22, 2026",
       "location": "Lobito",
-      "category": "Empresarial"
+      "category": "Business"
     },
-    "festivalGastronomico": {
-      "name": "Festival Gastronômico",
-      "date": "10 de Julho, 2026",
+    "festival-gastronomico": {
+      "name": "Gastronomic Festival",
+      "date": "July 10, 2026",
       "location": "Baía Farta",
-      "category": "Gastronomia"
+      "category": "Gastronomy"
     }
   },
   "pillars": {
     "sustainable": {
-      "title": "Turismo Sustentável",
-      "description": "Comprometidos com práticas que preservam o meio ambiente e beneficiam as comunidades locais."
+      "title": "Sustainable Tourism",
+      "description": "Committed to practices that preserve the environment and benefit local communities."
     },
     "culture": {
-      "title": "Cultura e Tradição",
-      "description": "Valorizamos e promovemos a rica herança cultural e tradições de Benguela."
+      "title": "Culture and Tradition",
+      "description": "We value and promote the rich cultural heritage and traditions of Benguela."
     },
     "investment": {
-      "title": "Investimento Estratégico",
-      "description": "Oportunidades únicas no corredor do Lobito, conectando África ao mundo."
+      "title": "Strategic Investment",
+      "description": "Unique opportunities in the Lobito Corridor, connecting Africa to the world."
+    }
+  },
+  "about": {
+    "breadcrumbs": {
+      "home": "Home",
+      "about": "About"
+    },
+    "hero": {
+      "title": "About Ombaka Go",
+      "subtitle": "Promoting tourism and sustainable development in Benguela"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To position Benguela as a leading tourist destination in Angola and the region through an integrated digital platform that connects visitors, local communities, and investors, promoting sustainable development and enhancing the province's natural and cultural heritage."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be recognized as the leading tourism promotion platform in Angola, contributing to making Benguela one of the main tourist destinations in Southern Africa by 2030, with a dynamic, inclusive, and sustainable tourism sector that benefits the entire community."
+    },
+    "about": {
+      "title": "What is Ombaka Go?",
+      "p1": "Ombaka Go is the official digital tourism promotion platform of Benguela Province, Angola. Developed to boost sustainable tourism and regional economic development, the platform offers a complete experience for visitors, investors, and industry partners.",
+      "p2": "Through Ombaka Go, visitors can discover the 10 municipalities of Benguela, explore over 100 tourist zones, learn about cultural events, find investment opportunities, and connect with certified tour operators.",
+      "p3": "The platform integrates modern technology with Benguela's rich cultural heritage, offering advanced search tools, interactive maps, an event calendar, and a partner system that connects visitors with the best services in the region.",
+      "p4": "\"Ombaka\" means \"rain\" in Umbundu, the native language of the region, symbolizing abundance, renewal, and prosperity — core values that guide our mission to promote sustainable tourism growth in Benguela."
+    },
+    "values": {
+      "title": "Our Values",
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Promoting responsible tourism that preserves Benguela's natural and cultural heritage."
+      },
+      "inclusion": {
+        "title": "Inclusion",
+        "description": "Engaging local communities in tourism development, creating opportunities for all."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Delivering high-quality experiences that exceed visitor expectations."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Maintaining clear and honest communication with all tourism sector stakeholders."
+      }
+    },
+    "journey": {
+      "title": "Our Journey"
+    },
+    "milestones": {
+      "2023": "Launch of the Ombaka Go Platform",
+      "2024": "Partnership with 50+ Tourism Operators",
+      "2025": "Certification of 20 Tourist Zones",
+      "2026": "Digital Expansion and Mobile Application"
+    },
+    "team": {
+      "title": "Who's Behind It",
+      "admin": {
+        "name": "Provincial Administration",
+        "role": "Governor of Benguela"
+      },
+      "tourism": {
+        "name": "Tourism Secretariat",
+        "role": "Provincial Directorate of Tourism"
+      },
+      "partners": {
+        "name": "Private Partners",
+        "role": "Operators and Investors"
+      }
+    },
+    "cta": {
+      "title": "Join Us",
+      "description": "Be part of Benguela's tourism growth. Become a partner or investor.",
+      "investButton": "Investment Opportunities",
+      "contactButton": "Get in Touch"
+    }
+  },
+  "municipios": {
+    "breadcrumbs": {
+      "home": "Home",
+      "municipios": "Municipalities"
+    },
+    "hero": {
+      "title": "Municipalities of Benguela",
+      "subtitle": "Discover the diversity and cultural richness of the 10 municipalities that make up Benguela Province, each with its unique identity and special attractions."
+    },
+    "map": {
+      "title": "Province Map",
+      "placeholder": "Interactive map of municipalities"
+    },
+    "attractions": {
+      "title": "Main Attractions"
+    },
+    "exploreButton": "Explore municipality",
+    "stats": {
+      "municipios": "Municipalities",
+      "population": "Total Population",
+      "area": "Total Area (km²)",
+      "zonas": "Tourist Zones"
+    },
+    "list": {
+      "benguela": {
+        "name": "Benguela",
+        "subtitle": "Provincial Capital",
+        "attractions": [
+          "Praia Morena",
+          "Church of Our Lady of Pópulo",
+          "São António Market"
+        ]
+      },
+      "lobito": {
+        "name": "Lobito",
+        "subtitle": "The Pearl of the Atlantic",
+        "attractions": [
+          "Lobito Sandbar",
+          "Port of Lobito",
+          "Praia Morena"
+        ]
+      },
+      "catumbela": {
+        "name": "Catumbela",
+        "subtitle": "Benguela's Air Gateway",
+        "attractions": [
+          "International Airport",
+          "Catumbela River",
+          "Wild Beaches"
+        ]
+      },
+      "baia-farta": {
+        "name": "Baía Farta",
+        "subtitle": "Untouched Natural Beauty",
+        "attractions": [
+          "Virgin Beaches",
+          "Artisanal Fishing",
+          "Baía Farta Desert"
+        ]
+      },
+      "cubal": {
+        "name": "Cubal",
+        "subtitle": "Tradition and Agriculture",
+        "attractions": [
+          "Agricultural Zone",
+          "Traditional Markets",
+          "Local Culture"
+        ]
+      },
+      "ganda": {
+        "name": "Ganda",
+        "subtitle": "Green Heart",
+        "attractions": [
+          "Natural Landscapes",
+          "Rural Life",
+          "Local Handicrafts"
+        ]
+      },
+      "balombo": {
+        "name": "Balombo",
+        "subtitle": "Nature and Tranquility",
+        "attractions": [
+          "Rural Serenity",
+          "Traditional Communities",
+          "Ecotourism"
+        ]
+      },
+      "chongoroi": {
+        "name": "Chongorói",
+        "subtitle": "Cultural Heritage",
+        "attractions": [
+          "Local History",
+          "Traditional Festivals",
+          "Ancestral Culture"
+        ]
+      },
+      "bocoio": {
+        "name": "Bocoio",
+        "subtitle": "Land of Traditions",
+        "attractions": [
+          "Local Community",
+          "Agriculture",
+          "Community Tourism"
+        ]
+      },
+      "caimbambo": {
+        "name": "Caimbambo",
+        "subtitle": "African Authenticity",
+        "attractions": [
+          "Traditional Life",
+          "Rural Landscapes",
+          "Local Hospitality"
+        ]
+      }
+    }
+  },
+  "tourist-zones": {
+    "hero": {
+      "title": "Tourist Zones",
+      "subtitle": "Discover the best tourist destinations in Benguela"
+    },
+    "filters": {
+      "all": "All",
+      "beaches": "Beaches",
+      "mountains": "Mountains",
+      "naturalReserves": "Nature Reserves",
+      "historical": "Historical Tourism",
+      "cultural": "Cultural"
+    },
+    "map": {
+      "title": "Interactive Map",
+      "placeholder": "Interactive map of tourist zones",
+      "note": "(Under development)"
+    },
+    "noResults": "No tourist zones found in this category.",
+    "viewDetails": "View Details",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "zones": {
+      "restingaLobito": {
+        "name": "Lobito Sandbar",
+        "category": "Beaches",
+        "location": "Lobito",
+        "difficulty": "Easy",
+        "description": "One of the most impressive natural formations in Angola."
+      },
+      "praiaMorena": {
+        "name": "Praia Morena",
+        "category": "Beaches",
+        "location": "Lobito",
+        "difficulty": "Easy",
+        "description": "Golden sand beach perfect for relaxation."
+      },
+      "serraLeba": {
+        "name": "Serra da Leba",
+        "category": "Mountains",
+        "location": "Ganda",
+        "difficulty": "Medium",
+        "description": "Spectacular mountain scenery with panoramic views."
+      },
+      "reservaBufalo": {
+        "name": "Buffalo Nature Reserve",
+        "category": "Nature Reserves",
+        "location": "Balombo",
+        "difficulty": "Hard",
+        "description": "Protected area with diverse fauna and flora."
+      },
+      "forteSaoPedro": {
+        "name": "Fort of São Pedro da Barra",
+        "category": "Historical Tourism",
+        "location": "Benguela",
+        "difficulty": "Easy",
+        "description": "Historic fortress from the Portuguese colonial period."
+      },
+      "mercadoCentral": {
+        "name": "Benguela Central Market",
+        "category": "Cultural",
+        "location": "Benguela",
+        "difficulty": "Easy",
+        "description": "Authentic experience of local culture and gastronomy."
+      },
+      "baiaAzul": {
+        "name": "Blue Bay",
+        "category": "Beaches",
+        "location": "Benguela",
+        "difficulty": "Easy",
+        "description": "One of the most beautiful beaches in the region."
+      },
+      "cascataBiopio": {
+        "name": "Biópio Waterfall",
+        "category": "Mountains",
+        "location": "Cubal",
+        "difficulty": "Medium",
+        "description": "Natural waterfall surrounded by lush vegetation."
+      },
+      "vilaCultural": {
+        "name": "Cultural Village",
+        "category": "Cultural",
+        "location": "Catumbela",
+        "difficulty": "Easy",
+        "description": "Centre for the preservation of local traditions."
+      }
+    }
+  },
+  "eventos": {
+    "hero": {
+      "title": "Events",
+      "subtitle": "Discover the main cultural, business, and leisure events in Benguela"
+    },
+    "search": {
+      "placeholder": "Search events..."
+    },
+    "filters": {
+      "title": "Filters",
+      "byMunicipio": "By Municipality",
+      "byTipo": "By Type",
+      "clear": "Clear filters",
+      "municipios": {
+        "lobito": "Lobito",
+        "benguela": "Benguela",
+        "baia-farta": "Baía Farta",
+        "catumbela": "Catumbela",
+        "ganda": "Ganda",
+        "cubal": "Cubal",
+        "balombo": "Balombo"
+      },
+      "tipos": {
+        "festas": "Festivals",
+        "feiras": "Fairs",
+        "empresariais": "Business",
+        "religiosos": "Religious",
+        "culturais": "Cultural",
+        "desportivos": "Sports"
+      }
+    },
+    "card": {
+      "saberMais": "Learn more"
+    },
+    "emptyState": "No events found with the selected filters.",
+    "list": {
+      "festival-cultural": {
+        "nome": "Benguela Cultural Festival",
+        "data": "May 15, 2026",
+        "local": "Central Benguela",
+        "municipio": "Benguela",
+        "tipo": "Cultural",
+        "descricao": "A grand celebration of Benguela's culture and traditions with music, dance, and art."
+      },
+      "feira-turismo": {
+        "nome": "Tourism and Business Fair",
+        "data": "June 22, 2026",
+        "local": "Convention Centre",
+        "municipio": "Lobito",
+        "tipo": "Business",
+        "descricao": "A gathering of entrepreneurs, investors, and tourism operators."
+      },
+      "festival-gastronomico": {
+        "nome": "Gastronomic Festival",
+        "data": "July 10, 2026",
+        "local": "Praia Morena",
+        "municipio": "Baía Farta",
+        "tipo": "Festivals",
+        "descricao": "A celebration of local gastronomy featuring the best chefs and restaurants."
+      },
+      "carnaval-lobito": {
+        "nome": "Lobito Carnival",
+        "data": "August 02, 2026",
+        "local": "Main Avenue",
+        "municipio": "Lobito",
+        "tipo": "Festivals",
+        "descricao": "Benguela's biggest carnival with colourful parades and vibrant music."
+      },
+      "feira-artesanato": {
+        "nome": "Handicraft Fair",
+        "data": "August 20, 2026",
+        "local": "Central Market",
+        "municipio": "Benguela",
+        "tipo": "Cultural",
+        "descricao": "Exhibition and sale of local handicrafts made by artists from the region."
+      },
+      "maratona-restinga": {
+        "nome": "Restinga Marathon",
+        "data": "September 05, 2026",
+        "local": "Lobito Sandbar",
+        "municipio": "Lobito",
+        "tipo": "Sports",
+        "descricao": "Marathon race along the famous Lobito Sandbar."
+      },
+      "festival-musica": {
+        "nome": "Music Festival",
+        "data": "September 15, 2026",
+        "local": "Culture Square",
+        "municipio": "Catumbela",
+        "tipo": "Festivals",
+        "descricao": "Top names in Angolan and international music."
+      },
+      "conferencia-sustentabilidade": {
+        "nome": "Sustainability Conference",
+        "data": "September 30, 2026",
+        "local": "Hotel Terminus",
+        "municipio": "Lobito",
+        "tipo": "Business",
+        "descricao": "Discussion on sustainable tourism and environmental preservation."
+      }
+    }
+  },
+  "investir": {
+    "hero": {
+      "title": "Invest in Benguela",
+      "subtitle": "Investment Opportunities in the Tourism Sector",
+      "description": "Benguela is the gateway to the Lobito Corridor, connecting Africa to the world and offering unique investment opportunities in the tourism sector."
+    },
+    "why": {
+      "title": "Why Invest in Benguela?",
+      "subtitle": "Benguela offers a unique combination of strategic location, natural resources, and government incentives",
+      "location": {
+        "title": "Strategic Location",
+        "description": "The Lobito Corridor connects the Atlantic to the African interior, with links to the DRC, Zambia, and beyond."
+      },
+      "growth": {
+        "title": "Economic Growth",
+        "description": "An expanding province with modern infrastructure and a diversified economy."
+      },
+      "fiscal": {
+        "title": "Tax Incentives",
+        "description": "Incentive programmes for investors in the tourism and hospitality sector."
+      }
+    },
+    "projectsSection": {
+      "title": "Priority Projects",
+      "subtitle": "Concrete investment opportunities with high return potential",
+      "progress": "Progress",
+      "investment": "Estimated Investment",
+      "detailsButton": "Details"
+    },
+    "projects": {
+      "baia-azul": {
+        "name": "Blue Bay Tourist Complex",
+        "location": "Benguela",
+        "investment": "€50M - €100M",
+        "sector": "Hospitality and Tourism"
+      },
+      "eco-resort": {
+        "name": "Restinga Eco-Resort",
+        "location": "Lobito",
+        "investment": "€30M - €60M",
+        "sector": "Sustainable Tourism"
+      },
+      "centro-convencoes": {
+        "name": "Benguela Convention Centre",
+        "location": "Benguela",
+        "investment": "€25M - €40M",
+        "sector": "Infrastructure"
+      },
+      "marina-lobito": {
+        "name": "Lobito Marina",
+        "location": "Lobito",
+        "investment": "€40M - €80M",
+        "sector": "Nautical Tourism"
+      }
+    },
+    "incentivesSection": {
+      "title": "Tax Incentives",
+      "subtitle": "Special benefits for investors in the tourism sector"
+    },
+    "incentives": {
+      "isencao-fiscal": {
+        "title": "Tax Exemption",
+        "description": "Up to 5 years of tax exemption for approved tourism projects."
+      },
+      "apoio-importacao": {
+        "title": "Import Support",
+        "description": "Reduced tariffs for importing tourism equipment."
+      },
+      "formacao": {
+        "title": "Professional Training",
+        "description": "Free local workforce training and capacity-building programmes."
+      },
+      "credito": {
+        "title": "Access to Credit",
+        "description": "Special credit lines with reduced interest rates."
+      }
+    },
+    "zonesSection": {
+      "title": "Strategic Economic Zones",
+      "subtitle": "Priority areas for tourism development",
+      "mapPlaceholder": "Economic Zones Map"
+    },
+    "zones": {
+      "zona-franca": {
+        "name": "Lobito Free Zone",
+        "area": "Port and Logistics Corridor",
+        "description": "Tax and customs advantages for commercial and tourism operations."
+      },
+      "zona-turistica": {
+        "name": "Benguela Tourist Zone",
+        "area": "Coastline and Beaches",
+        "description": "Priority area for resort development and tourism infrastructure."
+      },
+      "parque-natural": {
+        "name": "Serra Natural Park",
+        "area": "Interior",
+        "description": "Opportunities in ecotourism and adventure tourism."
+      }
+    },
+    "form": {
+      "title": "Request Investment Dossier",
+      "subtitle": "Fill in the form and receive detailed information about investment opportunities",
+      "submit": "Submit Request",
+      "fields": {
+        "name": "Full Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "company": "Company",
+        "companyPlaceholder": "Company name",
+        "phone": "Phone",
+        "phonePlaceholder": "+244 ...",
+        "sector": "Sector of Interest",
+        "message": "Message",
+        "messagePlaceholder": "Tell us more about your interest...",
+        "sectors": {
+          "hotelaria": "Hospitality and Tourism",
+          "sustentavel": "Sustainable Tourism",
+          "infraestrutura": "Infrastructure",
+          "nautico": "Nautical Tourism",
+          "outro": "Other"
+        }
+      }
+    },
+    "contact": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone"
+    }
+  },
+  "contacto": {
+    "breadcrumbs": {
+      "home": "Home",
+      "current": "Contact"
+    },
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We're here to help. Talk to us!"
+    },
+    "info": {
+      "address": {
+        "title": "Address",
+        "line1": "Rua Comandante Cowboy",
+        "line2": "Benguela, Angola"
+      },
+      "phone": {
+        "title": "Phone",
+        "line1": "+244 272 232 XXX",
+        "line2": "+244 923 XXX XXX"
+      },
+      "email": {
+        "title": "Email",
+        "line1": "info@ombakago.ao",
+        "line2": "turismo@benguela.gov.ao"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "line1": "Monday to Friday: 8am - 5pm",
+        "line2": "Saturday: 8am - 12pm"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "submit": "Send Message",
+      "successAlert": "Message sent successfully! We will get back to you shortly.",
+      "fields": {
+        "name": "Full Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "subject": "Subject",
+        "subjectDefault": "Select a subject",
+        "message": "Message",
+        "messagePlaceholder": "Write your message here...",
+        "subjects": {
+          "tourism": "Tourist Information",
+          "partnerships": "Partnerships and Investments",
+          "support": "Technical Support",
+          "press": "Press",
+          "other": "Other"
+        }
+      }
+    },
+    "departments": {
+      "title": "Departments",
+      "subtitle": "Contact the right department directly for a faster response.",
+      "tourism": {
+        "name": "Tourist Information",
+        "email": "turismo@ombakago.ao",
+        "description": "For questions about destinations, itineraries, and attractions."
+      },
+      "partnerships": {
+        "name": "Partnerships and Investments",
+        "email": "investimentos@ombakago.ao",
+        "description": "For partnership proposals and investment opportunities."
+      },
+      "support": {
+        "name": "Technical Support",
+        "email": "suporte@ombakago.ao",
+        "description": "For technical questions about the platform."
+      },
+      "press": {
+        "name": "Press",
+        "email": "imprensa@ombakago.ao",
+        "description": "For media and communications requests."
+      }
+    },
+    "map": {
+      "title": "Our Location",
+      "placeholder": "Map showing office location",
+      "address": "Rua Comandante Cowboy, Benguela"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "response-time": {
+        "question": "How long does it take to receive a response?",
+        "answer": "We typically respond within 24–48 hours on business days."
+      },
+      "partner": {
+        "question": "How can I become a partner?",
+        "answer": "Get in touch through the Partnerships and Investments department or visit the",
+        "linkLabel": "Invest"
+      },
+      "visit": {
+        "question": "Can I visit the office in person?",
+        "answer": "Yes! We are located at Rua Comandante Cowboy, Benguela. We recommend scheduling a visit via our email or phone."
+      }
     }
   }
 }
