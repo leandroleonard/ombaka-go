@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Search, Globe } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
-import { routing, Locale } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
+import { Locale } from 'next-intl';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
