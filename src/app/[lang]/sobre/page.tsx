@@ -101,7 +101,7 @@ export default async function About({ params }: Props) {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-gradient-to-br from-[#0B3B5B] to-[#2E7D64] p-8 rounded-2xl text-white">
+            <div className="bg-gradient-to-br from-[#0B3B5B] to-[#2E7D64] p-8 text-white">
               <Target className="w-12 h-12 text-[#D4A343] mb-4" />
               <h2 className="text-3xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {t('mission.title')}
@@ -111,7 +111,7 @@ export default async function About({ params }: Props) {
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#2E7D64] to-[#D4A343] p-8 rounded-2xl text-white">
+            <div className="bg-gradient-to-br from-[#2E7D64] to-[#D4A343] p-8 text-white">
               <Eye className="w-12 h-12 text-white mb-4" />
               <h2 className="text-3xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {t('vision.title')}
@@ -149,7 +149,7 @@ export default async function About({ params }: Props) {
             {values.map((value, index) => {
               const Icon = value.icon;
               return (
-                <div key={index} className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 text-center">
+                <div key={index} className="bg-white p-6 shadow-lg border border-gray-100 text-center">
                   <Icon className="w-12 h-12 text-[#0B3B5B] mx-auto mb-4" />
                   <h3 className="text-xl mb-3" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
                     {value.title}
@@ -172,13 +172,13 @@ export default async function About({ params }: Props) {
             {milestones.map((milestone, index) => (
               <div key={index} className="flex items-start space-x-6">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-[#D4A343] rounded-full flex items-center justify-center">
+                  <div className="w-16 h-16 bg-[#D4A343] flex items-center justify-center">
                     <span className="text-white text-lg font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                       {milestone.year}
                     </span>
                   </div>
                 </div>
-                <div className="flex-1 bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div className="flex-1 bg-white/10 backdrop-blur-sm p-6">
                   <p className="text-white text-lg">{milestone.event}</p>
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default async function About({ params }: Props) {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <div key={index} className="bg-white shadow-lg overflow-hidden">
                 <div className="relative h-64">
                   <Image
                     src={member.image}
@@ -228,13 +228,13 @@ export default async function About({ params }: Props) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href={`/${locale}/investir`}
-              className="bg-[#0B3B5B] text-white px-8 py-4 rounded-full hover:bg-[#2E7D64] transition-colors font-medium"
+              className="bg-[#0B3B5B] text-white px-8 py-4 hover:bg-[#2E7D64] transition-colors font-medium"
             >
               {t('cta.investButton')}
             </Link>
             <Link
               href={`/${locale}/contacto`}
-              className="bg-[#D4A343] text-white px-8 py-4 rounded-full hover:bg-[#c89338] transition-colors font-medium"
+              className="bg-[#D4A343] text-white px-8 py-4 hover:bg-[#c89338] transition-colors font-medium"
             >
               {t('cta.contactButton')}
             </Link>
