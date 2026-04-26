@@ -285,6 +285,123 @@
           "Paisagens Rurais",
           "Hospitalidade Local"
         ]
+      },
+      "babaera": {
+        "name": "Babaera",
+        "subtitle": "Cultura e Natureza",
+        "attractions": [
+          "Comunidades Tradicionais",
+          "Paisagens Naturais",
+          "Turismo Rural"
+        ]
+      },
+      "biopio": {
+        "name": "Biópio",
+        "subtitle": "Vida Rural Autêntica",
+        "attractions": [
+          "Agricultura Familiar",
+          "Tradições Locais",
+          "Ecoturismo"
+        ]
+      },
+      "bolonguera": {
+        "name": "Bolonguera",
+        "subtitle": "Serenidade Natural",
+        "attractions": [
+          "Paisagens Selvagens",
+          "Comunidade Local",
+          "Natureza Intocada"
+        ]
+      },
+      "canhamela": {
+        "name": "Canhamela",
+        "subtitle": "Tradição Preservada",
+        "attractions": [
+          "Festas Tradicionais",
+          "Artesanato",
+          "Cultura Local"
+        ]
+      },
+      "capupa": {
+        "name": "Capupa",
+        "subtitle": "Essência Rural",
+        "attractions": [
+          "Vida Agrícola",
+          "Natureza",
+          "Turismo Comunitário"
+        ]
+      },
+      "catengue": {
+        "name": "Catengue",
+        "subtitle": "Beleza Natural",
+        "attractions": [
+          "Paisagens Verdes",
+          "Comunidade",
+          "Agricultura"
+        ]
+      },
+      "chicuma": {
+        "name": "Chicuma",
+        "subtitle": "Novo Município",
+        "attractions": [
+          "Desenvolvimento Local",
+          "Potencial Turístico",
+          "Comunidade"
+        ]
+      },
+      "chila": {
+        "name": "Chila",
+        "subtitle": "Novo Município",
+        "attractions": [
+          "Desenvolvimento Rural",
+          "Agricultura",
+          "Cultura Local"
+        ]
+      },
+      "chindumbo": {
+        "name": "Chindumbo",
+        "subtitle": "Novo Município",
+        "attractions": [
+          "Novas Oportunidades",
+          "Turismo Emergente",
+          "Comunidade"
+        ]
+      },
+      "dombe-grande": {
+        "name": "Dombe Grande",
+        "subtitle": "Novo Município",
+        "attractions": [
+          "Centro Urbano",
+          "Comércio Local",
+          "Desenvolvimento"
+        ]
+      },
+      "egipto-praia": {
+        "name": "Egipto-Praia",
+        "subtitle": "Paraíso Costeiro",
+        "attractions": [
+          "Praias",
+          "Pesca Artesanal",
+          "Turismo Balnear"
+        ]
+      },
+      "iambala": {
+        "name": "Iambala",
+        "subtitle": "Encanto do Interior",
+        "attractions": [
+          "Cultura Rural",
+          "Comunidades",
+          "Natureza"
+        ]
+      },
+      "navegantes": {
+        "name": "Navegantes",
+        "subtitle": "Tradição Marítima",
+        "attractions": [
+          "Zona Costeira",
+          "Pesca",
+          "Cultura Marítima"
+        ]
       }
     }
   },

@@ -255,6 +255,6 @@ export default async function About({ params }: Props) {
           </div>
         </div>
       </section>
-    </section>
+    </div>
   );
 }

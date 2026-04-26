@@ -17,7 +17,6 @@ import { mapEvents } from '@/lib/mappers/event.mapper';
 import { mapPillars } from '@/lib/mappers/pillar.mapper';
 
 import { mapStats } from '@/lib/mappers/stats.mapper';
-import { stat } from 'fs';
 
 
 type Props = {
