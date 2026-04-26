@@ -431,63 +431,63 @@
       "hard": "Hard"
     },
     "zones": {
-      "restingaLobito": {
+      "restinga-do-lobito": {
         "name": "Lobito Sandbar",
         "category": "Beaches",
         "location": "Lobito",
         "difficulty": "Easy",
         "description": "One of the most impressive natural formations in Angola."
       },
-      "praiaMorena": {
+      "praia-morena": {
         "name": "Praia Morena",
         "category": "Beaches",
         "location": "Lobito",
         "difficulty": "Easy",
         "description": "Golden sand beach perfect for relaxation."
       },
-      "serraLeba": {
+      "serra-da-leba": {
         "name": "Serra da Leba",
         "category": "Mountains",
         "location": "Ganda",
         "difficulty": "Medium",
         "description": "Spectacular mountain scenery with panoramic views."
       },
-      "reservaBufalo": {
+      "reserva-natural-do-bufalo": {
         "name": "Buffalo Nature Reserve",
         "category": "Nature Reserves",
         "location": "Balombo",
         "difficulty": "Hard",
         "description": "Protected area with diverse fauna and flora."
       },
-      "forteSaoPedro": {
+      "forte-de-sao-pedro-da-barra": {
         "name": "Fort of São Pedro da Barra",
         "category": "Historical Tourism",
         "location": "Benguela",
         "difficulty": "Easy",
         "description": "Historic fortress from the Portuguese colonial period."
       },
-      "mercadoCentral": {
+      "mercado-central-de-benguela": {
         "name": "Benguela Central Market",
         "category": "Cultural",
         "location": "Benguela",
         "difficulty": "Easy",
         "description": "Authentic experience of local culture and gastronomy."
       },
-      "baiaAzul": {
+      "baia-azul": {
         "name": "Blue Bay",
         "category": "Beaches",
         "location": "Benguela",
         "difficulty": "Easy",
         "description": "One of the most beautiful beaches in the region."
       },
-      "cascataBiopio": {
+      "cascata-de-biopio": {
         "name": "Biópio Waterfall",
         "category": "Mountains",
         "location": "Cubal",
         "difficulty": "Medium",
         "description": "Natural waterfall surrounded by lush vegetation."
       },
-      "vilaCultural": {
+      "vila-cultural": {
         "name": "Cultural Village",
         "category": "Cultural",
         "location": "Catumbela",

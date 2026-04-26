@@ -431,63 +431,63 @@
       "hard": "Difficile"
     },
     "zones": {
-      "restingaLobito": {
+      "restinga-do-lobito": {
         "name": "Cordon littoral de Lobito",
         "category": "Plages",
         "location": "Lobito",
         "difficulty": "Facile",
         "description": "L'une des formations naturelles les plus impressionnantes d'Angola."
       },
-      "praiaMorena": {
+      "praia-morena": {
         "name": "Praia Morena",
         "category": "Plages",
         "location": "Lobito",
         "difficulty": "Facile",
         "description": "Plage de sable doré idéale pour la détente."
       },
-      "serraLeba": {
+      "serra-da-leba": {
         "name": "Serra da Leba",
         "category": "Montagnes",
         "location": "Ganda",
         "difficulty": "Moyen",
         "description": "Paysages montagneux spectaculaires avec des vues panoramiques."
       },
-      "reservaBufalo": {
+      "reserva-natural-do-bufalo": {
         "name": "Réserve naturelle du Buffle",
         "category": "Réserves naturelles",
         "location": "Balombo",
         "difficulty": "Difficile",
         "description": "Zone protégée avec une faune et une flore diversifiées."
       },
-      "forteSaoPedro": {
+      "forte-de-sao-pedro-da-barra": {
         "name": "Fort de São Pedro da Barra",
         "category": "Tourisme historique",
         "location": "Benguela",
         "difficulty": "Facile",
         "description": "Forteresse historique de la période coloniale portugaise."
       },
-      "mercadoCentral": {
+      "mercado-central-de-benguela": {
         "name": "Marché central de Benguela",
         "category": "Culturel",
         "location": "Benguela",
         "difficulty": "Facile",
         "description": "Expérience authentique de la culture locale et de la gastronomie."
       },
-      "baiaAzul": {
+      "baia-azul": {
         "name": "Baie Bleue",
         "category": "Plages",
         "location": "Benguela",
         "difficulty": "Facile",
         "description": "L'une des plus belles plages de la région."
       },
-      "cascataBiopio": {
+      "cascata-de-biopio": {
         "name": "Cascade de Biópio",
         "category": "Montagnes",
         "location": "Cubal",
         "difficulty": "Moyen",
         "description": "Cascade naturelle au milieu d'une végétation luxuriante."
       },
-      "vilaCultural": {
+      "vila-cultural": {
         "name": "Village culturel",
         "category": "Culturel",
         "location": "Catumbela",
