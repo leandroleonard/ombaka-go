@@ -4,17 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { MapPin } from 'lucide-react';
-
-type Zone = {
-  id: number;
-  name: string;
-  category: string;
-  location: string;
-  difficulty: string;
-  image: string;
-  description: string;
-  slug: string;
-};
+import { Zone } from '@/types/zone';
 
 type Props = {
   locale: string;
@@ -71,7 +61,7 @@ export default function TouristZonesClient({
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
+                className={`px-6 py-2 text-sm font-medium transition-all ${
                   activeCategory === category
                     ? 'bg-[#0B3B5B] text-white shadow-md'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -91,23 +81,23 @@ export default function TouristZonesClient({
             {filteredZones.map((zone) => (
               <div
                 key={zone.id}
-                className="group bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300"
+                className="group bg-white shadow-md overflow-hidden hover:shadow-xl transition-all duration-300"
               >
                 <div className="relative h-64 overflow-hidden">
                   <Image
-                    src={zone.image}
+                    src={zone.imageUrl}
                     alt={zone.name}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="absolute top-4 right-4 bg-white text-black px-3 py-1 rounded-full text-xs font-medium shadow">
+                  <div className="absolute top-4 right-4 bg-white text-black px-3 py-1 text-xs font-medium shadow">
                     {zone.category}
                   </div>
                   <div
                     className={`absolute top-4 left-4 ${getDifficultyColor(
                       zone.difficulty
-                    )} text-white px-3 py-1 rounded-full text-xs font-medium`}
+                    )} text-white px-3 py-1 text-xs font-medium`}
                   >
                     {zone.difficulty}
                   </div>
@@ -129,7 +119,7 @@ export default function TouristZonesClient({
                   </p>
                   <Link
                     href={`/${locale}/zonas-turisticas/${zone.slug}`}
-                    className="block w-full bg-[#D4A343] hover:bg-[#c89338] text-white text-center py-3 rounded-full transition-colors font-medium"
+                    className="block w-full bg-[#D4A343] hover:bg-[#c89338] text-white text-center py-3 transition-colors font-medium"
                   >
                     {translations.viewDetails}
                   </Link>
@@ -155,7 +145,7 @@ export default function TouristZonesClient({
           >
             {translations.mapTitle}
           </h2>
-          <div className="bg-white rounded-2xl shadow-lg h-96 flex items-center justify-center">
+          <div className="bg-white shadow-lg h-96 flex items-center justify-center">
             <div className="text-center">
               <MapPin className="w-16 h-16 mx-auto mb-4 text-gray-300" />
               <p className="text-gray-500">{translations.mapPlaceholder}</p>

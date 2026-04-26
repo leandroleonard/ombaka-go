@@ -3,7 +3,7 @@ import { MpData } from "@/data/municipalities"
 
 type TranslateFn = (key: string) => string
 
-export function mapDestination(
+export function mapMunicipality(
   data: MpData,
   t: TranslateFn,
 ): Municipality {
@@ -41,5 +41,5 @@ export function mapMunicipalities(
   data: MpData[],
   t: TranslateFn,
 ): Municipality[] {
-  return data.map((d) => mapDestination(d, t))
+  return data.map((d) => mapMunicipality(d, t))
 }

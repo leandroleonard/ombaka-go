@@ -431,63 +431,63 @@
       "hard": "Difícil"
     },
     "zones": {
-      "restingaLobito": {
+      "restinga-do-lobito": {
         "name": "Restinga do Lobito",
         "category": "Praias",
         "location": "Lobito",
         "difficulty": "Fácil",
         "description": "Uma das formações naturais mais impressionantes de Angola."
       },
-      "praiaMorena": {
+      "praia-morena": {
         "name": "Praia Morena",
         "category": "Praias",
         "location": "Lobito",
         "difficulty": "Fácil",
         "description": "Praia de areias douradas perfeita para relaxamento."
       },
-      "serraLeba": {
+      "serra-da-leba": {
         "name": "Serra da Leba",
         "category": "Montanhas",
         "location": "Ganda",
         "difficulty": "Médio",
         "description": "Paisagens montanhosas espetaculares com vistas panorâmicas."
       },
-      "reservaBufalo": {
+      "reserva-natural-do-bufalo": {
         "name": "Reserva Natural do Búfalo",
         "category": "Reservas Naturais",
         "location": "Balombo",
         "difficulty": "Difícil",
         "description": "Área protegida com fauna e flora diversificadas."
       },
-      "forteSaoPedro": {
+      "forte-de-sao-pedro-da-barra": {
         "name": "Forte de São Pedro da Barra",
         "category": "Turismo Histórico",
         "location": "Benguela",
         "difficulty": "Fácil",
         "description": "Fortaleza histórica do período colonial português."
       },
-      "mercadoCentral": {
+      "mercado-central-de-benguela": {
         "name": "Mercado Central de Benguela",
         "category": "Cultural",
         "location": "Benguela",
         "difficulty": "Fácil",
         "description": "Experiência autêntica da cultura local e gastronomia."
       },
-      "baiaAzul": {
+      "baia-azul": {
         "name": "Baía Azul",
         "category": "Praias",
         "location": "Benguela",
         "difficulty": "Fácil",
         "description": "Uma das praias mais bonitas da região."
       },
-      "cascataBiopio": {
+      "cascata-de-biopio": {
         "name": "Cascata de Biópio",
         "category": "Montanhas",
         "location": "Cubal",
         "difficulty": "Médio",
         "description": "Cascata natural em meio à vegetação exuberante."
       },
-      "vilaCultural": {
+      "vila-cultural": {
         "name": "Vila Cultural",
         "category": "Cultural",
         "location": "Catumbela",
