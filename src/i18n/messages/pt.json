@@ -867,5 +867,11 @@
     "partners": "Parceiros",
     "beaches": "Praias",
     "history": "Anos de História"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Página não encontrada",
+    "description": "A página que procura não existe ou foi movida.",
+    "backButton": "Voltar à Página Inicial"
   }
 }

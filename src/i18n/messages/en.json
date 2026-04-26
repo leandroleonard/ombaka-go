@@ -867,5 +867,11 @@
     "partners": "Partners",
     "beaches": "Beaches",
     "history": "Years of history"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page not found",
+    "description": "Sorry, the page you are looking for does not exist or has been moved.",
+    "backButton": "Back to home page"
   }
 }

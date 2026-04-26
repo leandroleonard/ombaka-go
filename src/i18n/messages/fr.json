@@ -866,5 +866,11 @@
     "partners": "Partenaires",
     "beaches": "Plages",
     "history": "Années d'histoire"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page non trouvée",
+    "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+    "backButton": "Retour à la page d'accueil"
   }
 }
