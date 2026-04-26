@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { DestinationCard } from '@/app/components/DestinationCard';
 import { EventCard } from '@/app/components/EventCard';
 import { StatsSection } from '@/app/components/StatsSection';
-import { Leaf, Heart, TrendingUp, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { routing } from '@/i18n/routing';
 
 import { destinations } from "@/data/destinations"
