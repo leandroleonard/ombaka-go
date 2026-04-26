@@ -1,189 +1,157 @@
+'use client';
+
 import Link from 'next/link';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
+import { AfricanPattern } from './AfricanPattern';
 
 export function Footer() {
-  const locale = useLocale();
-  const t = useTranslations('header'); 
+  const currentLocale = useLocale();
+  const t = useTranslations('footer');
+
+  const quickLinks = [
+    { name: t('quickLinks.about'),          path: `/${currentLocale}/sobre` },
+    { name: t('quickLinks.municipios'),     path: `/${currentLocale}/municipios` },
+    { name: t('quickLinks.touristicZones'), path: `/${currentLocale}/zonas-turisticas` },
+    { name: t('quickLinks.events'),         path: `/${currentLocale}/eventos` },
+    { name: t('quickLinks.invest'),         path: `/${currentLocale}/investir` },
+  ];
+
+  const supportLinks = [
+    { name: t('support.guide'),    path: `/${currentLocale}/apoio-turista` },
+    { name: t('support.partners'), path: `/${currentLocale}/parceiros` },
+    { name: t('support.contact'),  path: `/${currentLocale}/contacto` },
+  ];
 
   return (
-    <footer className="bg-[#0B3B5B] text-white pt-16 pb-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-[#0B3B5B] text-white pt-16 pb-8 relative overflow-hidden">
+      {/* Padrão africano de fundo */}
+      <div className="absolute inset-0 opacity-5">
+        <AfricanPattern />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+
           {/* Sobre */}
           <div>
-            <h3 
-              className="text-xl mb-4" 
-              style={{ fontFamily: 'Montserrat, sans-serif' }}
-            >
+            <h3 className="text-xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
               Ombaka Go
             </h3>
-            <p className="text-sm text-white/80 mb-6">
-              Plataforma oficial de promoção turística da Província de Benguela, Angola.
-              Descubra o melhor que Benguela tem para oferecer.
+            <p className="text-sm text-white/80 mb-4">
+              {t('about.description')}
             </p>
             <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/80 hover:text-[#D4A343] transition-colors"
-                aria-label="Facebook"
-              >
+              <a href="#" className="text-white/80 hover:text-[#D4A343] transition-colors duration-300" aria-label="Facebook">
                 {/* <Facebook className="w-5 h-5" /> */}
                 Facebook
               </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/80 hover:text-[#D4A343] transition-colors"
-                aria-label="Instagram"
-              >
+              <a href="#" className="text-white/80 hover:text-[#D4A343] transition-colors duration-300" aria-label="Instagram">
                 {/* <Instagram className="w-5 h-5" /> */}
-                Instagram
+                Insta
               </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/80 hover:text-[#D4A343] transition-colors"
-                aria-label="LinkedIn"
-              >
+              <a href="#" className="text-white/80 hover:text-[#D4A343] transition-colors duration-300" aria-label="LinkedIn">
                 {/* <Linkedin className="w-5 h-5" /> */}
-                LinkedIn
+                Ln
               </a>
             </div>
           </div>
 
-          {/* Municípios Principais */}
+          {/* Links Rápidos */}
           <div>
-            <h4 className="mb-4 font-medium">Municípios Principais</h4>
+            <h4 className="mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              {t('quickLinks.title')}
+            </h4>
             <ul className="space-y-2 text-sm">
+              {quickLinks.map((link) => (
+                <li key={link.path}>
+                  <Link
+                    href={link.path}
+                    className="text-white/80 hover:text-[#D4A343] transition-colors duration-300"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Apoio ao Turista */}
+          <div>
+            <h4 className="mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              {t('support.title')}
+            </h4>
+            <ul className="space-y-2 text-sm">
+              {supportLinks.map((link) => (
+                <li key={link.path}>
+                  <Link
+                    href={link.path}
+                    className="text-white/80 hover:text-[#D4A343] transition-colors duration-300"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
               <li>
-                <Link 
-                  href={`/${locale}/municipios/lobito`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
+                <a
+                  href="tel:112"
+                  className="text-white/80 hover:text-[#D4A343] transition-colors duration-300"
                 >
-                  Lobito
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/municipios/benguela`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  Benguela
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/municipios/baia-farta`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  Baía Farta
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/municipios/ganda`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  Ganda
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/municipios`}
-                  className="text-[#D4A343] hover:underline font-medium"
-                >
-                  Ver todos os municípios
-                </Link>
+                  {t('support.emergency')}
+                </a>
               </li>
             </ul>
           </div>
 
-          {/* Recursos */}
+          {/* Contacto */}
           <div>
-            <h4 className="mb-4 font-medium">Recursos</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link 
-                  href={`/${locale}/faq`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  FAQ
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/guias`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  Guias Turísticos
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/privacidade`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  Política de Privacidade
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href={`/${locale}/termos`}
-                  className="text-white/80 hover:text-[#D4A343] transition-colors"
-                >
-                  Termos de Uso
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contacto + Newsletter */}
-          <div>
-            <h4 className="mb-4 font-medium">Contacto & Newsletter</h4>
-            
-            <div className="space-y-3 text-sm mb-6">
-              <div className="flex items-start space-x-3">
-                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">+244 123 456 789</span>
+            <h4 className="mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              {t('contact.title')}
+            </h4>
+            <div className="space-y-3 text-sm">
+              <div className="flex items-start space-x-2">
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0 text-[#D4A343]" />
+                <span className="text-white/80">{t('contact.phone')}</span>
               </div>
-              <div className="flex items-start space-x-3">
-                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">info@ombakago.ao</span>
+              <div className="flex items-start space-x-2">
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0 text-[#D4A343]" />
+                <a
+                  href={`mailto:${t('contact.email')}`}
+                  className="text-white/80 hover:text-[#D4A343] transition-colors"
+                >
+                  {t('contact.email')}
+                </a>
               </div>
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">Benguela, Angola</span>
+              <div className="flex items-start space-x-2">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-[#D4A343]" />
+                <span className="text-white/80">{t('contact.address')}</span>
               </div>
-            </div>
-
-            {/* Newsletter */}
-            <div>
-              <input
-                type="email"
-                placeholder="Seu e-mail"
-                className="w-full px-4 py-3 rounded-full text-sm bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:border-[#D4A343] focus:bg-white/20"
-              />
-              <button className="mt-3 w-full bg-[#D4A343] text-[#0B3B5B] font-medium px-4 py-3 rounded-full text-sm hover:bg-[#c89338] transition-colors">
-                Receber novidades
-              </button>
             </div>
           </div>
         </div>
 
+        {/* Divisor */}
+        <div className="w-full border-t border-white/10 my-8" />
+
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-white/60">
-            © 2026 Ombaka Go. Todos os direitos reservados.
+        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm">
+          <p className="text-white/60">
+            {t('bottom.copyright')}
           </p>
-          
-          <div className="px-4 py-1.5 bg-[#2E7D64] rounded-full text-xs font-medium flex items-center gap-2">
-            <span>🌱</span>
-            Turismo Sustentável Certificado
+          <div className="flex items-center gap-4">
+            <Link
+              href={`/${currentLocale}/privacidade`}
+              className="text-white/60 hover:text-[#D4A343] transition-colors"
+            >
+              {t('bottom.privacy')}
+            </Link>
+            <span className="text-white/40">•</span>
+            <Link
+              href={`/${currentLocale}/termos`}
+              className="text-white/60 hover:text-[#D4A343] transition-colors"
+            >
+              {t('bottom.terms')}
+            </Link>
           </div>
         </div>
       </div>

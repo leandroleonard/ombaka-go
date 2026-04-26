@@ -7,8 +7,12 @@
       "touristicZones": "Tourist Zones",
       "events": "Events",
       "partners": "Partners",
+      "help-tourist": "Tourist Support",
       "invest": "Invest",
       "contact": "Contact"
+    },
+    "logo": {
+      "description": "Discover Benguela"
     }
   },
   "home": {
@@ -702,6 +706,37 @@
         "question": "Can I visit the office in person?",
         "answer": "Yes! We are located at Rua Comandante Cowboy, Benguela. We recommend scheduling a visit via our email or phone."
       }
+    }
+  },
+  "footer": {
+    "about": {
+      "description": "Official tourist promotion platform for the Province of Benguela, Angola. Discover the best that Benguela has to offer."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "about": "About Benguela",
+      "municipios": "Municipalities",
+      "touristicZones": "Tourist Zones",
+      "events": "Events",
+      "invest": "Invest"
+    },
+    "support": {
+      "title": "Tourist Support",
+      "guide": "Tourist Guide",
+      "partners": "Partners",
+      "contact": "Contact",
+      "emergency": "Emergencies: 112"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+244 272 232 456",
+      "email": "info@ombakago.ao",
+      "address": "Benguela, Angola"
+    },
+    "bottom": {
+      "copyright": "© 2026 Ombaka Go - Provincial Government of Benguela. All rights reserved.",
+      "privacy": "Privacy",
+      "terms": "Terms of Use"
     }
   }
 }

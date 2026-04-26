@@ -8,7 +8,11 @@
       "events": "Eventos",
       "partners": "Parceiros",
       "invest": "Investir",
+      "help-tourist": "Apoio Turista",
       "contact": "Contacto"
+    },
+    "logo": {
+      "description": "Descubra Benguela"
     }
   },
   "home": {
@@ -702,6 +706,37 @@
         "question": "Posso visitar o escritório pessoalmente?",
         "answer": "Sim! Estamos localizados na Rua Comandante Cowboy, Benguela. Recomendamos agendar uma visita através do nosso email ou telefone."
       }
+    }
+  },
+  "footer": {
+    "about": {
+      "description": "Plataforma oficial de promoção turística da Província de Benguela, Angola. Descubra o melhor que Benguela tem para oferecer."
+    },
+    "quickLinks": {
+      "title": "Links Rápidos",
+      "about": "Sobre Benguela",
+      "municipios": "Municípios",
+      "touristicZones": "Zonas Turísticas",
+      "events": "Eventos",
+      "invest": "Investir"
+    },
+    "support": {
+      "title": "Apoio ao Turista",
+      "guide": "Guia do Turista",
+      "partners": "Parceiros",
+      "contact": "Contacto",
+      "emergency": "Emergências: 112"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "+244 272 232 456",
+      "email": "info@ombakago.ao",
+      "address": "Benguela, Angola"
+    },
+    "bottom": {
+      "copyright": "© 2026 Ombaka Go - Governo Provincial de Benguela. Todos os direitos reservados.",
+      "privacy": "Privacidade",
+      "terms": "Termos de Uso"
     }
   }
 }
