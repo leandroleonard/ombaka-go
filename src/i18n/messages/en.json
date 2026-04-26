@@ -198,20 +198,20 @@
     "list": {
       "benguela": {
         "name": "Benguela",
-        "subtitle": "Provincial Capital",
+        "subtitle": "Province Capital",
         "attractions": [
-          "Praia Morena",
-          "Church of Our Lady of Pópulo",
+          "Morena Beach",
+          "Church of Nossa Senhora do Pópulo",
           "São António Market"
         ]
       },
       "lobito": {
         "name": "Lobito",
-        "subtitle": "The Pearl of the Atlantic",
+        "subtitle": "Pearl of the Atlantic",
         "attractions": [
-          "Lobito Sandbar",
+          "Lobito Restinga",
           "Port of Lobito",
-          "Praia Morena"
+          "Morena Beach"
         ]
       },
       "catumbela": {
@@ -254,7 +254,7 @@
         "name": "Balombo",
         "subtitle": "Nature and Tranquility",
         "attractions": [
-          "Rural Serenity",
+          "Rural Peace",
           "Traditional Communities",
           "Ecotourism"
         ]
@@ -284,6 +284,123 @@
           "Traditional Life",
           "Rural Landscapes",
           "Local Hospitality"
+        ]
+      },
+      "babaera": {
+        "name": "Babaera",
+        "subtitle": "Culture and Nature",
+        "attractions": [
+          "Traditional Communities",
+          "Natural Landscapes",
+          "Rural Tourism"
+        ]
+      },
+      "biopio": {
+        "name": "Biópio",
+        "subtitle": "Authentic Rural Life",
+        "attractions": [
+          "Family Farming",
+          "Local Traditions",
+          "Ecotourism"
+        ]
+      },
+      "bolonguera": {
+        "name": "Bolonguera",
+        "subtitle": "Natural Serenity",
+        "attractions": [
+          "Wild Landscapes",
+          "Local Community",
+          "Untouched Nature"
+        ]
+      },
+      "canhamela": {
+        "name": "Canhamela",
+        "subtitle": "Preserved Tradition",
+        "attractions": [
+          "Traditional Festivals",
+          "Handicrafts",
+          "Local Culture"
+        ]
+      },
+      "capupa": {
+        "name": "Capupa",
+        "subtitle": "Rural Essence",
+        "attractions": [
+          "Agricultural Life",
+          "Nature",
+          "Community Tourism"
+        ]
+      },
+      "catengue": {
+        "name": "Catengue",
+        "subtitle": "Natural Beauty",
+        "attractions": [
+          "Green Landscapes",
+          "Community",
+          "Agriculture"
+        ]
+      },
+      "chicuma": {
+        "name": "Chicuma",
+        "subtitle": "New Municipality",
+        "attractions": [
+          "Local Development",
+          "Tourism Potential",
+          "Community"
+        ]
+      },
+      "chila": {
+        "name": "Chila",
+        "subtitle": "New Municipality",
+        "attractions": [
+          "Rural Development",
+          "Agriculture",
+          "Local Culture"
+        ]
+      },
+      "chindumbo": {
+        "name": "Chindumbo",
+        "subtitle": "New Municipality",
+        "attractions": [
+          "New Opportunities",
+          "Emerging Tourism",
+          "Community"
+        ]
+      },
+      "dombe-grande": {
+        "name": "Dombe Grande",
+        "subtitle": "New Municipality",
+        "attractions": [
+          "Urban Center",
+          "Local Commerce",
+          "Development"
+        ]
+      },
+      "egipto-praia": {
+        "name": "Egipto-Praia",
+        "subtitle": "Coastal Paradise",
+        "attractions": [
+          "Beaches",
+          "Artisanal Fishing",
+          "Seaside Tourism"
+        ]
+      },
+      "iambala": {
+        "name": "Iambala",
+        "subtitle": "Inland Charm",
+        "attractions": [
+          "Rural Culture",
+          "Communities",
+          "Nature"
+        ]
+      },
+      "navegantes": {
+        "name": "Navegantes",
+        "subtitle": "Maritime Tradition",
+        "attractions": [
+          "Coastal Zone",
+          "Fishing",
+          "Maritime Culture"
         ]
       }
     }

@@ -198,92 +198,209 @@
     "list": {
       "benguela": {
         "name": "Benguela",
-        "subtitle": "Capitale de la province",
+        "subtitle": "Capitale de la Province",
         "attractions": [
-          "Praia Morena",
+          "Plage Morena",
           "Église Notre-Dame du Pópulo",
-          "Marché São António"
+          "Marché Saint-Antoine"
         ]
       },
       "lobito": {
         "name": "Lobito",
-        "subtitle": "La perle de l'Atlantique",
+        "subtitle": "La Perle de l'Atlantique",
         "attractions": [
-          "Cordon littoral de Lobito",
+          "Restinga de Lobito",
           "Port de Lobito",
-          "Praia Morena"
+          "Plage Morena"
         ]
       },
       "catumbela": {
         "name": "Catumbela",
-        "subtitle": "Porte aérienne de Benguela",
+        "subtitle": "Porte Aérienne de Benguela",
         "attractions": [
-          "Aéroport international",
+          "Aéroport International",
           "Rivière Catumbela",
-          "Plages sauvages"
+          "Plages Sauvages"
         ]
       },
       "baia-farta": {
         "name": "Baía Farta",
-        "subtitle": "Beauté naturelle intacte",
+        "subtitle": "Beauté Naturelle Intacte",
         "attractions": [
-          "Plages vierges",
-          "Pêche artisanale",
+          "Plages Vierges",
+          "Pêche Artisanale",
           "Désert de Baía Farta"
         ]
       },
       "cubal": {
         "name": "Cubal",
-        "subtitle": "Tradition et agriculture",
+        "subtitle": "Tradition et Agriculture",
         "attractions": [
-          "Zone agricole",
-          "Marchés traditionnels",
-          "Culture locale"
+          "Zone Agricole",
+          "Marchés Traditionnels",
+          "Culture Locale"
         ]
       },
       "ganda": {
         "name": "Ganda",
-        "subtitle": "Cœur vert",
+        "subtitle": "Cœur Vert",
         "attractions": [
-          "Paysages naturels",
-          "Vie rurale",
-          "Artisanat local"
+          "Paysages Naturels",
+          "Vie Rurale",
+          "Artisanat Local"
         ]
       },
       "balombo": {
         "name": "Balombo",
-        "subtitle": "Nature et tranquillité",
+        "subtitle": "Nature et Tranquillité",
         "attractions": [
-          "Sérénité rurale",
-          "Communautés traditionnelles",
+          "Paix Rurale",
+          "Communautés Traditionnelles",
           "Écotourisme"
         ]
       },
       "chongoroi": {
         "name": "Chongorói",
-        "subtitle": "Patrimoine culturel",
+        "subtitle": "Patrimoine Culturel",
         "attractions": [
-          "Histoire locale",
-          "Fêtes traditionnelles",
-          "Culture ancestrale"
+          "Histoire Locale",
+          "Fêtes Traditionnelles",
+          "Culture Ancestrale"
         ]
       },
       "bocoio": {
         "name": "Bocoio",
-        "subtitle": "Terre de traditions",
+        "subtitle": "Terre de Traditions",
         "attractions": [
-          "Communauté locale",
+          "Communauté Locale",
           "Agriculture",
-          "Tourisme communautaire"
+          "Tourisme Communautaire"
         ]
       },
       "caimbambo": {
         "name": "Caimbambo",
-        "subtitle": "Authenticité africaine",
+        "subtitle": "Authenticité Africaine",
         "attractions": [
-          "Vie traditionnelle",
-          "Paysages ruraux",
-          "Hospitalité locale"
+          "Vie Traditionnelle",
+          "Paysages Ruraux",
+          "Hospitalité Locale"
+        ]
+      },
+      "babaera": {
+        "name": "Babaera",
+        "subtitle": "Culture et Nature",
+        "attractions": [
+          "Communautés Traditionnelles",
+          "Paysages Naturels",
+          "Tourisme Rural"
+        ]
+      },
+      "biopio": {
+        "name": "Biópio",
+        "subtitle": "Vie Rurale Authentique",
+        "attractions": [
+          "Agriculture Familiale",
+          "Traditions Locales",
+          "Écotourisme"
+        ]
+      },
+      "bolonguera": {
+        "name": "Bolonguera",
+        "subtitle": "Sérénité Naturelle",
+        "attractions": [
+          "Paysages Sauvages",
+          "Communauté Locale",
+          "Nature Intouchée"
+        ]
+      },
+      "canhamela": {
+        "name": "Canhamela",
+        "subtitle": "Tradition Préservée",
+        "attractions": [
+          "Fêtes Traditionnelles",
+          "Artisanat",
+          "Culture Locale"
+        ]
+      },
+      "capupa": {
+        "name": "Capupa",
+        "subtitle": "Essence Rurale",
+        "attractions": [
+          "Vie Agricole",
+          "Nature",
+          "Tourisme Communautaire"
+        ]
+      },
+      "catengue": {
+        "name": "Catengue",
+        "subtitle": "Beauté Naturelle",
+        "attractions": [
+          "Paysages Verts",
+          "Communauté",
+          "Agriculture"
+        ]
+      },
+      "chicuma": {
+        "name": "Chicuma",
+        "subtitle": "Nouvelle Municipalité",
+        "attractions": [
+          "Développement Local",
+          "Potentiel Touristique",
+          "Communauté"
+        ]
+      },
+      "chila": {
+        "name": "Chila",
+        "subtitle": "Nouvelle Municipalité",
+        "attractions": [
+          "Développement Rural",
+          "Agriculture",
+          "Culture Locale"
+        ]
+      },
+      "chindumbo": {
+        "name": "Chindumbo",
+        "subtitle": "Nouvelle Municipalité",
+        "attractions": [
+          "Nouvelles Opportunités",
+          "Tourisme Émergent",
+          "Communauté"
+        ]
+      },
+      "dombe-grande": {
+        "name": "Dombe Grande",
+        "subtitle": "Nouvelle Municipalité",
+        "attractions": [
+          "Centre Urbain",
+          "Commerce Local",
+          "Développement"
+        ]
+      },
+      "egipto-praia": {
+        "name": "Egipto-Praia",
+        "subtitle": "Paradis Côtier",
+        "attractions": [
+          "Plages",
+          "Pêche Artisanale",
+          "Tourisme Balnéaire"
+        ]
+      },
+      "iambala": {
+        "name": "Iambala",
+        "subtitle": "Charme de l'Intérieur",
+        "attractions": [
+          "Culture Rurale",
+          "Communautés",
+          "Nature"
+        ]
+      },
+      "navegantes": {
+        "name": "Navegantes",
+        "subtitle": "Tradition Maritime",
+        "attractions": [
+          "Zone Côtière",
+          "Pêche",
+          "Culture Maritime"
         ]
       }
     }
