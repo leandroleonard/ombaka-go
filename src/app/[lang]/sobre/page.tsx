@@ -101,7 +101,12 @@ export default async function About({ params }: Props) {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-gradient-to-br from-[#0B3B5B] to-[#2E7D64] p-8 text-white">
+            <div
+              className="p-8 text-white"
+              style={{
+                background: 'linear-gradient(to bottom right, #0B3B5B, #2E7D64)'
+              }}
+            >
               <Target className="w-12 h-12 text-[#D4A343] mb-4" />
               <h2 className="text-3xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {t('mission.title')}
@@ -110,8 +115,12 @@ export default async function About({ params }: Props) {
                 {t('mission.description')}
               </p>
             </div>
-
-            <div className="bg-gradient-to-br from-[#2E7D64] to-[#D4A343] p-8 text-white">
+            <div
+              className="p-8 text-white"
+              style={{
+                background: 'linear-gradient(to bottom right, #2E7D64, #D4A343)'
+              }}
+            >
               <Eye className="w-12 h-12 text-white mb-4" />
               <h2 className="text-3xl mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {t('vision.title')}
@@ -163,7 +172,12 @@ export default async function About({ params }: Props) {
       </section>
 
       {/* Timeline */}
-      <section className="py-16 bg-gradient-to-br from-[#0B3B5B] to-[#2E7D64]">
+      <section
+        className="py-16"
+        style={{
+          background: 'linear-gradient(to bottom right, #0B3B5B, #2E7D64)'
+        }}
+      >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl mb-12 text-center text-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
             {t('journey.title')}
@@ -241,6 +255,6 @@ export default async function About({ params }: Props) {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 }
