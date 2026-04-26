@@ -18,9 +18,10 @@
   "home": {
     "hero": {
       "title": "Ombaka Go",
-      "subtitle": "Descubra Benguela – O Coração do Corredor do Lobito",
+      "subtitle": "O coração turístico do Corredor do Lobito. História, cultura, praias paradisíacas e oportunidades de investimento.",
       "btn-destinations": "Explorar Destinos",
-      "btn-investiment": "Investir em Benguela"
+      "btn-investiment": "Oportunidades de Investimento",
+      "location": "Província de Benguela, Angola"
     },
     "destinations": {
       "title": "Destaques de Destinos",
@@ -410,7 +411,8 @@
       }
     },
     "card": {
-      "saberMais": "Saber mais"
+      "saberMais": "Saber mais",
+      "exploreButton": "Explorar"
     },
     "emptyState": "Nenhum evento encontrado com os filtros selecionados.",
     "list": {
@@ -738,5 +740,15 @@
       "privacy": "Privacidade",
       "terms": "Termos de Uso"
     }
+  },
+  "cards": {
+    "saberMais": "Saber mais",
+    "exploreButton": "Explorar"
+  },
+  "stats": {
+    "municipalities": "Municípios",
+    "partners": "Parceiros",
+    "beaches": "Praias",
+    "history": "Anos de História"
   }
 }

@@ -11,14 +11,17 @@
       "invest": "Investir",
       "contact": "Contact"
     },
-    "logo": {"description": "Assistance touristique"}
+    "logo": {
+      "description": "Assistance touristique"
+    }
   },
   "home": {
     "hero": {
       "title": "Ombaka Go",
-      "subtitle": "Découvrez Benguela – Le cœur du corridor de Lobito",
+      "subtitle": "Le cœur touristique du corridor de Lobito. Histoire, culture, plages paradisiaques et opportunités d'investissement.",
       "btn-destinations": "Explorer les destinations",
-      "btn-investiment": "Investir à Benguela"
+      "btn-investiment": "Opportunités d'investissement",
+      "location": "Province de Benguela, Angola"
     },
     "destinations": {
       "title": "Destinations phares",
@@ -707,34 +710,44 @@
     }
   },
   "footer": {
-  "about": {
-    "description": "Plateforme officielle de promotion touristique de la province de Benguela, Angola. Découvrez le meilleur de ce que Benguela a à offrir."
+    "about": {
+      "description": "Plateforme officielle de promotion touristique de la province de Benguela, Angola. Découvrez le meilleur de ce que Benguela a à offrir."
+    },
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "about": "À propos de Benguela",
+      "municipios": "Municipalités",
+      "touristicZones": "Zones Touristiques",
+      "events": "Événements",
+      "invest": "Investir"
+    },
+    "support": {
+      "title": "Aide aux Touristes",
+      "guide": "Guide du Touriste",
+      "partners": "Partenaires",
+      "contact": "Contact",
+      "emergency": "Urgences : 112"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+244 272 232 456",
+      "email": "info@ombakago.ao",
+      "address": "Benguela, Angola"
+    },
+    "bottom": {
+      "copyright": "© 2026 Ombaka Go - Gouvernement Provincial de Benguela. Tous droits réservés.",
+      "privacy": "Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
   },
-  "quickLinks": {
-    "title": "Liens Rapides",
-    "about": "À propos de Benguela",
-    "municipios": "Municipalités",
-    "touristicZones": "Zones Touristiques",
-    "events": "Événements",
-    "invest": "Investir"
+  "cards": {
+    "saberMais": "En savoir plus",
+    "exploreButton": "Explorer"
   },
-  "support": {
-    "title": "Aide aux Touristes",
-    "guide": "Guide du Touriste",
+  "stats": {
+    "municipalities": "Municipalités",
     "partners": "Partenaires",
-    "contact": "Contact",
-    "emergency": "Urgences : 112"
-  },
-  "contact": {
-    "title": "Contact",
-    "phone": "+244 272 232 456",
-    "email": "info@ombakago.ao",
-    "address": "Benguela, Angola"
-  },
-  "bottom": {
-    "copyright": "© 2026 Ombaka Go - Gouvernement Provincial de Benguela. Tous droits réservés.",
-    "privacy": "Confidentialité",
-    "terms": "Conditions d'Utilisation"
+    "beaches": "Plages",
+    "history": "Années d'histoire"
   }
-}
 }

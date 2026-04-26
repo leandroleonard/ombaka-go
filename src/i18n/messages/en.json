@@ -18,9 +18,10 @@
   "home": {
     "hero": {
       "title": "Ombaka Go",
-      "subtitle": "Discover Benguela – The Heart of the Lobito Corridor",
+      "subtitle": "The tourist heart of the Lobito Corridor. History, culture, paradisiacal beaches and investment opportunities.",
       "btn-destinations": "Explore Destinations",
-      "btn-investiment": "Invest in Benguela"
+      "btn-investiment": "Investment Opportunities",
+      "location": "Benguela Province, Angola"
     },
     "destinations": {
       "title": "Featured Destinations",
@@ -410,7 +411,8 @@
       }
     },
     "card": {
-      "saberMais": "Learn more"
+      "saberMais": "Learn more",
+      "exploreButton": "Explore"
     },
     "emptyState": "No events found with the selected filters.",
     "list": {
@@ -738,5 +740,15 @@
       "privacy": "Privacy",
       "terms": "Terms of Use"
     }
+  },
+  "cards": {
+    "saberMais": "Learn more",
+    "exploreButton": "Explore"
+  },
+  "stats": {
+    "municipalities": "Municipalities",
+    "partners": "Partners",
+    "beaches": "Beaches",
+    "history": "Years of history"
   }
 }

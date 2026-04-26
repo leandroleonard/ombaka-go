@@ -1,27 +1,28 @@
-import { Calendar, MapPin, Tag } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
-
-
+import { Calendar, MapPin} from 'lucide-react';
 interface EventCardProps {
   name: string;
   date: string;
   location: string;
   category: string;
   imageUrl: string;
-  link: string;
+  link?: string;
 }
 
 export function EventCard({ name, date, location, category, imageUrl, link }: EventCardProps) {
   return (
-    <Link href={link} className="group block">
-      <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <Link href={link || "#"} className="group block">
+      <div className="bg-white shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
         <div className="relative h-48 overflow-hidden">
-          <img
+          <Image
             src={imageUrl}
             alt={name}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-110"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-          <div className="absolute top-4 right-4 bg-[#D4A343] text-white px-3 py-1 rounded-full text-xs">
+          <div className="absolute top-4 right-4 bg-[#D4A343] text-white px-3 py-1 text-xs font-medium z-10">
             {category}
           </div>
         </div>
@@ -32,7 +33,7 @@ export function EventCard({ name, date, location, category, imageUrl, link }: Ev
             <span>{date}</span>
           </div>
           
-          <h3 className="text-xl mb-2 group-hover:text-[#0B3B5B] transition-colors text-gray-600" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h3 className="text-xl mb-2 group-hover:text-[#0B3B5B] transition-colors text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
             {name}
           </h3>
           
