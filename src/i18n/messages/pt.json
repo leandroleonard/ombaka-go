@@ -919,5 +919,87 @@
     "heading": "Página não encontrada",
     "description": "A página que procura não existe ou foi movida.",
     "backButton": "Voltar à Página Inicial"
+  },
+  "partners": {
+    "breadcrumbHome": "Início",
+    "breadcrumbPartners": "Parceiros",
+    "heroTitle": "Nossos Parceiros",
+    "heroSubtitle": "Empresas certificadas que oferecem os melhores serviços turísticos em Benguela",
+    "searchPlaceholder": "Pesquisar parceiros...",
+    "allMunicipios": "Todos os Municípios",
+    "partnersFound": "parceiros encontrados",
+    "partnerFound": "parceiro encontrado",
+    "noPartnersFound": "Nenhum parceiro encontrado com os filtros selecionados.",
+    "viewDetails": "Ver Detalhes",
+    "contact": "Contactar",
+    "becomePartnerTitle": "Torne-se um Parceiro",
+    "becomePartnerSubtitle": "Faça parte da rede de parceiros Ombaka Go e alcance milhares de visitantes em Benguela.",
+    "applyNow": "Candidatar-se",
+    "learnMore": "Saber Mais",
+    "benefitsTitle": "Benefícios de Ser Parceiro",
+    "categories": {
+      "all": "Todos",
+      "accommodation": "Alojamento",
+      "gastronomy": "Gastronomia",
+      "operators": "Operadores Turísticos",
+      "transport": "Transporte",
+      "culture": "Cultura e Entretenimento"
+    },
+    "partners": {
+      "hotelTerminus": {
+        "name": "Hotel Terminus",
+        "description": "Hotel 5 estrelas com vista para o mar, piscina, spa e restaurante internacional.",
+        "address": "Avenida da Independência, Lobito"
+      },
+      "marisqueira": {
+        "name": "Restaurante Marisqueira",
+        "description": "Especializado em marisco fresco e peixe grelhado, com terraço vista mar.",
+        "address": "Restinga do Lobito"
+      },
+      "benguelaTours": {
+        "name": "Benguela Tours",
+        "description": "Operador turístico certificado com roteiros personalizados pela província.",
+        "address": "Rua Comandante Cowboy, Benguela"
+      },
+      "praiaMorena": {
+        "name": "Hotel Praia Morena",
+        "description": "Hotel boutique à beira-mar com quartos confortáveis e serviço personalizado.",
+        "address": "Praia Morena, Benguela"
+      },
+      "saborAngola": {
+        "name": "Restaurante Sabor de Angola",
+        "description": "Culinária angolana autêntica com pratos tradicionais e ambiente acolhedor.",
+        "address": "Centro Histórico, Benguela"
+      },
+      "catumbelaAdventures": {
+        "name": "Catumbela Adventures",
+        "description": "Especializado em ecoturismo e atividades de aventura no Rio Catumbela.",
+        "address": "Catumbela Centro"
+      },
+      "baiaFartaLodge": {
+        "name": "Baía Farta Lodge",
+        "description": "Lodge eco-friendly com acesso direto às praias virgens e deserto.",
+        "address": "Praia da Caota, Baía Farta"
+      },
+      "lobitoRentCar": {
+        "name": "Lobito Rent-a-Car",
+        "description": "Aluguer de veículos 4x4 e carros de turismo com ou sem motorista.",
+        "address": "Aeroporto de Catumbela e Lobito Centro"
+      }
+    },
+    "benefits": {
+      "visibility": {
+        "title": "Visibilidade Online",
+        "description": "Destaque seu negócio na principal plataforma turística de Benguela."
+      },
+      "certification": {
+        "title": "Certificação de Qualidade",
+        "description": "Selo de parceiro oficial Ombaka Go garante confiança aos visitantes."
+      },
+      "reach": {
+        "title": "Maior Alcance",
+        "description": "Conecte-se com turistas nacionais e internacionais interessados em Benguela."
+      }
+    }
   }
 }
