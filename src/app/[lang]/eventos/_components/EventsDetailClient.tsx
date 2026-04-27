@@ -17,7 +17,7 @@ interface Evento {
     descricao: string;
     descricaoCompleta: string;
     imagem: string;
-    programa: string[];
+    programa: string[][];
     informacoes: string[];
 }
 
