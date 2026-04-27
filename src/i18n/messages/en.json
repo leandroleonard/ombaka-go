@@ -1098,5 +1098,137 @@
         "address": "Calombotão Neighborhood"
       }
     }
+  },
+  "events-label": {
+    "backToEvents": "Back to events",
+    "aboutEvent": "About the Event",
+    "schedule": "Schedule",
+    "importantInfo": "Important Information",
+    "interested": "Interested?",
+    "contactInfo": "Contact us for more information about the event.",
+    "contactButton": "Contact Us",
+    "eventNotFound": "Event not found",
+    "date": "Date",
+    "time": "Time",
+    "location": "Location"
+  },
+  "events-detail": {
+    "festival-cultural": {
+      "name": "Benguela Cultural Festival",
+      "date": "May 15, 2026",
+      "time": "2:00 PM - 10:00 PM",
+      "location": "Benguela Centro",
+      "municipio": "Benguela",
+      "category": "Cultural",
+      "description": "Great celebration of Benguela's culture and traditions with music, dance and art.",
+      "fullDescription": "The Benguela Cultural Festival is an annual event that celebrates the rich cultural heritage of the province. Throughout the day, visitors can enjoy traditional dance performances, live music from local and regional artists, art exhibitions, and cultural workshops. The festival also features a gastronomic fair with typical regional dishes and local handicrafts.",
+      "image": "https://images.unsplash.com/photo-1764670085286-55cd79507a72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwdHJhZGl0aW9uYWwlMjBjdWx0dXJlJTIwZmVzdGl2YWx8ZW58MXx8fHwxNzc2MjQzMDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "program": [
+        {
+          "horario": "2:00 PM",
+          "atividade": "Official festival opening"
+        },
+        {
+          "horario": "3:00 PM",
+          "atividade": "Traditional dance performances"
+        },
+        {
+          "horario": "5:00 PM",
+          "atividade": "Angolan music concert"
+        },
+        {
+          "horario": "7:00 PM",
+          "atividade": "Traditional fashion show"
+        },
+        {
+          "horario": "8:30 PM",
+          "atividade": "Main show with guest artists"
+        }
+      ],
+      "info": [
+        "Free entry",
+        "Parking available",
+        "Food court with typical dishes",
+        "Accessible for people with reduced mobility"
+      ]
+    },
+    "feira-turismo": {
+      "name": "Tourism and Business Fair",
+      "date": "June 22, 2026",
+      "time": "9:00 AM - 6:00 PM",
+      "location": "Convention Center",
+      "municipio": "Lobito",
+      "category": "Business",
+      "description": "Meeting of entrepreneurs, investors and tourism operators.",
+      "fullDescription": "The Tourism and Business Fair is the main event of the tourism sector in Benguela. It brings together entrepreneurs, investors, tour operators and industry professionals for networking, presentation of new projects and business opportunities. The event features expert lectures, tourism destination showcases and business rounds.",
+      "image": "https://images.unsplash.com/photo-1758518727820-28491c194bee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludmVzdG1lbnQlMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXx8fHwxNzc2MjQzMDE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "program": [
+        {
+          "horario": "9:00 AM",
+          "atividade": "Registration and booth opening"
+        },
+        {
+          "horario": "10:00 AM",
+          "atividade": "Lecture: Tourism Trends in 2026"
+        },
+        {
+          "horario": "12:00 PM",
+          "atividade": "Networking and lunch"
+        },
+        {
+          "horario": "2:00 PM",
+          "atividade": "Business rounds"
+        },
+        {
+          "horario": "4:00 PM",
+          "atividade": "Tourism project presentations"
+        }
+      ],
+      "info": [
+        "Mandatory registration",
+        "Aimed at industry professionals",
+        "Promotional material available",
+        "Coffee break included"
+      ]
+    },
+    "festival-gastronomico": {
+      "name": "Gastronomic Festival",
+      "date": "July 10, 2026",
+      "time": "12:00 PM - 10:00 PM",
+      "location": "Morena Beach",
+      "municipio": "Baía Farta",
+      "category": "Festivals",
+      "description": "Celebration of local gastronomy with the best chefs and restaurants.",
+      "fullDescription": "The Gastronomic Festival is a celebration of the flavors of Benguela and Angola. With the participation of the best chefs and restaurants in the region, the event offers a unique culinary experience by the sea. Visitors can taste traditional and contemporary dishes, participate in cooking workshops and watch live demonstrations.",
+      "image": "https://images.unsplash.com/photo-1609792790758-0994786ad983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwY3Vpc2luZSUyMGZvb2QlMjByZXN0YXVyYW50fGVufDF8fHx8MTc3NjI0MzAxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "program": [
+        {
+          "horario": "12:00 PM",
+          "atividade": "Opening of gastronomic booths"
+        },
+        {
+          "horario": "2:00 PM",
+          "atividade": "Workshop: Traditional Angolan dishes"
+        },
+        {
+          "horario": "4:00 PM",
+          "atividade": "Chefs competition"
+        },
+        {
+          "horario": "6:00 PM",
+          "atividade": "Wine and local beverage tasting"
+        },
+        {
+          "horario": "8:00 PM",
+          "atividade": "Special beachside dinner"
+        }
+      ],
+      "info": [
+        "Entry: 2,000 Kz",
+        "Tasting vouchers for sale",
+        "Children's area available",
+        "Live music throughout the event"
+      ]
+    }
   }
 }
