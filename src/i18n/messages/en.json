@@ -65,71 +65,71 @@
     }
   },
   "eventsData": {
-      "festival-cultural": {
-        "name": "Benguela Cultural Festival",
-        "date": "May 15, 2026",
-        "location": "Central Benguela",
-        "municipality": "Benguela",
-        "type": "Cultural",
-        "description": "A grand celebration of Benguela's culture and traditions with music, dance, and art."
-      },
-      "feira-turismo": {
-        "name": "Tourism and Business Fair",
-        "date": "June 22, 2026",
-        "location": "Convention Centre",
-        "municipality": "Lobito",
-        "type": "Business",
-        "description": "A gathering of entrepreneurs, investors, and tourism operators."
-      },
-      "festival-gastronomico": {
-        "name": "Gastronomic Festival",
-        "date": "July 10, 2026",
-        "location": "Praia Morena",
-        "municipality": "Baía Farta",
-        "type": "Festivals",
-        "description": "A celebration of local gastronomy featuring the best chefs and restaurants."
-      },
-      "carnaval-do-lobito": {
-        "name": "Lobito Carnival",
-        "date": "August 02, 2026",
-        "location": "Main Avenue",
-        "municipality": "Lobito",
-        "type": "Festivals",
-        "description": "Benguela's biggest carnival with colourful parades and vibrant music."
-      },
-      "feira-de-artesanato": {
-        "name": "Handicraft Fair",
-        "date": "August 20, 2026",
-        "location": "Central Market",
-        "municipality": "Benguela",
-        "type": "Cultural",
-        "description": "Exhibition and sale of local handicrafts made by artists from the region."
-      },
-      "maratona-da-restinga": {
-        "name": "Restinga Marathon",
-        "date": "September 05, 2026",
-        "location": "Lobito Sandbar",
-        "municipality": "Lobito",
-        "type": "Sports",
-        "description": "Marathon race along the famous Lobito Sandbar."
-      },
-      "festival-de-musica": {
-        "name": "Music Festival",
-        "date": "September 15, 2026",
-        "location": "Culture Square",
-        "municipality": "Catumbela",
-        "type": "Festivals",
-        "description": "Top names in Angolan and international music."
-      },
-      "conferencia-de-sustentabilidade": {
-        "name": "Sustainability Conference",
-        "date": "September 30, 2026",
-        "location": "Hotel Terminus",
-        "municipality": "Lobito",
-        "type": "Business",
-        "description": "Discussion on sustainable tourism and environmental preservation."
-      }
+    "festival-cultural": {
+      "name": "Benguela Cultural Festival",
+      "date": "May 15, 2026",
+      "location": "Central Benguela",
+      "municipality": "Benguela",
+      "type": "Cultural",
+      "description": "A grand celebration of Benguela's culture and traditions with music, dance, and art."
     },
+    "feira-turismo": {
+      "name": "Tourism and Business Fair",
+      "date": "June 22, 2026",
+      "location": "Convention Centre",
+      "municipality": "Lobito",
+      "type": "Business",
+      "description": "A gathering of entrepreneurs, investors, and tourism operators."
+    },
+    "festival-gastronomico": {
+      "name": "Gastronomic Festival",
+      "date": "July 10, 2026",
+      "location": "Praia Morena",
+      "municipality": "Baía Farta",
+      "type": "Festivals",
+      "description": "A celebration of local gastronomy featuring the best chefs and restaurants."
+    },
+    "carnaval-do-lobito": {
+      "name": "Lobito Carnival",
+      "date": "August 02, 2026",
+      "location": "Main Avenue",
+      "municipality": "Lobito",
+      "type": "Festivals",
+      "description": "Benguela's biggest carnival with colourful parades and vibrant music."
+    },
+    "feira-de-artesanato": {
+      "name": "Handicraft Fair",
+      "date": "August 20, 2026",
+      "location": "Central Market",
+      "municipality": "Benguela",
+      "type": "Cultural",
+      "description": "Exhibition and sale of local handicrafts made by artists from the region."
+    },
+    "maratona-da-restinga": {
+      "name": "Restinga Marathon",
+      "date": "September 05, 2026",
+      "location": "Lobito Sandbar",
+      "municipality": "Lobito",
+      "type": "Sports",
+      "description": "Marathon race along the famous Lobito Sandbar."
+    },
+    "festival-de-musica": {
+      "name": "Music Festival",
+      "date": "September 15, 2026",
+      "location": "Culture Square",
+      "municipality": "Catumbela",
+      "type": "Festivals",
+      "description": "Top names in Angolan and international music."
+    },
+    "conferencia-de-sustentabilidade": {
+      "name": "Sustainability Conference",
+      "date": "September 30, 2026",
+      "location": "Hotel Terminus",
+      "municipality": "Lobito",
+      "type": "Business",
+      "description": "Discussion on sustainable tourism and environmental preservation."
+    }
+  },
   "pillars": {
     "sustainable": {
       "title": "Sustainable Tourism",
@@ -919,5 +919,87 @@
     "heading": "Page not found",
     "description": "Sorry, the page you are looking for does not exist or has been moved.",
     "backButton": "Back to home page"
+  },
+  "partners": {
+    "breadcrumbHome": "Home",
+    "breadcrumbPartners": "Partners",
+    "heroTitle": "Our Partners",
+    "heroSubtitle": "Certified companies offering the best tourism services in Benguela",
+    "searchPlaceholder": "Search partners...",
+    "allMunicipios": "All Municipalities",
+    "partnersFound": "partners found",
+    "partnerFound": "partner found",
+    "noPartnersFound": "No partners found with the selected filters.",
+    "viewDetails": "View Details",
+    "contact": "Contact",
+    "becomePartnerTitle": "Become a Partner",
+    "becomePartnerSubtitle": "Join the Ombaka Go partner network and reach thousands of visitors in Benguela.",
+    "applyNow": "Apply Now",
+    "learnMore": "Learn More",
+    "benefitsTitle": "Benefits of Being a Partner",
+    "categories": {
+      "all": "All",
+      "accommodation": "Accommodation",
+      "gastronomy": "Gastronomy",
+      "operators": "Tour Operators",
+      "transport": "Transport",
+      "culture": "Culture & Entertainment"
+    },
+    "partners": {
+      "hotelTerminus": {
+        "name": "Hotel Terminus",
+        "description": "5-star hotel with sea view, swimming pool, spa and international restaurant.",
+        "address": "Avenida da Independência, Lobito"
+      },
+      "marisqueira": {
+        "name": "Marisqueira Restaurant",
+        "description": "Specialized in fresh seafood and grilled fish, with a sea view terrace.",
+        "address": "Restinga do Lobito"
+      },
+      "benguelaTours": {
+        "name": "Benguela Tours",
+        "description": "Certified tour operator with customized itineraries across the province.",
+        "address": "Rua Comandante Cowboy, Benguela"
+      },
+      "praiaMorena": {
+        "name": "Praia Morena Hotel",
+        "description": "Beachfront boutique hotel with comfortable rooms and personalized service.",
+        "address": "Praia Morena, Benguela"
+      },
+      "saborAngola": {
+        "name": "Sabor de Angola Restaurant",
+        "description": "Authentic Angolan cuisine with traditional dishes and a welcoming atmosphere.",
+        "address": "Historic Center, Benguela"
+      },
+      "catumbelaAdventures": {
+        "name": "Catumbela Adventures",
+        "description": "Specialized in ecotourism and adventure activities on the Catumbela River.",
+        "address": "Catumbela Center"
+      },
+      "baiaFartaLodge": {
+        "name": "Baía Farta Lodge",
+        "description": "Eco-friendly lodge with direct access to virgin beaches and desert.",
+        "address": "Praia da Caota, Baía Farta"
+      },
+      "lobitoRentCar": {
+        "name": "Lobito Rent-a-Car",
+        "description": "4x4 vehicle and tourist car rental with or without driver.",
+        "address": "Catumbela Airport and Lobito Center"
+      }
+    },
+    "benefits": {
+      "visibility": {
+        "title": "Online Visibility",
+        "description": "Showcase your business on the main tourism platform in Benguela."
+      },
+      "certification": {
+        "title": "Quality Certification",
+        "description": "Official Ombaka Go partner seal guarantees trust to visitors."
+      },
+      "reach": {
+        "title": "Greater Reach",
+        "description": "Connect with domestic and international tourists interested in Benguela."
+      }
+    }
   }
 }
