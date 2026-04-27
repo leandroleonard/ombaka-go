@@ -1098,5 +1098,137 @@
         "address": "Bairro Calombotão"
       }
     }
+  },
+  "events-label": {
+    "backToEvents": "Voltar para eventos",
+    "aboutEvent": "Sobre o Evento",
+    "schedule": "Programa",
+    "importantInfo": "Informações Importantes",
+    "interested": "Interessado?",
+    "contactInfo": "Entre em contato para mais informações sobre o evento.",
+    "contactButton": "Entrar em Contato",
+    "eventNotFound": "Evento não encontrado",
+    "date": "Data",
+    "time": "Horário",
+    "location": "Local"
+  },
+  "events-detail": {
+    "festival-cultural": {
+      "name": "Festival Cultural de Benguela",
+      "date": "15 de Maio, 2026",
+      "time": "14:00 - 22:00",
+      "location": "Benguela Centro",
+      "municipio": "Benguela",
+      "category": "Culturais",
+      "description": "Grande celebração da cultura e tradições de Benguela com música, dança e arte.",
+      "fullDescription": "O Festival Cultural de Benguela é um evento anual que celebra a rica herança cultural da província. Durante todo o dia, os visitantes podem desfrutar de apresentações de dança tradicional, música ao vivo de artistas locais e regionais, exposições de arte, e workshops culturais. O festival também conta com uma feira gastronômica com pratos típicos da região e artesanato local.",
+      "image": "https://images.unsplash.com/photo-1764670085286-55cd79507a72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwdHJhZGl0aW9uYWwlMjBjdWx0dXJlJTIwZmVzdGl2YWx8ZW58MXx8fHwxNzc2MjQzMDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "program": [
+        {
+          "horario": "14:00",
+          "atividade": "Abertura oficial do festival"
+        },
+        {
+          "horario": "15:00",
+          "atividade": "Apresentações de dança tradicional"
+        },
+        {
+          "horario": "17:00",
+          "atividade": "Concerto de música angolana"
+        },
+        {
+          "horario": "19:00",
+          "atividade": "Desfile de moda tradicional"
+        },
+        {
+          "horario": "20:30",
+          "atividade": "Show principal com artistas convidados"
+        }
+      ],
+      "info": [
+        "Entrada gratuita",
+        "Estacionamento disponível",
+        "Área de alimentação com pratos típicos",
+        "Acessível para pessoas com mobilidade reduzida"
+      ]
+    },
+    "feira-turismo": {
+      "name": "Feira de Turismo e Negócios",
+      "date": "22 de Junho, 2026",
+      "time": "09:00 - 18:00",
+      "location": "Centro de Convenções",
+      "municipio": "Lobito",
+      "category": "Empresariais",
+      "description": "Encontro de empresários, investidores e operadores turísticos.",
+      "fullDescription": "A Feira de Turismo e Negócios é o principal evento do setor turístico em Benguela. Reúne empresários, investidores, operadores turísticos e profissionais do setor para networking, apresentação de novos projetos e oportunidades de negócio. O evento conta com palestras de especialistas, showcases de destinos turísticos e rodadas de negócios.",
+      "image": "https://images.unsplash.com/photo-1758518727820-28491c194bee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludmVzdG1lbnQlMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXx8fHwxNzc2MjQzMDE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "program": [
+        {
+          "horario": "09:00",
+          "atividade": "Credenciamento e abertura dos estandes"
+        },
+        {
+          "horario": "10:00",
+          "atividade": "Palestra: Tendências do Turismo em 2026"
+        },
+        {
+          "horario": "12:00",
+          "atividade": "Networking e almoço"
+        },
+        {
+          "horario": "14:00",
+          "atividade": "Rodadas de negócios"
+        },
+        {
+          "horario": "16:00",
+          "atividade": "Apresentação de projetos turísticos"
+        }
+      ],
+      "info": [
+        "Inscrição obrigatória",
+        "Direcionado a profissionais do setor",
+        "Material promocional disponível",
+        "Coffee break incluído"
+      ]
+    },
+    "festival-gastronomico": {
+      "name": "Festival Gastronômico",
+      "date": "10 de Julho, 2026",
+      "time": "12:00 - 22:00",
+      "location": "Praia Morena",
+      "municipio": "Baía Farta",
+      "category": "Festas",
+      "description": "Celebração da gastronomia local com os melhores chefs e restaurantes.",
+      "fullDescription": "O Festival Gastronômico é uma celebração dos sabores de Benguela e Angola. Com a participação dos melhores chefs e restaurantes da região, o evento oferece uma experiência culinária única à beira-mar. Os visitantes podem degustar pratos tradicionais e contemporâneos, participar de workshops de culinária e assistir a demonstrações ao vivo.",
+      "image": "https://images.unsplash.com/photo-1609792790758-0994786ad983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwY3Vpc2luZSUyMGZvb2QlMjByZXN0YXVyYW50fGVufDF8fHx8MTc3NjI0MzAxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "program": [
+        {
+          "horario": "12:00",
+          "atividade": "Abertura dos estandes gastronômicos"
+        },
+        {
+          "horario": "14:00",
+          "atividade": "Workshop: Pratos tradicionais angolanos"
+        },
+        {
+          "horario": "16:00",
+          "atividade": "Competição de chefs"
+        },
+        {
+          "horario": "18:00",
+          "atividade": "Degustação de vinhos e bebidas locais"
+        },
+        {
+          "horario": "20:00",
+          "atividade": "Jantar especial à beira-mar"
+        }
+      ],
+      "info": [
+        "Entrada: 2.000 Kz",
+        "Vouchers para degustação à venda",
+        "Zona infantil disponível",
+        "Música ao vivo durante todo o evento"
+      ]
+    }
   }
 }
