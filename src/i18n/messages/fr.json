@@ -1000,5 +1000,102 @@
         "description": "Connectez-vous avec les touristes nationaux et internationaux intéressés par Benguela."
       }
     }
+  },
+  "help-tourist": {
+    "heroTitle": "Support Touristique",
+    "heroSubtitle": "Tout ce que vous devez savoir pour une expérience sûre et agréable à Benguela",
+    "emergencyTitle": "Contacts d'Urgence",
+    "emergencySubtitle": "Ayez ces numéros toujours à portée de main",
+    "quickGuideTitle": "Guide Rapide du Touriste",
+    "quickGuideSubtitle": "Informations essentielles pour votre voyage",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faqSubtitle": "Réponses aux questions les plus courantes",
+    "usefulPlacesTitle": "Lieux Utiles",
+    "usefulPlacesSubtitle": "Adresses importantes à Benguela",
+    "helpTitle": "Besoin d'Aide Supplémentaire ?",
+    "helpSubtitle": "Notre équipe de support touristique est prête à vous aider",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "hours": "Service : Lundi à Vendredi, 08h00 - 18h00",
+    "emergency": {
+      "medical": {
+        "name": "Urgence Médicale",
+        "description": "Service d'urgence médicale 24h/24"
+      },
+      "police": {
+        "name": "Police Nationale",
+        "description": "Sécurité et assistance policière"
+      },
+      "firefighters": {
+        "name": "Pompiers",
+        "description": "Services d'incendie et de secours"
+      },
+      "hospital": {
+        "name": "Hôpital Provincial de Benguela",
+        "description": "Principal hôpital de la province"
+      }
+    },
+    "guide": {
+      "currency": {
+        "title": "Monnaie",
+        "description": "Kwanza (AOA)",
+        "details": "1 USD ≈ 825 AOA (approximativement)"
+      },
+      "climate": {
+        "title": "Climat",
+        "description": "Tropical Sec",
+        "details": "Saison sèche : Mai à Octobre | Saison des pluies : Novembre à Avril"
+      },
+      "transport": {
+        "title": "Transports",
+        "description": "Taxis, Candongueiros, Moto-taxis",
+        "details": "Aéroport de Benguela - 15km du centre-ville"
+      },
+      "language": {
+        "title": "Langue",
+        "description": "Portugais",
+        "details": "Autres langues locales : Umbundu, Kimbundu"
+      }
+    },
+    "faqs": {
+      "visa": {
+        "question": "Ai-je besoin d'un visa pour visiter Benguela ?",
+        "answer": "Oui, la plupart des visiteurs internationaux ont besoin d'un visa pour entrer en Angola. Il est recommandé d'obtenir le visa avant le voyage auprès de l'ambassade ou du consulat d'Angola dans votre pays. Il existe également des options de visa à l'arrivée à l'aéroport pour certains pays."
+      },
+      "bestTime": {
+        "question": "Quelle est la meilleure période pour visiter Benguela ?",
+        "answer": "La meilleure période est pendant la saison sèche, de mai à octobre, lorsque les températures sont plus douces et qu'il pleut moins. Cette période est idéale pour les activités de plein air et les visites de plages. La température moyenne varie entre 20°C et 28°C."
+      },
+      "safety": {
+        "question": "Est-il sûr de voyager à Benguela ?",
+        "answer": "Benguela est considérée comme une province relativement sûre en Angola. Comme pour toute destination touristique, il est important de prendre des précautions de base : éviter d'exposer des objets de valeur, rester vigilant dans les zones très fréquentées et ne pas transporter de grosses sommes d'argent. La nuit, préférez les zones bien éclairées."
+      },
+      "currencyExchange": {
+        "question": "Où puis-je échanger de l'argent ?",
+        "answer": "Vous pouvez échanger de l'argent dans les banques, les bureaux de change autorisés et certains hôtels. Les principales banques sont situées dans le centre de Benguela et Lobito. Des guichets automatiques sont disponibles dans les grandes villes, mais il est recommandé d'apporter de l'argent liquide pour les zones plus reculées."
+      },
+      "vaccines": {
+        "question": "Quels vaccins sont nécessaires ?",
+        "answer": "Le vaccin contre la fièvre jaune est obligatoire pour entrer en Angola. Il est également recommandé d'être à jour avec les vaccins contre l'hépatite A et B, le tétanos, la typhoïde, et selon la région que vous prévoyez de visiter, une prophylaxie contre le paludisme peut être conseillée. Consultez un médecin avant de voyager."
+      },
+      "transportation": {
+        "question": "Comment me déplacer entre les municipalités ?",
+        "answer": "Plusieurs options sont disponibles : taxis pour les trajets en ville, candongueiros (transports publics collectifs) pour les distances courtes à moyennes, et bus interurbains pour les distances plus longues. Pour plus de confort et de flexibilité, envisagez de louer une voiture avec chauffeur."
+      }
+    },
+    "places": {
+      "provincialGovernment": {
+        "name": "Gouvernement Provincial de Benguela",
+        "address": "Rua Direita de Benguela, Centro"
+      },
+      "airport": {
+        "name": "Aéroport de Benguela",
+        "address": "Catumbela"
+      },
+      "busStation": {
+        "name": "Gare Routière de Benguela",
+        "address": "Quartier Calombotão"
+      }
+    }
   }
 }

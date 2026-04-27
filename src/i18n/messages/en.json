@@ -1001,5 +1001,102 @@
         "description": "Connect with domestic and international tourists interested in Benguela."
       }
     }
+  },
+  "help-tourist": {
+    "heroTitle": "Tourist Support",
+    "heroSubtitle": "Everything you need to know for a safe and enjoyable experience in Benguela",
+    "emergencyTitle": "Emergency Contacts",
+    "emergencySubtitle": "Keep these numbers handy",
+    "quickGuideTitle": "Quick Tourist Guide",
+    "quickGuideSubtitle": "Essential information for your trip",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Answers to the most common questions",
+    "usefulPlacesTitle": "Useful Places",
+    "usefulPlacesSubtitle": "Important addresses in Benguela",
+    "helpTitle": "Need Additional Help?",
+    "helpSubtitle": "Our tourist support team is ready to assist you",
+    "email": "Email",
+    "phone": "Phone",
+    "hours": "Service: Monday to Friday, 8:00 AM - 6:00 PM",
+    "emergency": {
+      "medical": {
+        "name": "Medical Emergency",
+        "description": "24-hour emergency medical service"
+      },
+      "police": {
+        "name": "National Police",
+        "description": "Security and police assistance"
+      },
+      "firefighters": {
+        "name": "Fire Department",
+        "description": "Fire and rescue services"
+      },
+      "hospital": {
+        "name": "Benguela Provincial Hospital",
+        "description": "Main hospital of the province"
+      }
+    },
+    "guide": {
+      "currency": {
+        "title": "Currency",
+        "description": "Kwanza (AOA)",
+        "details": "1 USD ≈ 825 AOA (approximately)"
+      },
+      "climate": {
+        "title": "Climate",
+        "description": "Dry Tropical",
+        "details": "Dry season: May to October | Rainy season: November to April"
+      },
+      "transport": {
+        "title": "Transportation",
+        "description": "Taxis, Candongueiros, Motorcycle taxis",
+        "details": "Benguela Airport - 15km from city center"
+      },
+      "language": {
+        "title": "Language",
+        "description": "Portuguese",
+        "details": "Other local languages: Umbundu, Kimbundu"
+      }
+    },
+    "faqs": {
+      "visa": {
+        "question": "Do I need a visa to visit Benguela?",
+        "answer": "Yes, most international visitors need a visa to enter Angola. It is recommended to obtain the visa before traveling through the Angolan embassy or consulate in your country. There are also visa-on-arrival options at the airport for some countries."
+      },
+      "bestTime": {
+        "question": "What is the best time to visit Benguela?",
+        "answer": "The best time is during the dry season, from May to October, when temperatures are milder and there is less rain. This period is ideal for outdoor activities and beach visits. The average temperature ranges from 20°C to 28°C."
+      },
+      "safety": {
+        "question": "Is it safe to travel to Benguela?",
+        "answer": "Benguela is considered a relatively safe province in Angola. As with any tourist destination, it's important to take basic precautions: avoid displaying valuables, stay alert in busy areas, and don't carry large amounts of cash. At night, prefer well-lit areas."
+      },
+      "currencyExchange": {
+        "question": "Where can I exchange money?",
+        "answer": "You can exchange money at banks, authorized exchange offices, and some hotels. The main banks are located in downtown Benguela and Lobito. ATMs are available in major cities, but it's recommended to carry cash for more remote areas."
+      },
+      "vaccines": {
+        "question": "What vaccines are required?",
+        "answer": "Yellow fever vaccine is mandatory for entry into Angola. It is also recommended to be up-to-date with hepatitis A and B, tetanus, typhoid fever vaccines, and depending on the region you plan to visit, malaria prophylaxis may be advisable. Consult a doctor before traveling."
+      },
+      "transportation": {
+        "question": "How do I get around between municipalities?",
+        "answer": "Several options are available: taxis for city trips, candongueiros (collective public transport) for short to medium distances, and intercity buses for longer distances. For more comfort and flexibility, consider renting a car with a driver."
+      }
+    },
+    "places": {
+      "provincialGovernment": {
+        "name": "Benguela Provincial Government",
+        "address": "Rua Direita de Benguela, Centro"
+      },
+      "airport": {
+        "name": "Benguela Airport",
+        "address": "Catumbela"
+      },
+      "busStation": {
+        "name": "Benguela Bus Terminal",
+        "address": "Calombotão Neighborhood"
+      }
+    }
   }
 }

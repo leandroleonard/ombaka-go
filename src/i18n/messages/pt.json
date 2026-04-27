@@ -1001,5 +1001,102 @@
         "description": "Conecte-se com turistas nacionais e internacionais interessados em Benguela."
       }
     }
+  },
+  "help-tourist": {
+    "heroTitle": "Apoio ao Turista",
+    "heroSubtitle": "Tudo o que você precisa saber para ter uma experiência segura e agradável em Benguela",
+    "emergencyTitle": "Contactos de Emergência",
+    "emergencySubtitle": "Tenha estes números sempre à mão",
+    "quickGuideTitle": "Guia Rápido do Turista",
+    "quickGuideSubtitle": "Informações essenciais para sua viagem",
+    "faqTitle": "Perguntas Frequentes",
+    "faqSubtitle": "Respostas para as dúvidas mais comuns",
+    "usefulPlacesTitle": "Locais Úteis",
+    "usefulPlacesSubtitle": "Endereços importantes em Benguela",
+    "helpTitle": "Precisa de Ajuda Adicional?",
+    "helpSubtitle": "Nossa equipe de apoio ao turista está pronta para ajudar",
+    "email": "Email",
+    "phone": "Telefone",
+    "hours": "Atendimento: Segunda a Sexta, 08h00 - 18h00",
+    "emergency": {
+      "medical": {
+        "name": "Emergência Médica",
+        "description": "Serviço de emergência médica 24h"
+      },
+      "police": {
+        "name": "Polícia Nacional",
+        "description": "Segurança e assistência policial"
+      },
+      "firefighters": {
+        "name": "Bombeiros",
+        "description": "Corpo de bombeiros e salvamento"
+      },
+      "hospital": {
+        "name": "Hospital Provincial de Benguela",
+        "description": "Principal hospital da província"
+      }
+    },
+    "guide": {
+      "currency": {
+        "title": "Moeda",
+        "description": "Kwanza (AOA)",
+        "details": "1 USD ≈ 825 AOA (aproximadamente)"
+      },
+      "climate": {
+        "title": "Clima",
+        "description": "Tropical Seco",
+        "details": "Época seca: Maio a Outubro | Época chuvosa: Novembro a Abril"
+      },
+      "transport": {
+        "title": "Transportes",
+        "description": "Táxis, Candongueiros, Moto-táxis",
+        "details": "Aeroporto de Benguela - 15km do centro"
+      },
+      "language": {
+        "title": "Idioma",
+        "description": "Português",
+        "details": "Outras línguas locais: Umbundu, Kimbundu"
+      }
+    },
+    "faqs": {
+      "visa": {
+        "question": "Preciso de visto para visitar Benguela?",
+        "answer": "Sim, a maioria dos visitantes internacionais precisa de visto para entrar em Angola. É recomendável obter o visto antes da viagem através da embaixada ou consulado de Angola no seu país. Existem também opções de visto à chegada no aeroporto para alguns países."
+      },
+      "bestTime": {
+        "question": "Qual é a melhor época para visitar Benguela?",
+        "answer": "A melhor época é durante a estação seca, de Maio a Outubro, quando as temperaturas são mais amenas e há menos chuva. Este período é ideal para atividades ao ar livre e visitas às praias. A temperatura média varia entre 20°C e 28°C."
+      },
+      "safety": {
+        "question": "É seguro viajar para Benguela?",
+        "answer": "Benguela é considerada uma província relativamente segura em Angola. Como em qualquer destino turístico, é importante tomar precauções básicas: evitar exibir objetos de valor, estar atento em áreas movimentadas e não circular com grandes quantias de dinheiro. À noite, prefira áreas bem iluminadas."
+      },
+      "currencyExchange": {
+        "question": "Onde posso trocar dinheiro?",
+        "answer": "Você pode trocar dinheiro em bancos, casas de câmbio autorizadas e alguns hotéis. Os principais bancos estão localizados no centro de Benguela e Lobito. Caixas eletrônicos (ATMs) estão disponíveis nas principais cidades, mas é recomendável levar dinheiro em espécie para áreas mais remotas."
+      },
+      "vaccines": {
+        "question": "Que vacinas são necessárias?",
+        "answer": "A vacina contra febre amarela é obrigatória para entrar em Angola. É recomendável também estar em dia com vacinas contra hepatite A e B, tétano, febre tifoide e, dependendo da região a visitar, pode ser aconselhável profilaxia contra malária. Consulte um médico antes de viajar."
+      },
+      "transportation": {
+        "question": "Como me desloco entre os municípios?",
+        "answer": "Existem várias opções: táxis para trajetos dentro da cidade, candongueiros (transportes públicos coletivos) para distâncias curtas a médias, e autocarros intermunicipais para distâncias maiores. Para mais conforto e flexibilidade, considere alugar um carro com motorista."
+      }
+    },
+    "places": {
+      "provincialGovernment": {
+        "name": "Governo Provincial de Benguela",
+        "address": "Rua Direita de Benguela, Centro"
+      },
+      "airport": {
+        "name": "Aeroporto de Benguela",
+        "address": "Catumbela"
+      },
+      "busStation": {
+        "name": "Terminal Rodoviário de Benguela",
+        "address": "Bairro Calombotão"
+      }
+    }
   }
 }

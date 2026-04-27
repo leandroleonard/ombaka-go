@@ -20,7 +20,7 @@ export function StatsSection({ stats }: StatsSectionProps) {
             const Icon = stat.icon;
             return (
               <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 border-2 border-white/20 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <Icon className="w-8 h-8 text-white" />
                 </div>
                 <div className="text-4xl mb-2 text-white" style={{ fontFamily: 'Montserrat, sans-serif' }}>
