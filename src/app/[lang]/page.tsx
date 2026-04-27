@@ -32,7 +32,7 @@ export default async function HomePage({ params }: Props) {
   const tEvents = await getTranslations({ locale, namespace: 'eventsData' });
   const tPillars = await getTranslations({ locale, namespace: 'pillars' });
   const tStats = await getTranslations({ locale, namespace: 'stats' });
-  const tCards = await getTranslations({ locale, namespace: 'cards' }); 
+  const tCards = await getTranslations({ locale, namespace: 'cards' });
 
   const mappedDestinations = mapDestinations(destinations, tDest, locale);
   const mappedEvents = mapEvents(events, tEvents, locale);
@@ -63,7 +63,7 @@ export default async function HomePage({ params }: Props) {
             </span>
             <div className="h-px w-12 bg-[#D4A343]"></div>
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl mb-6 leading-tight" style={{ fontFamily: 'Montserrat, sans-serif' }}>
             {t('hero.title')}
           </h1>
@@ -100,7 +100,7 @@ export default async function HomePage({ params }: Props) {
         <div className="absolute inset-0 text-[#0B3B5B] opacity-20 pointer-events-none">
           <AfricanPattern />
         </div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl mb-4" style={{ fontFamily: 'Montserrat, sans-serif', color: '#000' }}>
@@ -137,7 +137,7 @@ export default async function HomePage({ params }: Props) {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-            {mappedEvents.map((event, index) => (
+            {mappedEvents.slice(0, 3).map((event, index) => (
               <EventCard key={index} {...event} />
             ))}
           </div>
@@ -169,7 +169,7 @@ export default async function HomePage({ params }: Props) {
             {pillars.map((pillar, index) => {
               const Icon = pillar.icon;
               return (
-                <div key={index} className="bg-white p-8 shadow-md hover:shadow-xl transition-shadow border-l-4 border-[#D4A343]">
+                <div key={index} className="bg-white p-8 hover:shadow-xl transition-shadow border-l-4 border-[#D4A343]">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0B3B5B] mb-6">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
@@ -185,12 +185,12 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* Partners Section */}
-      <section className="py-16 bg-[#F5F5F5] relative overflow-hidden">
+      <section className="py-16 bg-white relative overflow-hidden">
         {/* Padrão africano de fundo */}
         <div className="absolute inset-0 text-[#0B3B5B] opacity-10 pointer-events-none">
           <AfricanPattern />
         </div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-2xl text-center mb-8" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
             {t('partners.title')}
@@ -216,7 +216,7 @@ export default async function HomePage({ params }: Props) {
           />
           <div className="absolute inset-0 bg-[#0B3B5B]/80" />
         </div>
-        
+
         {/* Padrão africano sobreposto */}
         <div className="absolute inset-0 text-white opacity-10 pointer-events-none">
           <AfricanPattern />

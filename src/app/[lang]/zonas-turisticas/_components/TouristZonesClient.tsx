@@ -63,7 +63,7 @@ export default function TouristZonesClient({
                 onClick={() => setActiveCategory(category)}
                 className={`px-6 py-2 text-sm font-medium transition-all ${
                   activeCategory === category
-                    ? 'bg-[#0B3B5B] text-white shadow-md'
+                    ? 'bg-[#0B3B5B] text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -81,7 +81,7 @@ export default function TouristZonesClient({
             {filteredZones.map((zone) => (
               <div
                 key={zone.id}
-                className="group bg-white shadow-md overflow-hidden hover:shadow-xl transition-all duration-300"
+                className="group bg-white border overflow-hidden hover:shadow-xl transition-all duration-300"
               >
                 <div className="relative h-64 overflow-hidden">
                   <Image
@@ -91,7 +91,7 @@ export default function TouristZonesClient({
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="absolute top-4 right-4 bg-white text-black px-3 py-1 text-xs font-medium shadow">
+                  <div className="absolute top-4 right-4 bg-white text-black px-3 py-1 text-xs font-medium">
                     {zone.category}
                   </div>
                   <div
@@ -137,7 +137,7 @@ export default function TouristZonesClient({
       </section>
 
       {/* Map Section */}
-      <section className="py-12 bg-[#F5F5F5]">
+      <section className="py-12 bg-[#fff]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl mb-8 text-center"
@@ -145,7 +145,7 @@ export default function TouristZonesClient({
           >
             {translations.mapTitle}
           </h2>
-          <div className="bg-white shadow-lg h-96 flex items-center justify-center">
+          <div className="bg-white h-96 flex items-center justify-center">
             <div className="text-center">
               <MapPin className="w-16 h-16 mx-auto mb-4 text-gray-300" />
               <p className="text-gray-500">{translations.mapPlaceholder}</p>

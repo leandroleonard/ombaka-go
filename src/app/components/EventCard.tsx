@@ -1,19 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Calendar, MapPin} from 'lucide-react';
-interface EventCardProps {
-  name: string;
-  date: string;
-  location: string;
-  category: string;
-  imageUrl: string;
-  link?: string;
-}
+import { Event } from '@/types/event';
 
-export function EventCard({ name, date, location, category, imageUrl, link }: EventCardProps) {
+export function EventCard({ name, date, location, type, imageUrl, link }: Event) {
   return (
     <Link href={link || "#"} className="group block">
-      <div className="bg-white shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+      <div className="bg-white overflow-hidden hover:shadow-xl transition-shadow duration-300">
         <div className="relative h-48 overflow-hidden">
           <Image
             src={imageUrl}
@@ -23,7 +16,7 @@ export function EventCard({ name, date, location, category, imageUrl, link }: Ev
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           <div className="absolute top-4 right-4 bg-[#D4A343] text-white px-3 py-1 text-xs font-medium z-10">
-            {category}
+            {type}
           </div>
         </div>
         

@@ -47,9 +47,9 @@ export default async function MunicipiosPage({ params }: Props) {
             </section>
 
             {/* Map Section */}
-            <section className="py-12 bg-[#F5F5F5]">
+            <section className="py-12 bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="bg-white shadow-lg p-8">
+                    <div className="bg-white p-8">
                         <h2 className="text-3xl mb-6" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
                             {t('map.title')}
                         </h2>
@@ -72,7 +72,7 @@ export default async function MunicipiosPage({ params }: Props) {
                             <Link
                                 key={mp.slug}
                                 href={`/${locale}/municipios/${mp.slug}`}
-                                className="group bg-white shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300"
+                                className="group bg-white overflow-hidden hover:shadow-xl transition-all duration-300"
                             >
                                 <div className="relative h-56 overflow-hidden">
                                     <Image

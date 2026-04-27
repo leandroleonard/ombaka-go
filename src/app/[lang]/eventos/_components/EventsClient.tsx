@@ -73,13 +73,13 @@ export default function EventsClient({ events, municipalities, eventTypes, label
             </section>
 
             {/* Main Content */}
-            <section className="py-12 bg-[#F5F5F5]">
+            <section className="py-12 bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
 
                         {/* Filters Sidebar */}
                         <div className="lg:col-span-1">
-                            <div className="bg-white p-6 shadow-md sticky top-32">
+                            <div className="bg-white p-6 border sticky top-32">
                                 <h3 className="text-xl mb-6 text-gray-900" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {labels.filtersTitle}
                                 </h3>
@@ -140,7 +140,7 @@ export default function EventsClient({ events, municipalities, eventTypes, label
                             {filteredEvents.map((event, index) => (
                                 <div
                                     key={index}
-                                    className="bg-white shadow-md overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
+                                    className="bg-white border overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
                                 >
                                     <div className="md:flex">
                                         <div className="relative md:w-1/3 h-56 md:h-auto">

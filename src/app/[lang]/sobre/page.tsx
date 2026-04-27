@@ -134,7 +134,7 @@ export default async function About({ params }: Props) {
       </section>
 
       {/* About Description */}
-      <section className="py-16 bg-[#F5F5F5]">
+      <section className="py-16 bg-[#ffffff]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl mb-8 text-center" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
             {t('about.title')}
@@ -158,7 +158,7 @@ export default async function About({ params }: Props) {
             {values.map((value, index) => {
               const Icon = value.icon;
               return (
-                <div key={index} className="bg-white p-6 shadow-lg border border-gray-100 text-center">
+                <div key={index} className="bg-white p-6 border border-gray-100 text-center">
                   <Icon className="w-12 h-12 text-[#0B3B5B] mx-auto mb-4" />
                   <h3 className="text-xl mb-3" style={{ fontFamily: 'Poppins, sans-serif', color: '#000' }}>
                     {value.title}
@@ -209,7 +209,7 @@ export default async function About({ params }: Props) {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member, index) => (
-              <div key={index} className="bg-white shadow-lg overflow-hidden">
+              <div key={index} className="bg-white overflow-hidden">
                 <div className="relative h-64">
                   <Image
                     src={member.image}
