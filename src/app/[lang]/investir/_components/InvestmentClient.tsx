@@ -134,8 +134,8 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                             { icon: <TrendingUp className="w-8 h-8 text-white" />, title: labels.whyGrowthTitle, desc: labels.whyGrowthDesc },
                             { icon: <DollarSign className="w-8 h-8 text-white" />, title: labels.whyFiscalTitle, desc: labels.whyFiscalDesc },
                         ].map((item, i) => (
-                            <div key={i} className="text-center p-8 bg-[#F5F5F5] rounded-2xl">
-                                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0B3B5B] rounded-full mb-6">
+                            <div key={i} className="text-center p-8 bg-[#F5F5F5] ">
+                                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0B3B5B]  mb-6">
                                     {item.icon}
                                 </div>
                                 <h3 className="text-xl mb-4 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -149,7 +149,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             </section>
 
             {/* Priority Projects */}
-            <section className="py-20 bg-[#F5F5F5]">
+            <section className="py-20 bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl text-black mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
@@ -160,7 +160,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {projects.map((project, index) => (
-                            <div key={index} className="bg-white p-8 rounded-2xl shadow-md">
+                            <div key={index} className="bg-white border p-8">
                                 <div className="flex items-start justify-between mb-4">
                                     <div>
                                         <h3 className="text-2xl mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -171,7 +171,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                             <span>{project.location}</span>
                                         </div>
                                     </div>
-                                    <span className="bg-[#2E7D64] text-white px-3 py-1 rounded-full text-xs whitespace-nowrap ml-2">
+                                    <span className="bg-[#2E7D64] text-white px-3 py-1  text-xs whitespace-nowrap ml-2">
                                         {project.sector}
                                     </span>
                                 </div>
@@ -181,9 +181,9 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                         <span className="text-gray-600">{labels.progressLabel}</span>
                                         <span className="text-[#0B3B5B]">{project.progress}%</span>
                                     </div>
-                                    <div className="w-full bg-gray-200 rounded-full h-2">
+                                    <div className="w-full bg-gray-200  h-2">
                                         <div
-                                            className="bg-[#D4A343] h-2 rounded-full transition-all"
+                                            className="bg-[#D4A343] h-2  transition-all"
                                             style={{ width: `${project.progress}%` }}
                                         />
                                     </div>
@@ -194,7 +194,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                         <p className="text-sm text-gray-600">{labels.investmentLabel}</p>
                                         <p className="text-lg text-[#0B3B5B]">{project.investment}</p>
                                     </div>
-                                    <button className="bg-[#0B3B5B] text-white px-6 py-2 rounded-full hover:bg-[#094158] transition-colors">
+                                    <button className="bg-[#0B3B5B] text-white px-6 py-2  hover:bg-[#094158] transition-colors">
                                         {labels.detailsButton}
                                     </button>
                                 </div>
@@ -218,7 +218,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                         {incentives.map((incentive, index) => (
                             <div
                                 key={index}
-                                className="p-6 border border-gray-200 rounded-2xl hover:border-[#D4A343] transition-colors"
+                                className="p-6 border border-gray-200  hover:border-[#D4A343] transition-colors"
                             >
                                 <CheckCircle className="w-8 h-8 text-[#2E7D64] mb-4" />
                                 <h4 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -232,7 +232,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
             </section>
 
             {/* Economic Zones */}
-            <section className="py-20 bg-[#F5F5F5]">
+            <section className="py-20 bg-[#FFF]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl text-black mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
@@ -243,7 +243,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                         {zones.map((zone, index) => (
-                            <div key={index} className="bg-white p-8 rounded-2xl shadow-md">
+                            <div key={index} className="bg-white border p-8 ">
                                 <Building className="w-12 h-12 text-[#0B3B5B] mb-4" />
                                 <h3 className="text-2xl mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {zone.name}
@@ -254,7 +254,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                         ))}
                     </div>
 
-                    <div className="bg-white rounded-2xl shadow-lg h-96 flex items-center justify-center">
+                    <div className="bg-white  h-96 flex items-center justify-center">
                         <div className="text-center">
                             <MapPin className="w-16 h-16 mx-auto mb-4 text-gray-300" />
                             <p className="text-gray-500">{labels.zonesMapPlaceholder}</p>
@@ -283,7 +283,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                     value={formData.name}
                                     onChange={handleChange}
                                     placeholder={labels.formNamePlaceholder}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-[#D4A343]"
+                                    className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-[#D4A343]"
                                 />
                             </div>
                             <div>
@@ -294,7 +294,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                     value={formData.email}
                                     onChange={handleChange}
                                     placeholder={labels.formEmailPlaceholder}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-[#D4A343]"
+                                    className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:border-[#D4A343]"
                                 />
                             </div>
                         </div>
@@ -308,7 +308,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                     value={formData.company}
                                     onChange={handleChange}
                                     placeholder={labels.formCompanyPlaceholder}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-[#D4A343]"
+                                    className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:border-[#D4A343]"
                                 />
                             </div>
                             <div>
@@ -319,7 +319,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                     value={formData.phone}
                                     onChange={handleChange}
                                     placeholder={labels.formPhonePlaceholder}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-[#D4A343]"
+                                    className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:border-[#D4A343]"
                                 />
                             </div>
                         </div>
@@ -330,7 +330,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                 name="sector"
                                 value={formData.sector}
                                 onChange={handleChange}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-[#D4A343]"
+                                className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:border-[#D4A343]"
                             >
                                 {labels.formSectorOptions.map((option, i) => (
                                     <option key={i}>{option}</option>
@@ -346,14 +346,14 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                                 value={formData.message}
                                 onChange={handleChange}
                                 placeholder={labels.formMessagePlaceholder}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-[#D4A343]"
+                                className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:border-[#D4A343]"
                             />
                         </div>
 
                         <div className="text-center">
                             <button
                                 type="submit"
-                                className="bg-[#D4A343] text-white px-12 py-4 rounded-full hover:bg-[#c89338] transition-colors text-lg"
+                                className="bg-[#D4A343] text-white px-12 py-4  hover:bg-[#c89338] transition-colors text-lg"
                             >
                                 {labels.formSubmit}
                             </button>

@@ -126,13 +126,13 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
             </section>
 
             {/* Contact Info Cards */}
-            <section className="py-16 bg-[#F5F5F5]">
+            <section className="py-16 bg-[#FFF]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {contactInfo.map((info, index) => {
                             const Icon = iconMap[info.type];
                             return (
-                                <div key={index} className="bg-white p-6 rounded-2xl shadow-lg text-center">
+                                <div key={index} className="bg-white border p-6 text-center">
                                     <Icon className="w-10 h-10 text-[#0B3B5B] mx-auto mb-4" />
                                     <h3 className="text-lg mb-3 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                         {info.title}
@@ -153,7 +153,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
                         {/* Contact Form */}
-                        <div className="bg-white p-8 rounded-2xl shadow-lg">
+                        <div className="bg-white p-8">
                             <h2 className="text-3xl mb-6 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                 {labels.formTitle}
                             </h2>
@@ -170,7 +170,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                                         onChange={handleChange}
                                         required
                                         placeholder={labels.formNamePlaceholder}
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B3B5B]"
+                                        className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0B3B5B]"
                                     />
                                 </div>
 
@@ -186,7 +186,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                                         onChange={handleChange}
                                         required
                                         placeholder={labels.formEmailPlaceholder}
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B3B5B]"
+                                        className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0B3B5B]"
                                     />
                                 </div>
 
@@ -200,7 +200,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                                         value={formData.subject}
                                         onChange={handleChange}
                                         required
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B3B5B]"
+                                        className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0B3B5B]"
                                     >
                                         <option value="">{labels.formSubjectDefault}</option>
                                         {labels.formSubjectOptions.map((opt) => (
@@ -223,13 +223,13 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                                         required
                                         rows={6}
                                         placeholder={labels.formMessagePlaceholder}
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B3B5B] resize-none"
+                                        className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0B3B5B] resize-none"
                                     />
                                 </div>
 
                                 <button
                                     type="submit"
-                                    className="w-full bg-[#0B3B5B] text-white py-4 rounded-full hover:bg-[#2E7D64] transition-colors flex items-center justify-center space-x-2"
+                                    className="w-full bg-[#0B3B5B] text-white py-4 hover:bg-[#2E7D64] transition-colors flex items-center justify-center space-x-2"
                                 >
                                     <span>{labels.formSubmit}</span>
                                     <Send className="w-5 h-5" />
@@ -247,7 +247,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                             </div>
                             <div className="space-y-4">
                                 {departments.map((dept, index) => (
-                                    <div key={index} className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                                    <div key={index} className="bg-white p-6 border border-gray-100">
                                         <h3 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                             {dept.name}
                                         </h3>
@@ -268,13 +268,13 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
             </section>
 
             {/* Map */}
-            <section className="py-16 bg-[#F5F5F5]">
+            <section className="py-16 bg-[#FFF]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="bg-white p-8 rounded-2xl shadow-lg">
+                    <div className="bg-white p-8">
                         <h2 className="text-3xl mb-6 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                             {labels.mapTitle}
                         </h2>
-                        <div className="bg-gray-200 rounded-xl h-96 flex items-center justify-center">
+                        <div className="bg-gray-200 h-96 flex items-center justify-center">
                             <div className="text-center">
                                 <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                                 <p className="text-gray-500">{labels.mapPlaceholder}</p>
@@ -293,7 +293,7 @@ export default function ContactoClient({ contactInfo, departments, faqs, labels 
                     </h2>
                     <div className="space-y-4">
                         {faqs.map((faq, index) => (
-                            <div key={index} className="bg-white p-6 rounded-xl shadow-md">
+                            <div key={index} className="bg-white p-6">
                                 <h3 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {faq.question}
                                 </h3>
