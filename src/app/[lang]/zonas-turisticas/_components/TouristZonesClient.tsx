@@ -64,7 +64,7 @@ export default function TouristZonesClient({
                 className={`px-6 py-2 text-sm font-medium transition-all ${
                   activeCategory === category
                     ? 'bg-[#0B3B5B] text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    : 'bg-white text-gray-700 border border-gray-200 hover:shadow-xl'
                 }`}
               >
                 {category}

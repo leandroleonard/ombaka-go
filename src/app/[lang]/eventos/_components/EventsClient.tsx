@@ -140,7 +140,7 @@ export default function EventsClient({ events, municipalities, eventTypes, label
                             {filteredEvents.map((event, index) => (
                                 <div
                                     key={index}
-                                    className="bg-white border overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
+                                    className="bg-white overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
                                 >
                                     <div className="md:flex">
                                         <div className="relative md:w-1/3 h-56 md:h-auto">

@@ -130,12 +130,12 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[
-                            { icon: <MapPin className="w-8 h-8 text-white" />, title: labels.whyLocationTitle, desc: labels.whyLocationDesc },
-                            { icon: <TrendingUp className="w-8 h-8 text-white" />, title: labels.whyGrowthTitle, desc: labels.whyGrowthDesc },
-                            { icon: <DollarSign className="w-8 h-8 text-white" />, title: labels.whyFiscalTitle, desc: labels.whyFiscalDesc },
+                            { icon: <MapPin className="w-8 h-8 text-[#0B3B5B]" />, title: labels.whyLocationTitle, desc: labels.whyLocationDesc },
+                            { icon: <TrendingUp className="w-8 h-8 text-[#0B3B5B]" />, title: labels.whyGrowthTitle, desc: labels.whyGrowthDesc },
+                            { icon: <DollarSign className="w-8 h-8 text-[#0B3B5B]" />, title: labels.whyFiscalTitle, desc: labels.whyFiscalDesc },
                         ].map((item, i) => (
-                            <div key={i} className="text-center p-8 bg-[#F5F5F5] ">
-                                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0B3B5B]  mb-6">
+                            <div key={i} className="text-center p-8 bg-[#FFF] hover:shadow-xl">
+                                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                                     {item.icon}
                                 </div>
                                 <h3 className="text-xl mb-4 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -160,7 +160,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {projects.map((project, index) => (
-                            <div key={index} className="bg-white border p-8">
+                            <div key={index} className="bg-white hover:shadow-xl p-8">
                                 <div className="flex items-start justify-between mb-4">
                                     <div>
                                         <h3 className="text-2xl mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -218,7 +218,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
                         {incentives.map((incentive, index) => (
                             <div
                                 key={index}
-                                className="p-6 border border-gray-200  hover:border-[#D4A343] transition-colors"
+                                className="p-6 border border-gray-200  hover:shadow-xl transition-colors"
                             >
                                 <CheckCircle className="w-8 h-8 text-[#2E7D64] mb-4" />
                                 <h4 className="text-lg mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
@@ -243,7 +243,7 @@ export default function InvestirClient({ projects, incentives, zones, labels }: 
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                         {zones.map((zone, index) => (
-                            <div key={index} className="bg-white border p-8 ">
+                            <div key={index} className="bg-white border p-8 hover:shadow-xl">
                                 <Building className="w-12 h-12 text-[#0B3B5B] mb-4" />
                                 <h3 className="text-2xl mb-2 text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
                                     {zone.name}

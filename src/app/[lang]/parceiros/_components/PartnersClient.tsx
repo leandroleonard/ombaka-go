@@ -57,16 +57,16 @@ interface Props {
   locale: string;
 }
 
-const IconComponent = ({ name, className }: { name: string; className: string }) => {
+const IconComponent = ({ name, className, color }: { name: string; className: string, color: string }) => {
   switch (name) {
     case 'Globe':
-      return <Globe className={className} />;
+      return <Globe className={className} style={{ color: color }} />;
     case 'Star':
-      return <Star className={className} />;
+      return <Star className={className} style={{ color: color }} />;
     case 'MapPin':
-      return <MapPin className={className} />;
+      return <MapPin className={className} style={{ color: color }} />;
     default:
-      return <Globe className={className} />;
+      return <Globe className={className} style={{ color: color }} />;
   }
 };
 
@@ -243,9 +243,6 @@ export default function PartnersClient({ partners, categories, municipios, benef
                       </div>
 
                       <div className="flex gap-3">
-                        <button className="flex-1 bg-[#0B3B5B] text-white py-2 px-4  hover:bg-[#2E7D64] transition-colors text-sm">
-                          {labels.viewDetails}
-                        </button>
                         <button className="flex-1 border-2 border-[#0B3B5B] text-[#0B3B5B] py-2 px-4  hover:bg-[#0B3B5B] hover:text-white transition-colors text-sm">
                           {labels.contact}
                         </button>
@@ -293,12 +290,11 @@ export default function PartnersClient({ partners, categories, municipios, benef
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
-              <div key={index} className="bg-[#F5F5F5] p-8   text-center hover:shadow-xl transition-shadow">
+              <div key={index} className="bg-[#FFF] p-8   text-center hover:shadow-xl transition-shadow">
                 <div 
                   className="w-16 h-16  flex items-center justify-center mx-auto mb-4"
-                  style={{ backgroundColor: benefit.bgColor }}
                 >
-                  <IconComponent name={benefit.icon} className="w-8 h-8 text-white" />
+                  <IconComponent name={benefit.icon} className="w-8 h-8" color={benefit.bgColor} />
                 </div>
                 <h3 className="text-xl mb-3 text-gray-900" style={{ fontFamily: 'Poppins, sans-serif' }}>
                   {benefit.title}
