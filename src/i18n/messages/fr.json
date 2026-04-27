@@ -69,19 +69,65 @@
       "name": "Festival culturel de Benguela",
       "date": "15 mai 2026",
       "location": "Centre de Benguela",
-      "category": "Culturel"
+      "municipality": "Benguela",
+      "type": "Culturels",
+      "description": "Grande célébration de la culture et des traditions de Benguela avec musique, danse et art."
     },
     "feira-turismo": {
       "name": "Salon du tourisme et des affaires",
       "date": "22 juin 2026",
-      "location": "Lobito",
-      "category": "Professionnel"
+      "location": "Centre de conférences",
+      "municipality": "Lobito",
+      "type": "Professionnels",
+      "description": "Rencontre d'entrepreneurs, d'investisseurs et d'opérateurs touristiques."
     },
     "festival-gastronomico": {
       "name": "Festival gastronomique",
       "date": "10 juillet 2026",
-      "location": "Baía Farta",
-      "category": "Gastronomie"
+      "location": "Praia Morena",
+      "municipality": "Baía Farta",
+      "type": "Fêtes",
+      "description": "Célébration de la gastronomie locale avec les meilleurs chefs et restaurants."
+    },
+    "carnaval-do-lobito": {
+      "name": "Carnaval de Lobito",
+      "date": "02 août 2026",
+      "location": "Avenue principale",
+      "municipality": "Lobito",
+      "type": "Fêtes",
+      "description": "Le plus grand carnaval de Benguela avec des défilés colorés et beaucoup de musique."
+    },
+    "feira-de-artesanato": {
+      "name": "Foire de l'artisanat",
+      "date": "20 août 2026",
+      "location": "Marché central",
+      "municipality": "Benguela",
+      "type": "Culturels",
+      "description": "Exposition et vente d'artisanat local réalisé par des artistes de la région."
+    },
+    "maratona-da-restinga": {
+      "name": "Marathon du cordon littoral",
+      "date": "05 septembre 2026",
+      "location": "Cordon littoral de Lobito",
+      "municipality": "Lobito",
+      "type": "Sportifs",
+      "description": "Course de marathon le long du célèbre cordon littoral de Lobito."
+    },
+    "festival-de-musica": {
+      "name": "Festival de musique",
+      "date": "15 septembre 2026",
+      "location": "Place de la Culture",
+      "municipality": "Catumbela",
+      "type": "Fêtes",
+      "description": "Les grands noms de la musique angolaise et internationale."
+    },
+    "conferencia-de-sustentabilidade": {
+      "name": "Conférence sur la durabilité",
+      "date": "30 septembre 2026",
+      "location": "Hôtel Terminus",
+      "municipality": "Lobito",
+      "type": "Professionnels",
+      "description": "Discussion sur le tourisme durable et la préservation de l'environnement."
     }
   },
   "pillars": {

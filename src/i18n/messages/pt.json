@@ -69,19 +69,65 @@
       "name": "Festival Cultural de Benguela",
       "date": "15 de Maio, 2026",
       "location": "Benguela Centro",
-      "category": "Cultural"
+      "municipality": "Benguela",
+      "type": "Culturais",
+      "description": "Grande celebração da cultura e tradições de Benguela com música, dança e arte."
     },
     "feira-turismo": {
       "name": "Feira de Turismo e Negócios",
       "date": "22 de Junho, 2026",
-      "location": "Lobito",
-      "category": "Empresarial"
+      "location": "Centro de Convenções",
+      "municipality": "Lobito",
+      "type": "Empresarial",
+      "description": "Encontro de empresários, investidores e operadores turísticos."
     },
     "festival-gastronomico": {
       "name": "Festival Gastronômico",
       "date": "10 de Julho, 2026",
-      "location": "Baía Farta",
-      "category": "Gastronomia"
+      "location": "Praia Morena",
+      "municipality": "Baía Farta",
+      "type": "Festas",
+      "description": "Celebração da gastronomia local com os melhores chefs e restaurantes."
+    },
+    "carnaval-do-lobito": {
+      "name": "Carnaval do Lobito",
+      "date": "02 de Agosto, 2026",
+      "location": "Avenida Principal",
+      "municipality": "Lobito",
+      "type": "Festas",
+      "description": "O maior carnaval de Benguela com desfiles coloridos e muita música."
+    },
+    "feira-de-artesanato": {
+      "name": "Feira de Artesanato",
+      "date": "20 de Agosto, 2026",
+      "location": "Mercado Central",
+      "municipality": "Baía Farta",
+      "type": "Culturais",
+      "description": "Exposição e venda de artesanato local feito por artistas da região."
+    },
+    "maratona-da-restinga": {
+      "name": "Maratona da Restinga",
+      "date": "05 de Setembro, 2026",
+      "location": "Restinga do Lobito",
+      "municipality": "Lobito",
+      "type": "Desportivos",
+      "description": "Corrida de maratona ao longo da famosa Restinga do Lobito."
+    },
+    "festival-de-musica": {
+      "name": "Festival de Música",
+      "date": "15 de Setembro, 2026",
+      "location": "Praça da Cultura",
+      "municipality": "Catumbela",
+      "type": "Festas",
+      "description": "Grandes nomes da música angolana e internacional."
+    },
+    "conferencia-de-sustentabilidade": {
+      "name": "Conferência de Sustentabilidade",
+      "date": "30 de Setembro, 2026",
+      "location": "Hotel Terminus",
+      "municipality": "Lobito",
+      "type": "Empresariais",
+      "description": "Discussão sobre turismo sustentável e preservação ambiental."
     }
   },
   "pillars": {

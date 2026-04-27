@@ -12,8 +12,10 @@ export function mapEvent(
     return {
       name: t(`${data.slug}.name`),
       date: t(`${data.slug}.date`),
+      type: t(`${data.slug}.type`),
+      description: t(`${data.slug}.description`),
+      municipality: t(`${data.slug}.municipality`),
       location: t(`${data.slug}.location`),
-      category: t(`${data.slug}.category`),
       imageUrl: data.imageUrl,
       link: `/${locale}/eventos/${data.slug}`,
     }
@@ -23,8 +25,10 @@ export function mapEvent(
     return {
       name: data.slug,
       date: "",
+      type: "",
+      description: "",
+      municipality: "",
       location: "",
-      category: "",
       imageUrl: data.imageUrl,
       link: `/${locale}/eventos/${data.slug}`,
     }

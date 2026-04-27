@@ -65,25 +65,71 @@
     }
   },
   "eventsData": {
-    "festival-cultural": {
-      "name": "Benguela Cultural Festival",
-      "date": "May 15, 2026",
-      "location": "Central Benguela",
-      "category": "Cultural"
+      "festival-cultural": {
+        "name": "Benguela Cultural Festival",
+        "date": "May 15, 2026",
+        "location": "Central Benguela",
+        "municipality": "Benguela",
+        "type": "Cultural",
+        "description": "A grand celebration of Benguela's culture and traditions with music, dance, and art."
+      },
+      "feira-turismo": {
+        "name": "Tourism and Business Fair",
+        "date": "June 22, 2026",
+        "location": "Convention Centre",
+        "municipality": "Lobito",
+        "type": "Business",
+        "description": "A gathering of entrepreneurs, investors, and tourism operators."
+      },
+      "festival-gastronomico": {
+        "name": "Gastronomic Festival",
+        "date": "July 10, 2026",
+        "location": "Praia Morena",
+        "municipality": "Baía Farta",
+        "type": "Festivals",
+        "description": "A celebration of local gastronomy featuring the best chefs and restaurants."
+      },
+      "carnaval-do-lobito": {
+        "name": "Lobito Carnival",
+        "date": "August 02, 2026",
+        "location": "Main Avenue",
+        "municipality": "Lobito",
+        "type": "Festivals",
+        "description": "Benguela's biggest carnival with colourful parades and vibrant music."
+      },
+      "feira-de-artesanato": {
+        "name": "Handicraft Fair",
+        "date": "August 20, 2026",
+        "location": "Central Market",
+        "municipality": "Benguela",
+        "type": "Cultural",
+        "description": "Exhibition and sale of local handicrafts made by artists from the region."
+      },
+      "maratona-da-restinga": {
+        "name": "Restinga Marathon",
+        "date": "September 05, 2026",
+        "location": "Lobito Sandbar",
+        "municipality": "Lobito",
+        "type": "Sports",
+        "description": "Marathon race along the famous Lobito Sandbar."
+      },
+      "festival-de-musica": {
+        "name": "Music Festival",
+        "date": "September 15, 2026",
+        "location": "Culture Square",
+        "municipality": "Catumbela",
+        "type": "Festivals",
+        "description": "Top names in Angolan and international music."
+      },
+      "conferencia-de-sustentabilidade": {
+        "name": "Sustainability Conference",
+        "date": "September 30, 2026",
+        "location": "Hotel Terminus",
+        "municipality": "Lobito",
+        "type": "Business",
+        "description": "Discussion on sustainable tourism and environmental preservation."
+      }
     },
-    "feira-turismo": {
-      "name": "Tourism and Business Fair",
-      "date": "June 22, 2026",
-      "location": "Lobito",
-      "category": "Business"
-    },
-    "festival-gastronomico": {
-      "name": "Gastronomic Festival",
-      "date": "July 10, 2026",
-      "location": "Baía Farta",
-      "category": "Gastronomy"
-    }
-  },
   "pillars": {
     "sustainable": {
       "title": "Sustainable Tourism",
