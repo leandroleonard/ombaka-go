@@ -99,6 +99,7 @@ export default async function MunicipioPage({ params }: Props) {
         slug,
         name: t(`list.${slug}.name`),
         subtitle: t(`list.${slug}.subtitle`),
+        festivityLabel: t(`list.${slug}.festivity_label`),
         history: t(`list.${slug}.history`),
         culture: t(`list.${slug}.culture`),
         touristZones: getTouristicZones(slug),

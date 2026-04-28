@@ -1281,6 +1281,7 @@
           "peixe_brasa": "Peixe Assado na Brasa",
           "moamba_galinha": "Moamba de Galinha"
         },
+        "festivity_label": "Festividades e Tradições",
         "festivities": [
           {
             "name": "Festa do Mar",
@@ -1397,6 +1398,118 @@
         ],
         "images": {
           "hero": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
+      },
+      "baia-farta": {
+        "name": "Baía Farta",
+        "subtitle": "Beleza Natural Intocada",
+        "history": "Baía Farta é um município costeiro da Província de Benguela, conhecido pela sua beleza natural intocada e pela forte ligação com o mar. O nome 'Baía Farta' remonta ao período colonial e reflete a abundância de recursos marinhos da região. O município é caracterizado por longas extensões de praias desertas, dunas de areia dourada e um encontro único entre o deserto e o oceano Atlântico. Esta geografia especial cria paisagens deslumbrantes que atraem amantes da natureza e fotógrafos de todo o mundo. A economia local é fortemente baseada na pesca artesanal, com comunidades piscatórias tradicionais que mantêm práticas ancestrais. O município apresenta enorme potencial para o ecoturismo e turismo de aventura, sendo um destino perfeito para quem procura autenticidade e tranquilidade.",
+        "culture": "A cultura da Baía Farta está profundamente ligada ao mar e às tradições pesqueiras. As comunidades piscatórias preservam conhecimentos ancestrais sobre navegação, técnicas de pesca e processamento de peixe. O artesanato local inclui redes de pesca, cestaria e esculturas em madeira representando a vida marinha. As festas populares celebram o ciclo das pescas e a generosidade do oceano, com danças tradicionais e cantos que contam histórias de pescadores. A culinária, baseada principalmente em frutos do mar frescos, é um dos grandes atrativos culturais da região. A hospitalidade das comunidades locais e a simplicidade da vida costeira encantam os visitantes que buscam autenticidade.",
+        "touristZones": [
+          {
+            "name": "Praias Virgens",
+            "description": "Longas extensões de areia dourada praticamente desertas, perfeitas para caminhadas e momentos de tranquilidade",
+            "image": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Deserto da Baía Farta",
+            "description": "Dunas de areia dourada que encontram o oceano, criando paisagens únicas perfeitas para safaris e sandboard",
+            "image": "https://images.unsplash.com/photo-1617476745502-5a0940bf4051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBbmdvbGElMjBjb2FzdGFsJTIwYmVhY2glMjBzdW5zZXR8ZW58MXx8fHwxNzc2MjQzNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Comunidades Piscatórias",
+            "description": "Aldeias tradicionais onde é possível conhecer o modo de vida local e técnicas ancestrais de pesca",
+            "image": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          }
+        ],
+        "gastronomy": {
+          "peixe_fresco": "Peixe Fresco Grelhado",
+          "lagosta_baia": "Lagosta da Baía",
+          "mufete_tradicional": "Mufete Tradicional",
+          "camarao_costa": "Camarão da Costa",
+          "caldeirada_marisco": "Caldeirada de Marisco"
+        },
+        "festivity_label": "Atividades e Experiências",
+        "festivities": [
+          {
+            "name": "Passeios de Barco",
+            "description": "Explore a costa em embarcações tradicionais com pescadores locais, observando golfinhos e a rica vida marinha da região."
+          },
+          {
+            "name": "Safari nas Dunas",
+            "description": "Aventure-se pelas dunas de areia em veículos 4x4 ou sandboard, admirando o contraste entre o deserto e o oceano."
+          },
+          {
+            "name": "Turismo Comunitário",
+            "description": "Conheça as comunidades locais, aprenda técnicas tradicionais de pesca e participe do dia a dia das aldeias piscatórias."
+          }
+        ],
+        "infrastructure": [
+          {
+            "icon": "Hotel",
+            "title": "Alojamento",
+            "items": [
+              "Pousada Baía Farta",
+              "Pensões e Casas de Hóspedes",
+              "Opções de Glamping",
+              "Alojamento Comunitário"
+            ]
+          },
+          {
+            "icon": "Bus",
+            "title": "Transporte",
+            "items": [
+              "Acesso pela EN-100",
+              "Transporte Privado",
+              "Táxis",
+              "Transfer de Benguela e Lobito"
+            ]
+          },
+          {
+            "icon": "Building2",
+            "title": "Serviços Turísticos",
+            "items": [
+              "Guias Locais Credenciados",
+              "Operadores de Ecoturismo",
+              "Aluguer de Equipamentos",
+              "Atividades Náuticas"
+            ]
+          },
+          {
+            "icon": "ShoppingBag",
+            "title": "Comércio Local",
+            "items": [
+              "Mercado de Peixe Fresco",
+              "Artesanato Local",
+              "Restaurantes Tradicionais",
+              "Venda de Produtos Regionais"
+            ]
+          }
+        ],
+        "population": "~50.000 habitantes",
+        "distances_first": "Benguela: 45 km (25 min)",
+        "distances_second": "Lobito: 60 km (35 min)",
+        "climate": "Tropical seco",
+        "avgTemp": "23°C",
+        "localPartners": [
+          {
+            "name": "Pousada Baía Farta",
+            "type": "Alojamento",
+            "rating": "4"
+          },
+          {
+            "name": "Restaurante Mariscos Frescos",
+            "type": "Gastronomia",
+            "rating": "4"
+          },
+          {
+            "name": "Baía Farta Adventures",
+            "type": "Operador Turístico",
+            "rating": "5"
+          }
+        ],
+        "images": {
+          "hero": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
         }
       }
     }

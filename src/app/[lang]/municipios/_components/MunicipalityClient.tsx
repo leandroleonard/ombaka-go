@@ -39,6 +39,7 @@ interface Municipio {
     slug: string;
     name: string;
     subtitle: string;
+    festivityLabel: string
     history: string;
     culture: string;
     touristZones: TouristZone[];
@@ -185,7 +186,7 @@ export default function MunicipalityClient({ municipio, labels, locale }: Props)
                             {/* Festivities */}
                             <div className="bg-white p-8 hover:shadow-md">
                                 <h2 className="text-3xl mb-6 text-gray-900" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                                    {labels.festivitiesTitle}
+                                    {municipio.festivityLabel}
                                 </h2>
                                 <div className="space-y-4">
                                     {municipio.festivities.map((festivity, index) => (

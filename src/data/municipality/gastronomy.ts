@@ -7,5 +7,12 @@ export const gastronomyByCity: Record<string, string[]> = {
     "cabidela",
     "peixe_brasa",
     "moamba_galinha"
+  ],
+  "baia-farta": [
+    "peixe_fresco",
+    "lagosta_baia",
+    "mufete_tradicional",
+    "camarao_costa",
+    "caldeirada_marisco"
   ]
 };
