@@ -1472,6 +1472,118 @@
         "images": {
           "hero": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
         }
+      },
+      "baia-farta": {
+        "name": "Baía Farta",
+        "subtitle": "Beauté Naturelle Intacte",
+        "history": "Baía Farta est une municipalité côtière de la province de Benguela, connue pour sa beauté naturelle intacte et son lien fort avec la mer. Le nom 'Baía Farta' remonte à la période coloniale et reflète l'abondance des ressources marines de la région. La municipalité se caractérise par de longues étendues de plages désertes, des dunes de sable doré et une rencontre unique entre le désert et l'océan Atlantique. Cette géographie spéciale crée des paysages époustouflants qui attirent les amoureux de la nature et les photographes du monde entier. L'économie locale est fortement basée sur la pêche artisanale, avec des communautés de pêcheurs traditionnels préservant des pratiques ancestrales. La municipalité présente un énorme potentiel pour l'écotourisme et le tourisme d'aventure, étant une destination parfaite pour ceux qui recherchent l'authenticité et la tranquillité.",
+        "culture": "La culture de Baía Farta est profondément liée à la mer et aux traditions de pêche. Les communautés de pêcheurs préservent des connaissances ancestrales sur la navigation, les techniques de pêche et la transformation du poisson. L'artisanat local comprend des filets de pêche, de la vannerie et des sculptures en bois représentant la vie marine. Les fêtes populaires célèbrent le cycle de la pêche et la générosité de l'océan, avec des danses traditionnelles et des chants racontant les histoires des pêcheurs. La cuisine, basée principalement sur les fruits de mer frais, est l'une des grandes attractions culturelles de la région. L'hospitalité des communautés locales et la simplicité de la vie côtière enchantent les visiteurs en quête d'authenticité.",
+        "touristZones": [
+          {
+            "name": "Plages Vierges",
+            "description": "Longues étendues de sable doré pratiquement désertes, parfaites pour les promenades et les moments de tranquillité",
+            "image": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Désert de Baía Farta",
+            "description": "Dunes de sable doré rencontrant l'océan, créant des paysages uniques parfaits pour les safaris et le sandboard",
+            "image": "https://images.unsplash.com/photo-1617476745502-5a0940bf4051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBbmdvbGElMjBjb2FzdGFsJTIwYmVhY2glMjBzdW5zZXR8ZW58MXx8fHwxNzc2MjQzNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Communautés de Pêcheurs",
+            "description": "Villages traditionnels où vous pouvez découvrir le mode de vie local et les techniques de pêche ancestrales",
+            "image": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          }
+        ],
+        "gastronomy": {
+          "peixe_fresco": "Poisson Frais Grillée",
+          "lagosta_baia": "Homard de la Baie",
+          "mufete_tradicional": "Mufete Traditionnelle",
+          "camarao_costa": "Crevettes de la Côte",
+          "caldeirada_marisco": "Bouillabaisse"
+        },
+        "festivity_label": "Activités et expériences",
+        "festivities": [
+          {
+            "name": "Promenades en Bateau",
+            "description": "Explorez la côte sur des bateaux traditionnels avec des pêcheurs locaux, observez les dauphins et la riche vie marine de la région."
+          },
+          {
+            "name": "Safari dans les Dunes",
+            "description": "Aventurez-vous à travers les dunes de sable en véhicules 4x4 ou en sandboard, admirant le contraste entre le désert et l'océan."
+          },
+          {
+            "name": "Tourisme Communautaire",
+            "description": "Découvrez les communautés locales, apprenez les techniques de pêche traditionnelles et participez à la vie quotidienne des villages de pêcheurs."
+          }
+        ],
+        "infrastructure": [
+          {
+            "icon": "Hotel",
+            "title": "Hébergement",
+            "items": [
+              "Auberge Baía Farta",
+              "Chambres d'Hôtes",
+              "Options de Glamping",
+              "Hébergement Communautaire"
+            ]
+          },
+          {
+            "icon": "Bus",
+            "title": "Transport",
+            "items": [
+              "Accès par la EN-100",
+              "Transport Privé",
+              "Taxis",
+              "Transfer depuis Benguela et Lobito"
+            ]
+          },
+          {
+            "icon": "Building2",
+            "title": "Services Touristiques",
+            "items": [
+              "Guides Locaux Certifiés",
+              "Opérateurs d'Écotourisme",
+              "Location d'Équipement",
+              "Activités Nautiques"
+            ]
+          },
+          {
+            "icon": "ShoppingBag",
+            "title": "Commerce Local",
+            "items": [
+              "Marché aux Poissons Frais",
+              "Artisanat Local",
+              "Restaurants Traditionnels",
+              "Produits Régionaux"
+            ]
+          }
+        ],
+        "population": "~50 000 habitants",
+        "distances_first": "Benguela : 45 km (25 min)",
+        "distances_second": "Lobito : 60 km (35 min)",
+        "climate": "Tropical sec",
+        "avgTemp": "23°C",
+        "localPartners": [
+          {
+            "name": "Auberge Baía Farta",
+            "type": "Hébergement",
+            "rating": "4"
+          },
+          {
+            "name": "Restaurant Fruits de Mer Frais",
+            "type": "Gastronomie",
+            "rating": "4"
+          },
+          {
+            "name": "Baía Farta Adventures",
+            "type": "Opérateur Touristiques",
+            "rating": "5"
+          }
+        ],
+        "images": {
+          "hero": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
       }
     }
   }

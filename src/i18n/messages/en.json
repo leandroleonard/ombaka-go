@@ -1473,6 +1473,118 @@
         "images": {
           "hero": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
         }
+      },
+      "baia-farta": {
+        "name": "Baía Farta",
+        "subtitle": "Untouched Natural Beauty",
+        "history": "Baía Farta is a coastal municipality in Benguela Province, known for its untouched natural beauty and strong connection to the sea. The name 'Baía Farta' dates back to the colonial period and reflects the abundance of marine resources in the region. The municipality is characterized by long stretches of deserted beaches, golden sand dunes, and a unique meeting point between the desert and the Atlantic Ocean. This special geography creates stunning landscapes that attract nature lovers and photographers from around the world. The local economy is strongly based on artisanal fishing, with traditional fishing communities maintaining ancestral practices. The municipality has enormous potential for ecotourism and adventure tourism, being a perfect destination for those seeking authenticity and tranquility.",
+        "culture": "Baía Farta's culture is deeply connected to the sea and fishing traditions. The fishing communities preserve ancestral knowledge about navigation, fishing techniques, and fish processing. Local handicrafts include fishing nets, basketry, and wooden sculptures representing marine life. Popular festivals celebrate the fishing cycle and the ocean's generosity, with traditional dances and songs that tell fishermen's stories. The cuisine, based mainly on fresh seafood, is one of the region's great cultural attractions. The hospitality of local communities and the simplicity of coastal life enchant visitors seeking authenticity.",
+        "touristZones": [
+          {
+            "name": "Virgin Beaches",
+            "description": "Long stretches of golden sand practically deserted, perfect for walks and moments of tranquility",
+            "image": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Baía Farta Desert",
+            "description": "Golden sand dunes meeting the ocean, creating unique landscapes perfect for safaris and sandboarding",
+            "image": "https://images.unsplash.com/photo-1617476745502-5a0940bf4051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBbmdvbGElMjBjb2FzdGFsJTIwYmVhY2glMjBzdW5zZXR8ZW58MXx8fHwxNzc2MjQzNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Fishing Communities",
+            "description": "Traditional villages where you can learn about local way of life and ancestral fishing techniques",
+            "image": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          }
+        ],
+        "gastronomy": {
+          "peixe_fresco": "Grilled Fresh Fish",
+          "lagosta_baia": "Baía Lobster",
+          "mufete_tradicional": "Traditional Mufete",
+          "camarao_costa": "Coastal Prawns",
+          "caldeirada_marisco": "Seafood Stew"
+        },
+        "festivity_label": "Activities and Experiences",
+        "festivities": [
+          {
+            "name": "Boat Tours",
+            "description": "Explore the coast on traditional boats with local fishermen, observing dolphins and the rich marine life of the region."
+          },
+          {
+            "name": "Dune Safari",
+            "description": "Adventure through the sand dunes in 4x4 vehicles or sandboarding, admiring the contrast between desert and ocean."
+          },
+          {
+            "name": "Community Tourism",
+            "description": "Get to know local communities, learn traditional fishing techniques, and participate in the daily life of fishing villages."
+          }
+        ],
+        "infrastructure": [
+          {
+            "icon": "Hotel",
+            "title": "Accommodation",
+            "items": [
+              "Baía Farta Guesthouse",
+              "Bed & Breakfasts",
+              "Glamping Options",
+              "Community Lodging"
+            ]
+          },
+          {
+            "icon": "Bus",
+            "title": "Transportation",
+            "items": [
+              "EN-100 Access",
+              "Private Transport",
+              "Taxis",
+              "Transfer from Benguela and Lobito"
+            ]
+          },
+          {
+            "icon": "Building2",
+            "title": "Tourist Services",
+            "items": [
+              "Certified Local Guides",
+              "Ecotourism Operators",
+              "Equipment Rental",
+              "Nautical Activities"
+            ]
+          },
+          {
+            "icon": "ShoppingBag",
+            "title": "Local Commerce",
+            "items": [
+              "Fresh Fish Market",
+              "Local Handicrafts",
+              "Traditional Restaurants",
+              "Regional Products"
+            ]
+          }
+        ],
+        "population": "~50,000 inhabitants",
+        "distances_first": "Benguela: 45 km (25 min)",
+        "distances_second": "Lobito: 60 km (35 min)",
+        "climate": "Dry Tropical",
+        "avgTemp": "23°C",
+        "localPartners": [
+          {
+            "name": "Baía Farta Guesthouse",
+            "type": "Accommodation",
+            "rating": "4"
+          },
+          {
+            "name": "Fresh Seafood Restaurant",
+            "type": "Gastronomy",
+            "rating": "4"
+          },
+          {
+            "name": "Baía Farta Adventures",
+            "type": "Tour Operator",
+            "rating": "5"
+          }
+        ],
+        "images": {
+          "hero": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
       }
     }
   }
