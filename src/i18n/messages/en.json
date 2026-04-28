@@ -17,7 +17,7 @@
   },
   "home": {
     "hero": {
-      "title": "Ombaka Go",
+      "title": "Discover Benguela",
       "subtitle": "The tourist heart of the Lobito Corridor. History, culture, paradisiacal beaches and investment opportunities.",
       "btn-destinations": "Explore Destinations",
       "btn-investiment": "Investment Opportunities",
@@ -1229,6 +1229,250 @@
         "Children's area available",
         "Live music throughout the event"
       ]
+    }
+  },
+  "infrastructure": {
+    "education": {
+      "title": "Education",
+      "items": [
+        "Primary Schools",
+        "Secondary Schools",
+        "Higher Education Institute",
+        "Vocational Training Centers"
+      ]
+    },
+    "health": {
+      "title": "Health",
+      "items": [
+        "Municipal Hospital",
+        "Health Centers",
+        "Medical Posts",
+        "Pharmacies"
+      ]
+    },
+    "transport": {
+      "title": "Transportation",
+      "items": [
+        "Bus Terminal",
+        "Taxis",
+        "Candongueiros (Shared Taxis)",
+        "Motorcycle Taxis"
+      ]
+    },
+    "hospitality": {
+      "title": "Hospitality",
+      "items": [
+        "Hotels",
+        "Guesthouses",
+        "Bed & Breakfasts",
+        "Restaurants"
+      ]
+    },
+    "energy": {
+      "title": "Energy",
+      "items": [
+        "National Electric Grid",
+        "Generators",
+        "Solar Panels",
+        "Transformer Stations"
+      ]
+    },
+    "water": {
+      "title": "Water & Sanitation",
+      "items": [
+        "Drinking Water Network",
+        "Public Fountains",
+        "Water Wells",
+        "Treatment Stations"
+      ]
+    },
+    "institutions": {
+      "title": "Institutions",
+      "items": [
+        "Municipal Administration",
+        "Courts",
+        "National Police",
+        "Post Office"
+      ]
+    },
+    "commerce": {
+      "title": "Commerce",
+      "items": [
+        "Municipal Markets",
+        "Supermarkets",
+        "Shops",
+        "Fairs"
+      ]
+    }
+  },
+  "municipalities-label": {
+    "breadcrumbHome": "Home",
+    "breadcrumbMunicipios": "Municipalities",
+    "historyTitle": "History and Cultural Identity",
+    "cultureTitle": "Culture and Traditions",
+    "touristZonesTitle": "Main Tourist Areas",
+    "gastronomyTitle": "Local Gastronomy",
+    "festivitiesTitle": "Festivities and Traditions",
+    "infrastructureTitle": "Infrastructure",
+    "practicalInfoTitle": "Practical Information",
+    "localPartnersTitle": "Local Partners",
+    "locationTitle": "Location",
+    "exploreButton": "Explore Itineraries",
+    "population": "Population",
+    "distances": "Distances",
+    "climate": "Climate",
+    "averageTemp": "Average temperature"
+  },
+  "municipalities": {
+    "list": {
+      "lobito": {
+        "name": "Lobito",
+        "subtitle": "The Pearl of the Atlantic",
+        "history": "Lobito is one of the most emblematic municipalities of Benguela Province, known for its natural beauty and strategic importance. Founded at the end of the 19th century, Lobito quickly developed as an important commercial port, connecting inland Angola to the Atlantic Ocean. Today, the municipality is recognized for its preserved colonial architecture, paradisiacal beaches, and the famous Restinga do Lobito, a natural formation that extends for kilometers into the ocean. Lobito is also the heart of the Lobito Corridor, a strategic trade route linking the Atlantic coast to the interior of the African continent, becoming a hub for economic and tourism development.",
+        "culture": "Lobito's culture is rich and diverse, reflecting a mix of Portuguese, African, and Brazilian influences. The city is known for its lively music, traditional dances like rebita and semba, and its vibrant art scene. Local handicrafts include wood pieces, ceramics, and traditional textiles. The people of Lobito are known for their hospitality and joy of living, keeping traditions alive through popular festivals, religious celebrations, and community gatherings.",
+        "touristZones": [
+          {
+            "name": "Lobito Sandbar",
+            "description": "Unique natural formation that extends for kilometers into the ocean, perfect for walks and enjoying the sunset",
+            "image": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Port of Lobito",
+            "description": "Deep-water port, strategic for commerce and nautical tourism",
+            "image": "https://images.unsplash.com/photo-1614075565833-7d31bb969f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwY2l0eSUyMG1vZGVybiUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzYyNDMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Morena Beach",
+            "description": "Paradisiacal beach with golden sands and crystal clear waters",
+            "image": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          }
+        ],
+        "gastronomy": {
+          "calulu_peixe": "Fish Calulu",
+          "mufete_cacusso": "Cacusso Mufete",
+          "camarao_grelhado": "Grilled Prawns",
+          "cabidela": "Cabidela",
+          "peixe_brasa": "Grilled Fish",
+          "moamba_galinha": "Chicken Moamba"
+        },
+        "festivities": [
+          {
+            "name": "Sea Festival",
+            "description": "Annual celebration honoring Lobito's connection to the Atlantic Ocean, with music, dance, local gastronomy, and maritime processions. Held in August, it attracts visitors from all over the country."
+          },
+          {
+            "name": "Lobito Carnival",
+            "description": "One of Angola's most vibrant carnivals, with colorful parades, traditional and modern music, elaborate costumes, and massive community participation including local samba schools."
+          }
+        ],
+        "infrastructure": [
+          {
+            "icon": "GraduationCap",
+            "title": "Education",
+            "items": [
+              "Lobito Polytechnic Institute",
+              "4 de Fevereiro Secondary School",
+              "12 Primary Schools",
+              "Vocational Training Center"
+            ]
+          },
+          {
+            "icon": "Hospital",
+            "title": "Health",
+            "items": [
+              "Lobito Municipal Hospital",
+              "6 Health Centers",
+              "Sagrada Esperança Clinic",
+              "8 Pharmacies"
+            ]
+          },
+          {
+            "icon": "Bus",
+            "title": "Transportation",
+            "items": [
+              "Central Bus Terminal",
+              "CFB Railway Station",
+              "International Port",
+              "Close to Catumbela Airport (25km)"
+            ]
+          },
+          {
+            "icon": "Hotel",
+            "title": "Hospitality",
+            "items": [
+              "Hotel Terminus (5 stars)",
+              "Hotel Restinga (4 stars)",
+              "12 Guesthouses and Inns",
+              "20+ Restaurants"
+            ]
+          },
+          {
+            "icon": "Zap",
+            "title": "Energy",
+            "items": [
+              "National Electric Grid",
+              "Transformation Substation",
+              "LED Public Lighting",
+              "Backup Generators"
+            ]
+          },
+          {
+            "icon": "Droplets",
+            "title": "Water and Sanitation",
+            "items": [
+              "Drinking Water Network",
+              "Treatment Station",
+              "Sewage System",
+              "15 Public Fountains"
+            ]
+          },
+          {
+            "icon": "Building2",
+            "title": "Institutions",
+            "items": [
+              "Municipal Administration",
+              "Municipal Court",
+              "Police Command",
+              "Municipal Fire Department"
+            ]
+          },
+          {
+            "icon": "ShoppingBag",
+            "title": "Commerce",
+            "items": [
+              "Central Municipal Market",
+              "Lobito Shopping Center",
+              "3 Supermarkets",
+              "Fish Market"
+            ]
+          }
+        ],
+        "population": "~350,000 inhabitants",
+        "distances_first": "Benguela: 30 km (15 min)",
+        "distances_second": "Catumbela: 25 km (12 min)",
+        "climate": "Dry Tropical",
+        "avgTemp": "24°C",
+        "localPartners": [
+          {
+            "name": "Hotel Terminus",
+            "type": "Accommodation",
+            "rating": "5"
+          },
+          {
+            "name": "Marisqueira Restaurant",
+            "type": "Gastronomy",
+            "rating": "4"
+          },
+          {
+            "name": "Lobito Tours",
+            "type": "Tour Operator",
+            "rating": "5"
+          }
+        ],
+        "images": {
+          "hero": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
+      }
     }
   }
 }

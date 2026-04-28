@@ -17,7 +17,7 @@
   },
   "home": {
     "hero": {
-      "title": "Ombaka Go",
+      "title": "Descubra Benguela",
       "subtitle": "O coração turístico do Corredor do Lobito. História, cultura, praias paradisíacas e oportunidades de investimento.",
       "btn-destinations": "Explorar Destinos",
       "btn-investiment": "Oportunidades de Investimento",
@@ -1228,6 +1228,250 @@
         "Vouchers para degustação à venda",
         "Zona infantil disponível",
         "Música ao vivo durante todo o evento"
+      ]
+    }
+  },
+  "municipalities-label": {
+    "breadcrumbHome": "Início",
+    "breadcrumbMunicipios": "Municípios",
+    "historyTitle": "História e Identidade Cultural",
+    "cultureTitle": "Cultura e Tradições",
+    "touristZonesTitle": "Principais Zonas Turísticas",
+    "gastronomyTitle": "Gastronomia Local",
+    "festivitiesTitle": "Festividades e Tradições",
+    "infrastructureTitle": "Infraestruturas",
+    "practicalInfoTitle": "Informações Práticas",
+    "localPartnersTitle": "Parceiros Locais",
+    "locationTitle": "Localização",
+    "exploreButton": "Explorar Roteiros",
+    "population": "População",
+    "distances": "Distâncias",
+    "climate": "Clima",
+    "averageTemp": "Temperatura média"
+  },
+  "municipalities": {
+    "list": {
+      "lobito": {
+        "name": "Lobito",
+        "subtitle": "A Pérola do Atlântico",
+        "history": "O Lobito é um dos municípios mais emblemáticos da Província de Benguela, conhecido pela sua beleza natural e importância estratégica. Fundado no final do século XIX, o Lobito desenvolveu-se rapidamente como um importante porto comercial, conectando o interior de Angola ao Oceano Atlântico. Hoje, o município é reconhecido pela sua arquitetura colonial preservada, praias paradisíacas e pela famosa Restinga do Lobito, uma formação natural que se estende por quilômetros no oceano. O Lobito é também o coração do Corredor do Lobito, uma via estratégica de comércio que liga a costa atlântica ao interior do continente africano, tornando-se um polo de desenvolvimento económico e turístico.",
+        "culture": "A cultura do Lobito é rica e diversificada, refletindo a mistura de influências portuguesas, africanas e brasileiras. A cidade é conhecida pela sua música animada, danças tradicionais como a rebita e o semba, e pela sua vibrante cena artística. O artesanato local inclui peças em madeira, cerâmica e tecidos tradicionais. A população lobitanga é conhecida pela sua hospitalidade e alegria de viver, mantendo vivas as tradições através de festas populares, celebrações religiosas e encontros comunitários.",
+        "touristZones": [
+          {
+            "name": "Restinga do Lobito",
+            "description": "Formação natural única que se estende por quilômetros no oceano, perfeita para caminhadas e desfrutar do pôr do sol",
+            "image": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Porto do Lobito",
+            "description": "Porto de águas profundas, estratégico para comércio e turismo náutico",
+            "image": "https://images.unsplash.com/photo-1614075565833-7d31bb969f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwY2l0eSUyMG1vZGVybiUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzYyNDMwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          },
+          {
+            "name": "Praia Morena",
+            "description": "Praia paradisíaca com areias douradas e águas cristalinas",
+            "image": "https://images.unsplash.com/photo-1653937270198-a8a676547fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwc3Vuc2V0JTIwZ29sZGVuJTIwc2FuZHxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          }
+        ],
+        "gastronomy": {
+          "calulu_peixe": "Calulu de Peixe",
+          "mufete_cacusso": "Mufete de Cacusso",
+          "camarao_grelhado": "Camarão Grelhado",
+          "cabidela": "Cabidela",
+          "peixe_brasa": "Peixe Assado na Brasa",
+          "moamba_galinha": "Moamba de Galinha"
+        },
+        "festivities": [
+          {
+            "name": "Festa do Mar",
+            "description": "Celebração anual que homenageia a ligação do Lobito com o Oceano Atlântico, com música, dança, gastronomia local e procissões marítimas. Realizada em agosto, atrai visitantes de todo o país."
+          },
+          {
+            "name": "Carnaval do Lobito",
+            "description": "Um dos carnavais mais vibrantes de Angola, com desfiles coloridos, música tradicional e moderna, fantasias elaboradas e participação massiva da comunidade e escolas de samba locais."
+          }
+        ],
+        "infrastructure": [
+          {
+            "icon": "GraduationCap",
+            "title": "Educação",
+            "items": [
+              "Instituto Médio Politécnico do Lobito",
+              "Escola Secundária 4 de Fevereiro",
+              "12 Escolas Primárias",
+              "Centro de Formação Profissional"
+            ]
+          },
+          {
+            "icon": "Hospital",
+            "title": "Saúde",
+            "items": [
+              "Hospital Municipal do Lobito",
+              "6 Centros de Saúde",
+              "Clínica Sagrada Esperança",
+              "8 Farmácias"
+            ]
+          },
+          {
+            "icon": "Bus",
+            "title": "Transportes",
+            "items": [
+              "Terminal Rodoviário Central",
+              "Estação Ferroviária CFB",
+              "Porto Internacional",
+              "Proximidade Aeroporto Catumbela (25km)"
+            ]
+          },
+          {
+            "icon": "Hotel",
+            "title": "Hotelaria",
+            "items": [
+              "Hotel Terminus (5 estrelas)",
+              "Hotel Restinga (4 estrelas)",
+              "12 Pensões e Hospedarias",
+              "20+ Restaurantes"
+            ]
+          },
+          {
+            "icon": "Zap",
+            "title": "Energia",
+            "items": [
+              "Rede Elétrica Nacional",
+              "Subestação de Transformação",
+              "Iluminação Pública LED",
+              "Geradores de Backup"
+            ]
+          },
+          {
+            "icon": "Droplets",
+            "title": "Água e Saneamento",
+            "items": [
+              "Rede de Água Potável",
+              "Estação de Tratamento",
+              "Sistema de Esgoto",
+              "15 Chafarizes Públicos"
+            ]
+          },
+          {
+            "icon": "Building2",
+            "title": "Instituições",
+            "items": [
+              "Administração Municipal",
+              "Tribunal Municipal",
+              "Comandância da Polícia",
+              "Bombeiros Municipais"
+            ]
+          },
+          {
+            "icon": "ShoppingBag",
+            "title": "Comércio",
+            "items": [
+              "Mercado Municipal Central",
+              "Centro Comercial Lobito",
+              "3 Supermercados",
+              "Mercado de Peixe"
+            ]
+          }
+        ],
+        "population": "~350.000 habitantes",
+        "distances_first": "Benguela: 30 km (15 min)",
+        "distances_second": "Catumbela: 25 km (12 min)",
+        "climate": "Tropical seco",
+        "avgTemp": "24°C",
+        "localPartners": [
+          {
+            "name": "Hotel Terminus",
+            "type": "Alojamento",
+            "rating": "5"
+          },
+          {
+            "name": "Restaurante Marisqueira",
+            "type": "Gastronomia",
+            "rating": "4"
+          },
+          {
+            "name": "Lobito Tours",
+            "type": "Operador Turístico",
+            "rating": "5"
+          }
+        ],
+        "images": {
+          "hero": "https://images.unsplash.com/photo-1762571471526-e96c60cebe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHdhdmUlMjBjb2FzdGFsJTIwdG91cmlzbXxlbnwxfHx8fDE3NzYyNDMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
+      }
+    }
+  },
+  "infrastructure": {
+    "education": {
+      "title": "Educação",
+      "items": [
+        "Escolas Primárias",
+        "Escolas Secundárias",
+        "Instituto Superior",
+        "Centros de Formação Profissional"
+      ]
+    },
+    "health": {
+      "title": "Saúde",
+      "items": [
+        "Hospital Municipal",
+        "Centros de Saúde",
+        "Postos Médicos",
+        "Farmácias"
+      ]
+    },
+    "transport": {
+      "title": "Transportes",
+      "items": [
+        "Terminal Rodoviário",
+        "Táxis",
+        "Candongueiros",
+        "Moto-táxis"
+      ]
+    },
+    "hospitality": {
+      "title": "Hotelaria",
+      "items": [
+        "Hotéis",
+        "Pensões",
+        "Casas de Hóspedes",
+        "Restaurantes"
+      ]
+    },
+    "energy": {
+      "title": "Energia",
+      "items": [
+        "Rede Elétrica Nacional",
+        "Geradores",
+        "Painéis Solares",
+        "Postos de Transformação"
+      ]
+    },
+    "water": {
+      "title": "Água e Saneamento",
+      "items": [
+        "Rede de Água Potável",
+        "Chafarizes Públicos",
+        "Furos de Água",
+        "Estações de Tratamento"
+      ]
+    },
+    "institutions": {
+      "title": "Instituições",
+      "items": [
+        "Administração Municipal",
+        "Tribunais",
+        "Polícia Nacional",
+        "Correios"
+      ]
+    },
+    "commerce": {
+      "title": "Comércio",
+      "items": [
+        "Mercados Municipais",
+        "Supermercados",
+        "Lojas",
+        "Feiras"
       ]
     }
   }
